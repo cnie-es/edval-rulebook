@@ -1,0 +1,15 @@
+# Dependencias de Node (LA REGLA DE ORO)
+node_modules/
+npm-debug.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de edición
+~$*.doc*
+*.tmp
+
+# Carpetas de generación (si usas herramientas para crear PDFs)
+/dist
+/build

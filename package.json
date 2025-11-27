@@ -1,0 +1,15 @@
+{
+  "name": "NEL-DS-Rulebook",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene la fuente de la verdad para el **Marco de Gobernanza del Espacio de Datos de la Nueva Economía de la Lengua (NEL-DS)**.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
