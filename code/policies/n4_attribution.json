@@ -1,0 +1,24 @@
+{
+    "@context": "http://www.w3.org/ns/odrl.jsonld",
+    "@type": "Policy",
+    "uid": "http://nel-dataspace.es/policy/n4-attribution",
+    "profile": "http://www.w3.org/ns/odrl/2/profile/idsc",
+    "permission": [
+        {
+            "target": "http://nel-dataspace.es/asset/{ASSET_ID}",
+            "action": "use",
+            "duty": [
+                {
+                    "action": "http://www.w3.org/ns/odrl/2/action/attribute",
+                    "constraint": [
+                        {
+                            "leftOperand": "http://www.w3.org/ns/odrl/2/leftOperand/media",
+                            "operator": "eq",
+                            "rightOperand": "online"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

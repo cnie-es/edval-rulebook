@@ -1,0 +1,24 @@
+{
+    "@context": "http://www.w3.org/ns/odrl.jsonld",
+    "@type": "Policy",
+    "uid": "http://nel-dataspace.es/policy/n2-academic",
+    "profile": "http://www.w3.org/ns/odrl/2/profile/idsc",
+    "permission": [
+        {
+            "target": "http://nel-dataspace.es/asset/{ASSET_ID}",
+            "action": "use",
+            "constraint": [
+                {
+                    "leftOperand": "purpose",
+                    "operator": "eq",
+                    "rightOperand": "https://w3id.org/idsa/code/RESEARCH"
+                },
+                {
+                    "leftOperand": "payAmount",
+                    "operator": "eq",
+                    "rightOperand": "0"
+                }
+            ]
+        }
+    ]
+}
