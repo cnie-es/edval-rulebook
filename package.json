@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Marco de Gobernanza del Espacio de Datos NEL",
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version",
+    "docs": "powershell -ExecutionPolicy Bypass -File ./scripts/build_docs.ps1"
   },
   "devDependencies": {
     "standard-version": "^9.5.0"
