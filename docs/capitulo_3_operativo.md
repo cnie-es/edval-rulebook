@@ -4,6 +4,7 @@
 **Estado:** Borrador para Validación Operativa  
 **Referencia del Proyecto:** Expediente 71-7-2.01-0004/2025 (Dimensión Operativa - Procesos)
 
+---
 
 ## 3.1. Taxonomía de Roles Operativos
 Se establece la siguiente matriz de responsabilidades para la operación diaria del NEL-DS, conforme a la estructura definida en el Pliego `(Ref. Pliego: Apartado 6.1.5)`:
@@ -27,6 +28,7 @@ Se establece la siguiente matriz de responsabilidades para la operación diaria 
     * Consume los datos respetando las restricciones técnicas impuestas.
 3.  **Intermediario / Proveedor Tecnológico:**
     * Facilita servicios de valor añadido (ej. limpieza de corpus, entrenamiento de modelos) o provee infraestructura técnica a terceros `(Ref. Pliego: Apartado 6.1.5)`.
+
 ---
 
 ## 3.2. Adhesión al Espacio de Datos: Derechos y Obligaciones
@@ -62,6 +64,7 @@ Los términos de adhesión definen las reglas básicas que rigen la relación en
 
 > Nota: Este apartado adapta principios generales de los Términos y Condiciones del *Language Data Space* (LDS Beta) para nuestro contexto, priorizando coherencia con el `Ref. Pliego` y con los estándares técnicos y legales aquí descritos. Cualquier cambio que afecte la interpretación legal del documento deberá revisarse por el Comité de Dirección y por los asesores legales del CNIE.
 
+---
 
 ## 3.3. Proceso de Admisión (Onboarding)
 El proceso para convertirse en Participante del NEL-DS consta de cuatro fases secuenciales obligatorias `(Ref. Pliego: Apartado 6.1.11.2)`:
