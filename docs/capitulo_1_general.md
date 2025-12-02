@@ -29,19 +29,16 @@ El CNIE actúa con un doble rol en el ecosistema `(Ref. Pliego: Apartado 6.1)`:
 
 Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
 - Definir y actualizar este Rulebook y sus anexos técnicos.
-- Supervisar el cumplimiento de las políticas de uso y resolver disputas entre participantes.
-- Facilitar la resolución de conflictos y la mediación entre participantes en caso de disputas relacionadas con el uso de datos o el cumplimiento de políticas.
-- Garantizar la protección de datos personales y el cumplimiento de la normativa de privacidad aplicable en todas las operaciones del espacio.
-- Desarrollar y mantener una infraestructura tecnológica robusta, segura y escalable que soporte las operaciones del NEL-DS.
-- Auditar las operaciones del espacio para asegurar la conformidad con los principios de soberanía y confianza.
+- Supervisar el cumplimiento de las políticas de uso así como facilitar la resolución de conflictos y la mediación entre participantes en caso de disputas relacionadas con el uso de datos o el cumplimiento de políticas.
 - Revocar la participación de entidades que incumplan las normas establecidas.
+- Garantizar la protección de datos personales y el cumplimiento de la normativa de privacidad aplicable en todas las operaciones del espacio.
+- Desarrollar y mantener una infraestructura tecnológica robusta, segura y escalable que soporte las operaciones del NEL-DS, así como auditar dichas operaciones del espacio para asegurar la conformidad con los principios de soberanía y confianza.
 - Facilitar la interoperabilidad con otros espacios de datos europeos y sectoriales.
 - Promover la adopción de estándares abiertos y mejores prácticas en la gestión de datos lingüísticos y de IA.
 - Fomentar la innovación y el desarrollo de nuevos servicios dentro del ecosistema del NEL-DS.
-- Colaborar con organismos reguladores y autoridades nacionales e internacionales para asegurar el alineamiento normativo.
-- Publicar informes periódicos sobre el estado del espacio, incluyendo métricas de uso, casos de éxito y desafíos enfrentados.
-- Organizar actividades de formación y divulgación para promover la adopción del espacio entre potenciales participantes.
-- Establecer alianzas estratégicas con otras infraestructuras de datos y organizaciones relevantes en el ámbito lingüístico y tecnológico.
+- Colaborar con organismos reguladores y autoridades nacionales e internacionales para asegurar el alineamiento normativo y establecer alianzas estratégicas con otras infraestructuras de datos y organizaciones relevantes en el ámbito lingüístico y tecnológico.
+- Publicar informes periódicos sobre el estado del espacio, incluyendo métricas de uso, casos de éxito y desafíos enfrentados. Organizar actividades de formación y divulgación para promover la adopción del espacio entre potenciales participantes.
+
 
 **El CNIE se compromete** a operar con transparencia, imparcialidad y en estricto cumplimiento de la normativa vigente, garantizando la integridad del espacio y la protección de los derechos de todos los participantes `(Ref. Pliego: Apartado 6.1.3 - Dimensión Legal)`.
 
