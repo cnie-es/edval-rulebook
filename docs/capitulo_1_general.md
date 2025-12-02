@@ -27,6 +27,24 @@ El CNIE actúa con un doble rol en el ecosistema `(Ref. Pliego: Apartado 6.1)`:
 1.  **Como Autoridad (Trustee):** Administra el registro de participantes, homologa los conectores y gestiona las políticas de uso globales, actuando como punto neutro de confianza.
 2.  **Como Participante:** Puede actuar como proveedor o consumidor de datos dentro del espacio, sujeto a las mismas reglas que el resto de miembros.
 
+Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
+- Definir y actualizar este Rulebook y sus anexos técnicos.
+- Supervisar el cumplimiento de las políticas de uso y resolver disputas entre participantes.
+- Facilitar la resolución de conflictos y la mediación entre participantes en caso de disputas relacionadas con el uso de datos o el cumplimiento de políticas.
+- Garantizar la protección de datos personales y el cumplimiento de la normativa de privacidad aplicable en todas las operaciones del espacio.
+- Desarrollar y mantener una infraestructura tecnológica robusta, segura y escalable que soporte las operaciones del NEL-DS.
+- Auditar las operaciones del espacio para asegurar la conformidad con los principios de soberanía y confianza.
+- Revocar la participación de entidades que incumplan las normas establecidas.
+- Facilitar la interoperabilidad con otros espacios de datos europeos y sectoriales.
+- Promover la adopción de estándares abiertos y mejores prácticas en la gestión de datos lingüísticos y de IA.
+- Fomentar la innovación y el desarrollo de nuevos servicios dentro del ecosistema del NEL-DS.
+- Colaborar con organismos reguladores y autoridades nacionales e internacionales para asegurar el alineamiento normativo.
+- Publicar informes periódicos sobre el estado del espacio, incluyendo métricas de uso, casos de éxito y desafíos enfrentados.
+- Organizar actividades de formación y divulgación para promover la adopción del espacio entre potenciales participantes.
+- Establecer alianzas estratégicas con otras infraestructuras de datos y organizaciones relevantes en el ámbito lingüístico y tecnológico.
+
+**El CNIE se compromete** a operar con transparencia, imparcialidad y en estricto cumplimiento de la normativa vigente, garantizando la integridad del espacio y la protección de los derechos de todos los participantes `(Ref. Pliego: Apartado 6.1.3 - Dimensión Legal)`.
+
 ## 1.4. Casos de Uso Principales
 
 ### 1.4.1. Modelo de Lenguaje en Español
@@ -49,7 +67,7 @@ a) Desarrollar un modelo fundacional o especializado entrenado con corpus audiov
 
 Entrenar modelos de IA capaces de:
 
-- Transcribir audio a texto¡
+- Transcribir audio a texto
 - Interpretar lenguaje natural hablado
 - Analizar contenido audiovisual
 - Identificar patrones lingüísticos
@@ -124,7 +142,7 @@ El caso de uso demuestra:
 
 Creación de una plataforma de datos lingüísticos en español, conectada e interoperable con el European Language Data Space (ELDS), orientada a resolver barreras lingüísticas, terminológicas y culturales que enfrentan las empresas hispanohablantes al expandirse en Europa.
 
-Se permite::
+Se permite:
 
 - Estandarizar la terminología comercial, técnica y jurídica.
 - Mejorar la localización lingüística y cultural de contenidos digitales,
@@ -147,6 +165,7 @@ d) Asegurar compatibilidad normativa y contractual, permitiendo generar document
 e) Promover interoperabilidad con servicios lingüísticos europeos, gracias a la conexión con el ELDS y APIs de traducción automática
 
 **Componentes clave del caso de uso**
+
 a) El repositorio terminológico multilingüe:
 - Términos jurídicos, comerciales, técnicos y financieros en español
 - Equivalencias en inglés, francés, alemán e italiano
