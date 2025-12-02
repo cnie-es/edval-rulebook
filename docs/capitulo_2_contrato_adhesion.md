@@ -119,7 +119,7 @@ El Participante declara:
 
 ### 9. Condiciones de adhesión, permanencia y baja
 
-El Participante se adhiere al Espacio de Datos aceptando todas las cláusulas del presente contrato, las políticas de gobernanza vigentes, y declara haber leído y aceptar el Marco de Gobernanza (Rulebook) del NEL-DS en su versión vigente [TODO: insertar enlace](), el cual forma parte integrante de este contrato.
+El Participante se adhiere al Espacio de Datos aceptando todas las cláusulas del presente contrato, las políticas de gobernanza vigentes, y declara haber leído y aceptar el Marco de Gobernanza (Rulebook) del NEL-DS en su versión vigente [Rulebook v1.0.0](), el cual forma parte integrante de este contrato.
 
 #### 9.1. Adhesión
 La adhesión surtirá efecto una vez firmado el contrato y superados los requisitos de certificación técnica y organizativa.
