@@ -13,6 +13,77 @@ La participación en el NEL-DS se formaliza mediante la firma electrónica de un
 * **Efecto Vinculante:** La firma implica la aceptación de las reglas operativas, técnicas y legales aquí descritas `(Ref. Pliego: Apartado 6.1.3 - Dimensión Legal)`.
 * **Transitividad de la Confianza:** Todo participante acepta reconocer como válida la identidad de cualquier otro participante que haya sido homologado por la Autoridad bajo los mismos criterios.
 
+El acuerdo debe contemplar los elementos que se describen a continuación:
+
+**Identificación del participante y su rol en el ecosistema**
+
+- La identidad jurídica del participante.
+- Su naturaleza (empresa privada, organismo público, universidad, centro de investigación, proveedor tecnológico, etc.).
+- El rol que desempeñará dentro del espacio de datos, según las categorías previstas en el modelo: proveedor de datos, consumidor de datos, intermediario, proveedor de servicios, operador del espacio, proveedor de infraestructura, evaluador/contribuidor, etc.
+Cada rol implica obligaciones específicas en materia de provisión, uso, trazabilidad, seguridad y calidad del dato.
+
+**Aceptación del marco de gobernanza**
+
+El participante debe aceptar expresamente:
+- Las políticas y reglas de gobernanza del espacio.
+- Los mecanismos de supervisión y control establecidos.
+- Los procedimientos operativos comunes.
+- Las reglas de participación y coordinación entre actores.
+- La adhesión a los principios de interoperabilidad, confianza, transparencia y no discriminación.
+
+La aceptación implica asumir los estándares técnicos, semánticos, operativos y legales definidos para garantizar el funcionamiento harmonizado del espacio.
+
+**Condiciones de uso y acceso a los datos**
+
+El acuerdo define:
+
+- Los datos accesibles para el participante
+- Las finalidades permitidas
+- Los límites de reutilización y redistribución
+- Las prohibiciones (como la reidentificación o usos no autorizados)
+
+**Responsabilidades del participante**
+
+- Cumplir los requisitos técnicos y de seguridad,
+- Respetar los metadatos, licencias y reglas definidas por los proveedores
+- Garantizar calidad, integridad y veracidad de los datos que aporte
+- Mantener compatibilidad con los servicios y estándares del ecosistema
+- Colaborar en auditorías y supervisiones.
+
+**Protección de datos, privacidad y consentimiento**
+
+El participante se compromete a:
+- Aplicar principios de privacidad por diseño
+- Cumplir el RGPD y normativa europea asociada
+- Gestionar correctamente el consentimiento digital cuando aplique
+- Proteger los datos personales y reportar incidentes de forma inmediata
+
+**Interoperabilidad y estándares técnicos**
+
+La adhesión implica respetar:
+- Los modelos semánticos comunes
+- Las APIs y protocolos oficiales
+- Los servicios de confianza y trazabilidad
+- Los requisitos de interoperabilidad con otros espacios europeos
+
+**Supervisión, control y auditoría**
+
+La entidad acepta:
+- Monitorización continua de sus operaciones
+- Auditorías periódicas técnicas y legales
+- Revisión de evidencias de uso
+- Posibles medidas de corrección, suspensión o limitación en caso de incumplimiento
+
+**Condiciones de incorporación, permanencia y salida**
+
+El acuerdo establece:
+- El proceso de adhesión
+- Las reglas de permanencia
+- Los motivos de suspensión o expulsión
+- Las obligaciones tras la salida (eliminación de datos, no uso indebido, conservación de evidencias cuando proceda).
+
+[Contrato de adhesión](capitulo_2_contrato_adhesion.md)
+
 ## 2.2. Soberanía del Dato y Propiedad Intelectual
 El principio fundamental del NEL-DS es que la compartición de datos no implica la cesión de la propiedad, sino la licencia de uso bajo condiciones específicas.
 
