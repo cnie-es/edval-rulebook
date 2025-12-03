@@ -31,7 +31,42 @@ Se establece la siguiente matriz de responsabilidades para la operación diaria 
 
 ---
 
-## 3.2. Proceso de Admisión (Onboarding)
+## 3.2. Adhesión al Espacio de Datos: Derechos y Obligaciones
+Los términos de adhesión definen las reglas básicas que rigen la relación entre los Participantes (Proveedores, Consumidores e Intermediarios) y la Autoridad del Espacio (CNIE), incluyendo derechos, obligaciones, limitaciones de responsabilidad, y consecuencias por incumplimiento. Esta sección se inspira en buenas prácticas de espacios de datos similares y adapta los principios del *Language Data Space* (LDS Beta) para el contexto del NEL-DS `(Ref. Pliego: Apartado 6.1.11)`.
+
+### 3.2.1. Derechos del Participante
+1.  **Acceso a Metadatos:** El Participante tiene derecho a publicar y mantener metadatos de sus activos en el Catálogo Central para facilitar su descubribilidad.
+2.  **Negociación de Contratos:** El Participante puede negociar acuerdos de uso con otros miembros del Espacio mediante su Conector y aceptar o proponer condiciones (políticas ODRL) de uso y explotación.
+3.  **Reclamación y Soporte:** Derecho a recibir soporte por parte del Operador de Servicios Centrales en las incidencias relacionadas con conectividad, autenticación y seguridad, según los SLA vigentes.
+4.  **Protección de la Propiedad Intelectual:** Conservación de derechos de autor y licencias sobre los activos publicados, sujetos a las condiciones definidas en el Acuerdo de Adhesión y en las políticas ODRL publicadas.
+
+### 3.2.2. Obligaciones del Participante
+1.  **Cumplir la Legislación Aplicable:** Respetar normativa nacional, UE y sectorial aplicable (protección de datos, propiedad intelectual, export control, etc.).
+2.  **Identidad y Credenciales:** Mantener la veracidad de la información KYC y presentar las credenciales verificables (VCs) requeridas para operar en el Espacio. El Conector debe almacenar y presentar VCs y certificados X.509 válidos para mTLS `(Ref. Pliego: Apartado 6.1.11.3)`.
+3.  **Políticas de Uso y Metadatos:** Publicar políticas ODRL correctas y metadatos conformes con DCAT-AP y JSON-LD; verificar que los `uid`, `profile` y `permission` se ajustan a los patrones del repositorio (`code/policies/`).
+4.  **Garantías Técnicas:** Mantener el Conector en condiciones operativas, aplicar parches de seguridad y configurar políticas en el Motor de Políticas; cumplir las pruebas de homologación técnica (Sandbox) antes de acceder a Producción.
+5.  **Confidencialidad y Buenas Prácticas:** Guardar confidencialidad sobre información clasificada y emplear medidas técnicas y organizativas para preservar la seguridad de los datos.
+6.  **Responsabilidad y Auditoría:** Permitir auditorías técnicas cuando la Autoridad lo solicite, y mantener registros (logs) en el Conector que garanticen trazabilidad y no repudio (Clearing House) `(Ref. Pliego: Apartado 6.1.10)`.
+
+### 3.2.3. Limitaciones, Exenciones y Responsabilidades
+1.  **Limitación de Responsabilidad:** La Autoridad y los Operadores no asumen responsabilidad por el contenido de los activos publicados por terceros; cada Participante es responsable de su propio contenido y cumplimiento de licencias.
+2.  **Indemnización:** Los Participantes se comprometen a indemnizar a la Autoridad por reclamaciones derivadas de su incumplimiento legal o contractual.
+3.  **SLA y Soporte:** La disponibilidad y soporte de componentes centrales se describen en SLA; sin embargo, la Autoridad puede limitar servicios ante abuso o compromiso de seguridad.
+
+### 3.2.4. Suspensión y Rescisión
+1.  **Suspensión Temporal:** La Autoridad puede suspender temporalmente el acceso de un Participante en caso de riesgo inminente (vulnerabilidades, fraude, compromisos de seguridad) hasta la resolución del incidente.
+2.  **Expulsión Definitiva:** Tras un proceso de investigación y notificación, la Autoridad podrá expulsar a un Participante por incumplimiento grave, con reserva de acciones legales y la revocación de credenciales (Offboarding). La expulsión no exime al Participante de obligaciones preexistentes.
+3.  **Consecuencias Operativas:** La suspensión o expulsión conlleva la revocación de VCs, baja en el Catálogo y la obligación de ejecutar las acciones de eliminación/revocación requeridas por las políticas aplicables (ej. `delete` duty en ODRL con `elapsedTime`).
+
+### 3.2.5. Disputa y Resolución
+1.  **Canales de Reclamación:** Los Participantes deben usar los canales oficiales del CNIE para reclamar o escalar incidencias; el Comité de Dirección actúa como órgano de resolución.
+2.  **Jurisdicción y Legislación:** Las controversias se resolverán conforme al ordenamiento jurídico aplicable y a lo acordado en el Acuerdo de Adhesión.
+
+> Nota: Este apartado adapta principios generales de los Términos y Condiciones del *Language Data Space* (LDS Beta) para nuestro contexto, priorizando coherencia con el `Ref. Pliego` y con los estándares técnicos y legales aquí descritos. Cualquier cambio que afecte la interpretación legal del documento deberá revisarse por el Comité de Dirección y por los asesores legales del CNIE.
+
+---
+
+## 3.3. Proceso de Admisión (Onboarding)
 El proceso para convertirse en Participante del NEL-DS consta de cuatro fases secuenciales obligatorias `(Ref. Pliego: Apartado 6.1.11.2)`:
 
 ### Fase 1: Identificación y Registro (KYC)
@@ -55,7 +90,7 @@ El Solicitante debe seleccionar una de las dos modalidades de despliegue permiti
 
 ---
 
-## 3.3. Ciclo de Vida del Intercambio de Datos
+## 3.4. Ciclo de Vida del Intercambio de Datos
 Los participantes operan bajo el modelo "Publish-Find-Bind" (Publicar-Buscar-Vincular), ejecutado de forma descentralizada:
 
 ### 1. Publicación (Publish)
@@ -73,7 +108,7 @@ Los participantes operan bajo el modelo "Publish-Find-Bind" (Publicar-Buscar-Vin
 
 ---
 
-## 3.4. Salida del Espacio (Offboarding)
+## 3.5. Salida del Espacio (Offboarding)
 * **Salida Voluntaria:** Mediante notificación a la Autoridad con 30 días de antelación. Implica la revocación de certificados y la baja en el Catálogo.
 * **Expulsión Forzosa:** La Autoridad revocará inmediatamente las credenciales de cualquier participante que viole el Acuerdo de Adhesión o comprometa la seguridad del ecosistema.
 * **Persistencia:** La salida no exime de las obligaciones de confidencialidad ni de los derechos de uso adquiridos legítimamente antes de la fecha de baja, salvo estipulación contraria en las políticas de uso (Cláusula de Supervivencia).
