@@ -7,14 +7,14 @@
 ---
 
 ## 5.1. Lista de Anclas de Confianza (Trust Anchors)
-Para garantizar una identidad federada y segura, el NEL-DS no actúa como único validador, sino que se apoya en una red de **Anclas de Confianza**. Solo se aceptarán Credenciales Verificables (VCs) y certificados emitidos por entidades presentes en la *Trusted List* del espacio `(Ref. Pliego: Apartado 6.1.5 y 6.1.11.3)`.
+Para garantizar una identidad federada y segura, el EDNEL no actúa como único validador, sino que se apoya en una red de **Anclas de Confianza**. Solo se aceptarán Credenciales Verificables (VCs) y certificados emitidos por entidades presentes en la *Trusted List* del espacio `(Ref. Pliego: Apartado 6.1.5 y 6.1.11.3)`.
 
 Se reconocen dos categorías de emisores:
 1.  **Proveedores Cualificados (eIDAS):** Prestadores de Servicios de Confianza Cualificados (QTSP) reconocidos en la lista europea (EUTL), válidos para la identificación legal de organizaciones (ej. FNMT, Camerfirma).
 2.  **Emisores de Atributos de Negocio:** Entidades delegadas por el CNIE para certificar atributos específicos del sector (ej. "Entidad Académica Acreditada", "Miembro del PERTE").
 
 ## 5.2. Gestión de Identidad Descentralizada (eIDAS 2)
-El NEL-DS se alinea con la arquitectura de referencia de la Cartera de Identidad Digital de la UE (EUDI Wallet) `(Ref. Pliego: Apartado 5.18.3)`.
+El EDNEL se alinea con la arquitectura de referencia de la Cartera de Identidad Digital de la UE (EUDI Wallet) `(Ref. Pliego: Apartado 5.18.3)`.
 
 * **Identificadores:** Cada participante debe estar identificado mediante un **DID (Decentralized Identifier)** único, resoluble y persistente.
 * **Credenciales Verificables (VCs):** Los participantes deben presentar VCs firmadas criptográficamente para acceder a los servicios. El formato de las credenciales seguirá el modelo de datos de **W3C** y **Gaia-X**.
@@ -39,12 +39,12 @@ De otra parte, **[RAZÓN SOCIAL DEL PARTICIPANTE]**, con NIF [----], en adelante
 
 **EXPONEN**
 
-Que el Participante ha superado satisfactoriamente el proceso de homologación técnica y desea integrarse en el Espacio de Datos de la Nueva Economía de la Lengua (NEL-DS).
+Que el Participante ha superado satisfactoriamente el proceso de homologación técnica y desea integrarse en el Espacio de Datos de la Nueva Economía de la Lengua (EDNEL).
 
 **CLÁUSULAS**
 
 **PRIMERA. OBJETO**
-El presente Acuerdo formaliza la adhesión del Participante al NEL-DS y su aceptación íntegra, incondicional y vinculante del **Marco de Gobernanza (Rulebook)** vigente, el cual se incorpora a este contrato por referencia dinámica (incluyendo sus futuras actualizaciones aprobadas por los órganos de gobierno).
+El presente Acuerdo formaliza la adhesión del Participante al EDNEL y su aceptación íntegra, incondicional y vinculante del **Marco de Gobernanza (Rulebook)** vigente, el cual se incorpora a este contrato por referencia dinámica (incluyendo sus futuras actualizaciones aprobadas por los órganos de gobierno).
 
 **SEGUNDA. REPRESENTACIONES Y GARANTÍAS**
 El Participante declara y garantiza que:

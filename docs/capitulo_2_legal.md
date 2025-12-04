@@ -7,7 +7,7 @@
 ---
 
 ## 2.1. El Acuerdo de Adhesión (Accession Agreement)
-La participación en el NEL-DS se formaliza mediante la firma electrónica de un único **Acuerdo de Adhesión** con la Autoridad del Espacio (CNIE).
+La participación en el EDNEL se formaliza mediante la firma electrónica de un único **Acuerdo de Adhesión** con la Autoridad del Espacio (CNIE).
 
 * **Modelo de Contratación:** Se establece un esquema de "Club" o Ecosistema. Los participantes no firman contratos bilaterales entre sí para unirse, sino que se adhieren a este *Rulebook*.
 * **Efecto Vinculante:** La firma implica la aceptación de las reglas operativas, técnicas y legales aquí descritas `(Ref. Pliego: Apartado 6.1.3 - Dimensión Legal)`.
@@ -19,7 +19,7 @@ El acuerdo debe contemplar los elementos que se describen a continuación:
 
 - La identidad jurídica del participante.
 - Su naturaleza (empresa privada, organismo público, universidad, centro de investigación, proveedor tecnológico, etc.).
-- El rol que desempeñará dentro del espacio de datos, según las categorías previstas en el modelo: proveedor de datos, consumidor de datos, intermediario, proveedor de servicios, operador del espacio, proveedor de infraestructura, evaluador/contribuidor, etc.
+- El rol que desempeñará dentro del espacio de datos, según las categorías previstas en el modelo: proveedor de datos, consumidor de datos, intermediario, proveedor de servicios, etc.
 Cada rol implica obligaciones específicas en materia de provisión, uso, trazabilidad, seguridad y calidad del dato.
 
 **Aceptación del marco de gobernanza**
@@ -86,7 +86,7 @@ El acuerdo establece:
 
 ## 2.2. Soberanía del Dato y Propiedad Intelectual
 
-El principio fundamental del NEL-DS es que la compartición de datos no implica la cesión de la propiedad, sino la licencia de uso bajo condiciones específicas.
+El principio fundamental del EDNEL es que la compartición de datos no implica la cesión de la propiedad, sino la licencia de uso bajo condiciones específicas.
 
 Los participantes reconocen y aceptan que la **soberanía del dato** corresponde al Data Owner que aporta el activo. Dicho propietario mantiene el control sobre: 
 1) La localización física o lógica del dato 
@@ -99,7 +99,7 @@ La aportación de datos al Espacio no supone transferencia de los **derechos de 
 - **Condicionada**: uso restringido para investigación, no comercial, etc.
 - **De pago (comercial)**: la licencia incluirá reglas sobre redistribución y la explotación de derivados (incluyendo modelos entrenados).
 
-**No Exclusividad:** La publicación de un activo en el NEL-DS no impide al Proveedor explotarlo por otros canales.
+**No Exclusividad:** La publicación de un activo en el EDNEL no impide al Proveedor explotarlo por otros canales.
 
 ## 2.3. Publicación de Activos
 
@@ -131,7 +131,7 @@ Para automatizar la negociación de contratos, las reglas legales deben expresar
 Salvo pacto en contrario, los resultados derivados (modelos, índices, anotaciones) serán propiedad del desarrollador del derivado, pudiendo su explotación estar sujeta a obligaciones contractuales frente al proveedor original (por ejemplo, remuneración, atribución, limitaciones comerciales). Siempre que el derivado contenga datos personales, sus responsables deberán respetar las obligaciones de protección de datos que correspondan.
 
 ## 2.6. Protección de Datos y Ética (RGPD/AI Act)
-El NEL-DS opera en estricto cumplimiento de la normativa europea y nacional.
+El EDNEL opera en estricto cumplimiento de la normativa europea y nacional.
 
 Para activos que incluyan datos personales o sensibles, el proveedor y el consumidor deberán aplicar medidas de privacidad por diseño y por defecto; la Autoridad podrá imponer técnicas PET (anonimización, pseudonimización, enclaves seguros, procesamiento in-situ) y limitaciones de exportación de datos si procede
 
