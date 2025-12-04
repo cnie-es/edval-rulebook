@@ -7,14 +7,14 @@
 ---
 
 ## 1.1. Definición y Naturaleza del Espacio
-El **Espacio de Datos de la Nueva Economía de la Lengua (NEL-DS)** se constituye como una infraestructura digital federada para la compartición voluntaria, soberana y segura de activos lingüísticos y recursos de Inteligencia Artificial `(Ref. Pliego: Apartado 6.1.1)`.
+El **Espacio de Datos de la Nueva Economía de la Lengua (EDNEL)** se constituye como una infraestructura digital federada para la compartición voluntaria, soberana y segura de activos lingüísticos y recursos de Inteligencia Artificial `(Ref. Pliego: Apartado 6.1.1)`.
 
-El NEL-DS no opera como un repositorio centralizado de datos, sino como un ecosistema descentralizado construido en torno a componentes comunes ("building blocks") que permiten el intercambio eficaz y fiable entre participantes, garantizando que los datos permanecen bajo el control de sus proveedores `(Ref. Pliego: Apartado 5.5 - Estrategia Europea de Datos)`.
+El EDNEL no opera como un repositorio centralizado de datos, sino como un ecosistema descentralizado construido en torno a componentes comunes ("building blocks") que permiten el intercambio eficaz y fiable entre participantes, garantizando que los datos permanecen bajo el control de sus proveedores `(Ref. Pliego: Apartado 5.5 - Estrategia Europea de Datos)`.
 
 Este marco de gobierno se rige por los principios de **Soberanía del Dato**, **Confianza** y **Generación de Valor**, alineándose con la arquitectura de referencia de IDSA y los principios del Data Spaces Support Centre (DSSC) `(Ref. Pliego: Apartado 6.1.4)`.
 
 ## 1.2. Misión y Objetivos Estratégicos
-El propósito fundamental del NEL-DS es impulsar la **Nueva Economía de la Lengua**, cumpliendo con los siguientes objetivos críticos:
+El propósito fundamental del EDNEL es impulsar la **Nueva Economía de la Lengua**, cumpliendo con los siguientes objetivos críticos:
 
 1.  **Entrenamiento de IA en Español:** Facilitar el acceso masivo a corpus orales y textuales para el entrenamiento de Modelos de Lenguaje (LLMs) y sistemas de Inteligencia Artificial, reduciendo la brecha tecnológica del español `(Ref. Pliego: Apartado 3 - Situación Actual)`.
 2.  **Ecosistema Público-Privado:** Habilitar un mercado donde empresas e instituciones puedan compartir y monetizar activos lingüísticos (corpus, modelos, terminologías) bajo reglas claras `(Ref. Pliego: Apartado 4.1)`.
@@ -32,10 +32,10 @@ Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
 - Supervisar el cumplimiento de las políticas de uso así como facilitar la resolución de conflictos y la mediación entre participantes en caso de disputas relacionadas con el uso de datos o el cumplimiento de políticas.
 - Revocar la participación de entidades que incumplan las normas establecidas.
 - Garantizar la protección de datos personales y el cumplimiento de la normativa de privacidad aplicable en todas las operaciones del espacio.
-- Desarrollar y mantener una infraestructura tecnológica robusta, segura y escalable que soporte las operaciones del NEL-DS, así como auditar dichas operaciones del espacio para asegurar la conformidad con los principios de soberanía y confianza.
+- Desarrollar y mantener una infraestructura tecnológica robusta, segura y escalable que soporte las operaciones del EDNEL, así como auditar dichas operaciones del espacio para asegurar la conformidad con los principios de soberanía y confianza.
 - Facilitar la interoperabilidad con otros espacios de datos europeos y sectoriales.
 - Promover la adopción de estándares abiertos y mejores prácticas en la gestión de datos lingüísticos y de IA.
-- Fomentar la innovación y el desarrollo de nuevos servicios dentro del ecosistema del NEL-DS.
+- Fomentar la innovación y el desarrollo de nuevos servicios dentro del ecosistema del EDNEL.
 - Colaborar con organismos reguladores y autoridades nacionales e internacionales para asegurar el alineamiento normativo y establecer alianzas estratégicas con otras infraestructuras de datos y organizaciones relevantes en el ámbito lingüístico y tecnológico.
 - Publicar informes periódicos sobre el estado del espacio, incluyendo métricas de uso, casos de éxito y desafíos enfrentados. Organizar actividades de formación y divulgación para promover la adopción del espacio entre potenciales participantes.
 

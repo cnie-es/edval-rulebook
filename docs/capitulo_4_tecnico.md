@@ -7,7 +7,7 @@
 ---
 
 ## 4.1. Arquitectura de Referencia
-El NEL-DS implementa una arquitectura distribuida y federada, alineada con el modelo **IDS-RAM 4.0** (International Data Spaces Reference Architecture Model) y las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre) `(Ref. Pliego: Apartado 5.5 y 6.1.4)`.
+El EDNEL implementa una arquitectura distribuida y federada, alineada con el modelo **IDS-RAM 4.0** (International Data Spaces Reference Architecture Model) y las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre) `(Ref. Pliego: Apartado 5.5 y 6.1.4)`.
 
 ### Principios Arquitectónicos
 1.  **Descentralización:** No existe un almacenamiento central de datos. Los activos residen en los sistemas de origen (infraestructura del Proveedor) y se transfieren *Peer-to-Peer* (P2P) al Consumidor.

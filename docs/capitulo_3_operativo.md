@@ -7,7 +7,7 @@
 ---
 
 ## 3.1. Taxonomía de Roles Operativos
-Se establece la siguiente matriz de responsabilidades para la operación diaria del NEL-DS, conforme a la estructura definida en el Pliego `(Ref. Pliego: Apartado 6.1.5)`:
+Se establece la siguiente matriz de responsabilidades para la operación diaria del EDNEL, conforme a la estructura definida en el Pliego `(Ref. Pliego: Apartado 6.1.5)`:
 
 ### A. Roles de Gestión (Infraestructura)
 1.  **Autoridad del Espacio (CNIE):**
@@ -32,7 +32,7 @@ Se establece la siguiente matriz de responsabilidades para la operación diaria 
 ---
 
 ## 3.2. Adhesión al Espacio de Datos: Derechos y Obligaciones
-Los términos de adhesión definen las reglas básicas que rigen la relación entre los Participantes (Proveedores, Consumidores e Intermediarios) y la Autoridad del Espacio (CNIE), incluyendo derechos, obligaciones, limitaciones de responsabilidad, y consecuencias por incumplimiento. Esta sección se inspira en buenas prácticas de espacios de datos similares y adapta los principios del *Language Data Space* (LDS Beta) para el contexto del NEL-DS `(Ref. Pliego: Apartado 6.1.11)`.
+Los términos de adhesión definen las reglas básicas que rigen la relación entre los Participantes (Proveedores, Consumidores e Intermediarios) y la Autoridad del Espacio (CNIE), incluyendo derechos, obligaciones, limitaciones de responsabilidad, y consecuencias por incumplimiento. Esta sección se inspira en buenas prácticas de espacios de datos similares y adapta los principios del *Language Data Space* (LDS Beta) para el contexto del EDNEL `(Ref. Pliego: Apartado 6.1.11)`.
 
 ### 3.2.1. Derechos del Participante
 1.  **Acceso a Metadatos:** El Participante tiene derecho a publicar y mantener metadatos de sus activos en el Catálogo Central para facilitar su descubribilidad.
@@ -67,10 +67,10 @@ Los términos de adhesión definen las reglas básicas que rigen la relación en
 ---
 
 ## 3.3. Proceso de Admisión (Onboarding)
-El proceso para convertirse en Participante del NEL-DS consta de cuatro fases secuenciales obligatorias `(Ref. Pliego: Apartado 6.1.11.2)`:
+El proceso para convertirse en Participante del EDNEL consta de cuatro fases secuenciales obligatorias `(Ref. Pliego: Apartado 6.1.11.2)`:
 
 ### Fase 1: Identificación y Registro (KYC)
-* El Solicitante completa el formulario de adhesión en el Portal Web del NEL-DS.
+* El Solicitante completa el formulario de adhesión en el Portal Web del EDNEL.
 * Debe aportar la documentación legal requerida (NIF, escrituras) para verificar su identidad jurídica.
 * **Resultado:** Validación administrativa por la Autoridad.
 
