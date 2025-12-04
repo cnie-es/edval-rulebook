@@ -50,7 +50,14 @@ if (Test-Path $policiesDir) {
 
 # 2. Generate Word Document
 Write-Host "Generating Word document ($outputBase.docx)..."
-pandoc $tempFile -o "$outputBase.docx" --toc
+if (Test-Path "scripts/plantilla.docx") {
+    Write-Host "Using scripts/plantilla.docx as style reference..."
+    pandoc $tempFile -o "$outputBase.docx" --toc --reference-doc=scripts/plantilla.docx
+}
+else {
+    Write-Warning "scripts/plantilla.docx not found. Using default styles."
+    pandoc $tempFile -o "$outputBase.docx" --toc
+}
 
 # 3. Generate PDF (Try using wkhtmltopdf or default latex if available, else warn)
 Write-Host "Generating PDF ($outputBase.pdf)..."
