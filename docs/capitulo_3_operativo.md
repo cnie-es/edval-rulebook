@@ -14,7 +14,7 @@ Se establece la siguiente matriz de responsabilidades para la operación diaria 
     * Responsable de la gobernanza, admisión (Onboarding) y expulsión (Offboarding) de miembros.
     * Administra las políticas de acceso globales y el catálogo raíz.
 2.  **Operador de Servicios Centrales:**
-    * Entidad técnica encargada del mantenimiento de los componentes comunes: *Identity Provider*, *Metadata Broker* y *Clearing House* (Registro).
+    * Entidad técnica encargada del mantenimiento de los componentes comunes, como por ejemplo el *Identity Provider*.
     * Garantiza los SLAs de disponibilidad de la plataforma central `(Ref. Pliego: Apartado 6.1.12.2)`.
 3.  **Emisor de Confianza (Trust Anchor):**
     * Entidad externa o interna habilitada para emitir y firmar Credenciales Verificables (VCs) y certificados X.509 que validan la identidad de los participantes `(Ref. Pliego: Apartado 6.1.11.3)`.
@@ -114,3 +114,87 @@ Los participantes operan bajo el modelo "Publish-Find-Bind" (Publicar-Buscar-Vin
 * **Persistencia:** La salida no exime de las obligaciones de confidencialidad ni de los derechos de uso adquiridos legítimamente antes de la fecha de baja, salvo estipulación contraria en las políticas de uso (Cláusula de Supervivencia).
 
 ---
+
+## 3.6. Modelo económico
+
+El EDNEL promueve una economía federada basada en datos, servicios, calidad y confianza, donde la cadena de valor se articula en torno a:
+
+- Provisión de datos lingüísticos y recursos asociados
+- Valor añadido mediante IA u otros servicios avanzados
+- Intermediación y certificación
+- Servicios de confianza y gobernanza
+
+### 3.6.1. Actores Económicos
+
+**Data Providers (Proveedores de Datos)**
+
+Aportan corpus, recursos lingüísticos, terminología, audio, vídeo, metadatos y documentación.
+Obtienen beneficios por:
+
+- Tasas de acceso
+- Licencias de uso
+- Acuerdos comerciales por datasets premium
+- Ingresos derivados de modelos entrenados o derivados
+
+**Data Consumers (Consumidores)**
+
+Entidades que acceden a datos para investigación, entrenamiento de IA, desarrollo de productos, traducción, análisis lingüístico o localización.
+
+Contribuyen económicamente mediante:
+
+- Tarifas de acceso
+- Suscripciones
+- Servicios asociados
+
+### 3.6.2. Valor en el consumo
+
+El consumo de datos puede ser:
+
+- Gratuito (open data o licencias altruistas)
+- Licenciado (uso académico)
+- Comercial (uso intensivo o con explotación de derivados)
+
+El modelo de coste será:
+
+- Pay-per-use: Pago por unidad de dato
+- Suscripción temporal: Pago por acceso durante un periodo
+- Acceso por volumen: Pago según volumen de datos consumidos
+
+### 3.6.3. Servicios de valor añadido
+
+Valor económico de los derivados, especialmente modelos de IA entrenados sobre datos lingüísticos. Incluye:
+
+- Licencias para entrenamiento ???
+- Licencias sobre modelos resultantes
+- Royalties por uso de derivados en entornos comerciales
+- Tasas por distribución de modelos entrenados
+
+### 3.6.4. Mecanismos de remuneración
+
+**Monetización por volumen o tipo de dato**: precios diferenciados según sensibilidad, calidad, curación, granularidad o dominio.
+
+**Prestación de servicios avanzados**: entrenamiento de modelos
+
+**Incentivos**:
+
+El modelo económico incluye incentivos: descuentos, prioridad de acceso, visibilidad en el catálogo.
+
+Estos incentivos buscan fomentar la participación activa para: aportar datos, mejorar calidad, enriquecer terminología...
+
+### 3.6.5. Modelos de licencia y propiedad intelectual
+
+El espacio debe soportar licencias diferenciadas:
+
+**Licencias abiertas**
+
+Datos abiertos, aplicables a corpus públicos o terminología básica.
+
+**Licencias restringidas**
+
+- Solo investigación
+- No comercial
+- Comercial con límite de uso
+
+**Licencias premium / comerciales**
+
+Servicios avanzados, corpus curados, anotación experta, etc.
