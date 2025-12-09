@@ -201,9 +201,13 @@ d) Herramientas de asesoría corporativa multilingüe
 **Aportación al Espacio de Datos**
 
 a) Interoperabilidad lingüística paneuropea: conexión directa con ELDS y otras infraestructuras de datos.
+
 b) Estándares compartidos: documentos y terminología uniformes para múltiples sectores.
+
 c) Gobierno del dato y trazabilidad: control sobre versiones terminológicas, documentos generados y APIs utilizadas.
+
 d) Fomento de servicios inteligentes basados en IA: habilita chatbots multilingües, traducción avanzada y localización asistida.
+
 e) Incremento de competitividad: permite a empresas hispanohablantes reducir costes, riesgos y tiempos de entrada a mercados europeos.
 
 ### 1.4.3. Repositorio abierto de terminología especializada en español
@@ -233,7 +237,7 @@ e) Fomentar la colaboración internacional entre expertos: habilitar un reposito
 
 **Componentes clave del caso de uso** 
 
-Estructura colaborativa del repositorio:
+a) Estructura colaborativa del repositorio:
 
 - Posibilidad de añadir, revisar y validar términos por parte de expertos, definiciones detalladas, sinónimos, ejemplos de uso y referencias normativas
 - Participación activa de universidades, centros de investigación y organismos especializados
