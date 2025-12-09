@@ -126,6 +126,10 @@ El EDNEL promueve una economía federada basada en datos, servicios, calidad y c
 
 ### 3.6.1. Actores Económicos
 
+**Autoridad de gobernanza**
+
+La autoridad de gobernanza (CNIE) participa en la economía del espacio sin ánimo de lucro.
+
 **Data Providers (Proveedores de Datos)**
 
 Aportan corpus, recursos lingüísticos, terminología, audio, vídeo, metadatos y documentación.
@@ -198,3 +202,80 @@ Datos abiertos, aplicables a corpus públicos o terminología básica.
 **Licencias premium / comerciales**
 
 Servicios avanzados, corpus curados, anotación experta, etc.
+
+### 3.6.6. Servicios gratuitos para participantes
+
+- Adhesión al espacio (onboarding)
+- Acceso al catálogo y búsqueda de activos
+- Emisión de credenciales verificables
+- Acceso al clearing house y sus servicios de trazabilidad
+- Soporte técnico básico
+
+### 3.6.7 Método de Pago
+
+El Espacio de Datos no actúa como intermediario financiero, plataforma de pago ni custodio de fondos.
+Todos los pagos derivados del acceso a datos, licencias, servicios o productos derivados se realizan fuera del perímetro del Espacio, mediante acuerdos bilaterales o multilaterales entre los participantes implicados.
+
+Los participantes pueden utilizar, de forma externa al Espacio:
+
+- Transferencias bancarias
+- Pagos mediante plataformas de pago electrónico
+- Facturación directa entre partes
+- Otros medios acordados contractualmente
+
+### 3.6.8 Gestión de Transacciones
+
+El Espacio **no impone ni gestiona** un proveedor de pagos concreto. Aunque el pago se realiza externamente, el Espacio sí registra la existencia de la transacción, exclusivamente con fines de: trazabilidad, auditoría, control de cumplimiento, resolución de disputas.
+El registro no incluye información financiera sensible, sino metadatos de transacción.
+
+**Estados de la transacción**
+
+- *Propuesta*: el proveedor publica las condiciones (precio, licencia, uso permitido). El consumidor solicita acceso o contratación.
+
+- *Aceptada*: ambas partes aceptan las condiciones contractuales y se genera un registro de acuerdo en el Espacio.
+
+- *Pago pendiente* (externo): se indica que el pago debe realizarse fuera del Espacio. El acceso a los datos/servicios no está aún habilitado.
+
+- *Pago confirmado*: una de las partes registra la confirmación del pago externo (con referencia verificable).
+
+- *Acceso habilitado / Servicio activo*: se concede acceso a los datos o se activa el servicio conforme a lo acordado. Se inicia el registro de evidencias de uso.
+
+- *En ejecución / Consumo*: el consumidor utiliza los datos o servicios bajo las condiciones de la licencia. Se mantienen logs y trazabilidad.
+
+- *Finalizada*: se cumple el periodo o condiciones de uso y se registra la finalización satisfactoria.
+
+- *Suspendida*: la transacción se suspende por incumplimiento, disputa, incidencia técnica o legal.
+
+- *Cancelada*: la transacción se cancela antes de su finalización, conforme a lo pactado.
+
+
+### 3.6.9 Mecanismo de resolución de disputas
+
+**Fase 1 – Resolución bilateral**
+
+Las partes implicadas intentan resolver la disputa de manera directa, utilizando:
+
+- El contrato bilateral acordado entre ellas
+- Las evidencias registradas en el Espacio
+- Las referencias externas de pago.
+
+Duración orientativa: 15 días naturales.
+
+**Fase 2 – Mediación de la Autoridad de Gobernanza**
+
+Si no hay acuerdo, cualquiera de las partes puede solicitar la mediación de la Autoridad de Gobernanza.
+
+La Autoridad:
+
+- Analiza las evidencias
+- Revisa los registros del Espacio (contrato, logs, estados)
+- Emite una recomendación no vinculante
+- Puede ordenar suspensión temporal del acceso mientras dure la mediación.
+
+**Fase 3 – Resolución contractual externa**
+
+Si la mediación no resulta satisfactoria:
+
+- La disputa se resolverá conforme a lo previsto en el contrato bilateral
+- Mediante arbitraje, mediación formal o jurisdicción competente,
+- Sin perjuicio de las medidas internas de gobernanza del Espacio (suspensión o revocación)
