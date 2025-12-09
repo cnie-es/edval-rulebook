@@ -247,17 +247,12 @@ Fuentes:
 Pliego
 
 LDS Architecture & Components (Common European Language Data Space). 
-European Language Data Space
 
 European Language Data Space — About / Principles. 
-European Language Data Space
 
 IDSA — IDSA Rulebook (principios y estructura de rulebook). 
-International Data Spaces
-+1
 
 Sitra — Rulebook model / IPR Q&A (guidance sobre IPR en data spaces). 
-Sitra
 
 Datos.gob.es — nota sobre LDS operativa y soberanía.**
 
