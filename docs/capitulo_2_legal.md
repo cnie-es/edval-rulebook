@@ -198,7 +198,7 @@ Base para la certificación de componentes técnicos, servicios cloud y conector
 
 #### Directiva NIS2 (Directiva (UE) 2022/2555)
 
-Aplicable a entidades esenciales o importantes involucradas en la infraestructura del espacio.Incluye obligaciones de gestión de riesgos y notificación de incidentes.
+Aplicable a entidades esenciales o importantes involucradas en la infraestructura del espacio. Incluye obligaciones de gestión de riesgos y notificación de incidentes.
 
 #### Directiva de Datos Abiertos (Directiva (UE) 2019/1024)
 
@@ -247,17 +247,12 @@ Fuentes:
 Pliego
 
 LDS Architecture & Components (Common European Language Data Space). 
-European Language Data Space
 
 European Language Data Space — About / Principles. 
-European Language Data Space
 
 IDSA — IDSA Rulebook (principios y estructura de rulebook). 
-International Data Spaces
-+1
 
 Sitra — Rulebook model / IPR Q&A (guidance sobre IPR en data spaces). 
-Sitra
 
 Datos.gob.es — nota sobre LDS operativa y soberanía.**
 

@@ -13,36 +13,171 @@ El EDNEL no opera como un repositorio centralizado de datos, sino como un ecosis
 
 Este marco de gobierno se rige por los principios de **Soberanía del Dato**, **Confianza** y **Generación de Valor**, alineándose con la arquitectura de referencia de IDSA y los principios del Data Spaces Support Centre (DSSC) `(Ref. Pliego: Apartado 6.1.4)`.
 
-## 1.2. Misión y Objetivos Estratégicos
-El propósito fundamental del EDNEL es impulsar la **Nueva Economía de la Lengua**, cumpliendo con los siguientes objetivos críticos:
+Propone una plataforma compuesta por cuatro componentes un espacio de datos de la Nueva Economía Digital de la Lengua Española, un corpus oral en español y un modelo de inteligencia artificial de voz en español sustentados por una infraestructura tecnológica común de espacio de datos masivo, para potenciar las tecnologías digitales y datos basados en el uso intensivo de los datos.
 
-1.  **Entrenamiento de IA en Español:** Facilitar el acceso masivo a corpus orales y textuales para el entrenamiento de Modelos de Lenguaje (LLMs) y sistemas de Inteligencia Artificial, reduciendo la brecha tecnológica del español `(Ref. Pliego: Apartado 3 - Situación Actual)`.
-2.  **Ecosistema Público-Privado:** Habilitar un mercado donde empresas e instituciones puedan compartir y monetizar activos lingüísticos (corpus, modelos, terminologías) bajo reglas claras `(Ref. Pliego: Apartado 4.1)`.
-3.  **Interoperabilidad Transfronteriza:** Garantizar la capacidad técnica de federarse con otros espacios de datos europeos (ej. *Language Data Space*) y sectoriales (Turismo, Salud), evitando la creación de silos aislados `(Ref. Pliego: Apartado 6.1.12.1)`.
+---
 
-## 1.3. Autoridad de Gobernanza (Data Space Authority)
-La entidad responsable de la operación, mantenimiento y supervisión del cumplimiento de este Rulebook es el **Centro Nacional de Industrias del Español (CNIE)** `(Ref. Pliego: Apartado 3.2)`.
+## 1.2. Vision y misión
 
-El CNIE actúa con un doble rol en el ecosistema `(Ref. Pliego: Apartado 6.1)`:
-1.  **Como Autoridad (Trustee):** Administra el registro de participantes, homologa los conectores y gestiona las políticas de uso globales, actuando como punto neutro de confianza.
-2.  **Como Participante:** Puede actuar como proveedor o consumidor de datos dentro del espacio, sujeto a las mismas reglas que el resto de miembros.
+* **Visión**: Consolidar el español y las lenguas cooficiales como lenguas de referencia en la economía del dato y la inteligencia artificial a nivel global y europeo.
+  
+* **Misión**: Facilitar la disponibilidad, acceso e intercambio de recursos lingüísticos de calidad para fomentar el desarrollo de tecnologías y servicios innovadores, respetando la soberanía y privacidad de los datos. (Ref.  Ministerio para la Transformación Digital) 
 
-Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
-- Definir y actualizar este Rulebook y sus anexos técnicos.
-- Supervisar el cumplimiento de las políticas de uso así como facilitar la resolución de conflictos y la mediación entre participantes en caso de disputas relacionadas con el uso de datos o el cumplimiento de políticas.
-- Revocar la participación de entidades que incumplan las normas establecidas.
-- Garantizar la protección de datos personales y el cumplimiento de la normativa de privacidad aplicable en todas las operaciones del espacio.
-- Desarrollar y mantener una infraestructura tecnológica robusta, segura y escalable que soporte las operaciones del EDNEL, así como auditar dichas operaciones del espacio para asegurar la conformidad con los principios de soberanía y confianza.
-- Facilitar la interoperabilidad con otros espacios de datos europeos y sectoriales.
-- Promover la adopción de estándares abiertos y mejores prácticas en la gestión de datos lingüísticos y de IA.
-- Fomentar la innovación y el desarrollo de nuevos servicios dentro del ecosistema del EDNEL.
-- Colaborar con organismos reguladores y autoridades nacionales e internacionales para asegurar el alineamiento normativo y establecer alianzas estratégicas con otras infraestructuras de datos y organizaciones relevantes en el ámbito lingüístico y tecnológico.
-- Publicar informes periódicos sobre el estado del espacio, incluyendo métricas de uso, casos de éxito y desafíos enfrentados. Organizar actividades de formación y divulgación para promover la adopción del espacio entre potenciales participantes.
+---
 
+## 1.3. Propuesta de valor
 
-**El CNIE se compromete** a operar con transparencia, imparcialidad y en estricto cumplimiento de la normativa vigente, garantizando la integridad del espacio y la protección de los derechos de todos los participantes `(Ref. Pliego: Apartado 6.1.3 - Dimensión Legal)`.
+Los Espacios de Datos representan una innovación disruptiva en la forma en la que se gestiona y comparten los datos en el mercado. Los espacios de datos de alto valor e impacto representan las capacidades más innovadoras y habilitadoras para el desarrollo de un mercado único de datos, con un potencial significativo para impulsar la transformación digital de la economía. Los espacios de datos actúan como catalizadores para la innovación y la digitalización, y son esenciales para el avance y la competitividad de la economía española en el contexto europeo y global.
 
-## 1.4. Casos de Uso Principales
+En especial los espacios de datos lingüísticos (EDL) pretenden desbloquear el valor económico y social de los datos de leguaje y compartir datos de textos y voz, facilitando la innovación en inteligencia artificial (IA) traducción automática, creación de contenido y servicios multilingües impulsando la economía del datos de empresas y gobiernos  con beneficios como mejora de la personalización, eficiencia y acceso a la información en diversos idiomas, todo bajo un marco de confianza y gobernanza común. 
+
+Para describir la propuesta de valor se ha utilizado el Modelo Canvas para analizar el **modelo de negocio** para lo cual, a modo de resumen, se adjunta la siguiente figura:
+
+![Analisis modelo de negocio](images/analisis_modelo_negocio.png)
+
+---
+
+## 1.4. Desafíos
+
+El Espacio de Datos de la Nueva Economía de la Lengua (EDNEL) aborda varios desafíos clave en el ámbito de la gestión y compartición de datos lingüísticos y recursos de inteligencia artificial. Algunos de los desafíos más relevantes incluyen:
+
+* **Descentralización**: crear un ecosistema para el intercambio seguro y fiable de datos lingüísticos.
+
+* **Interoperabilidad y Estandarización**: Uno de los mayores retos es la falta de estándares unificados para la integración de datos provenientes de múltiples fuentes y sistemas, que a menudo están fragmentados. La creación de estándares de interoperabilidad es crucial para permitir la reutilización de datos entre diferentes sectores y para el intercambio con otros espacios de datos europeos.
+
+* **Soberanía de Datos**: El establecimiento de mecanismos de gobernanza claros es fundamental. Se necesitan certezas sobre las consideraciones operativas, legales y comerciales que regirán el intercambio de datos. Esto incluye la gestión de la protección de datos y la implementación de la privacidad desde el diseño (Privacy by Design) para cumplir con normativas como el RGPD de la Unión Europea y la Ley de Datos (Data Act).
+
+* **Seguridad y Privacidad**: La protección de la información confidencial y personal es un desafío constante, especialmente al recopilar y compartir grandes cantidades de datos. Garantizar la confianza en los datos y su uso adecuado es esencial para la adopción generalizada de los espacios de datos y ganar confianza entre los participantes del Espacio de Datos.
+
+* **Calidad y Consistencia de los Datos**: Los datos incompletos, inexactos o inconsistentes pueden generar desconfianza e impactar negativamente en la toma de decisiones. Asegurar una alta calidad de los datos es un desafío significativo dada la complejidad y el volumen de las fuentes.
+
+* **Generación de Valor Económico**: habilita la generación sostenible de valor alrededor del dato, catalizador de la innovación y el crecimiento empresarial, permitiendo identificar oportunidades de mercado, anticipar tendencias, tomar decisiones mejor informadas, aumentar la eficiencia operativa, desarrollar productos y servicios transformadores, o personalizar las experiencias de los clientes. 
+
+---
+
+## 1.5. Solución Propuesta
+
+EDNEL contiene un corpus oral del español, la implementación de una infraestructura tecnológica avanzada y el suministro, instalación y mantenimiento de los sistemas necesarios para su funcionamiento incluyendo:
+
+* **Plataforma de datos semánticos**, para catalogación, descubrimiento y gestión de activos mediante grafos de conocimiento.
+  
+* **Conectores EDC**, basados en Eclipse Dataspace Connector, para la transferencia segura y trazable de datos.
+  
+* **Microservicios desacoplados**, integrados mediante APIs RESTful, que facilitan escalabilidad y mantenibilidad.
+  
+* **Portales público y privado**, desarrollados con tecnologías como NextJS, React y Drupal, con interfaces específicas para cada perfil de usuario.
+  
+* **Cumplimiento normativo con RGPD, Data Act y DGA**, mediante mecanismos de identidad descentralizada (SSI), Clearing House para trazabilidad y contratos de uso, y motores de políticas basados en ODRL.
+
+---
+
+## 1.6. Propuesta de valor (¿En esta sección???)
+
+La propuesta de valor se estructura en torno a varios ejes de acción principales: 
+
+**Eje Estratégico I: Creación y Gobernanza del Espacio de Datos Lingüístico**
+
+* Establecer un modelo de gobernanza común y transparente para los datos lingüísticos, asegurando estándares de seguridad, calidad, interoperabilidad y reusabilidad.
+
+* Desarrollar la infraestructura tecnológica (plataformas, conectores) necesaria para la compartición voluntaria de datos en un entorno seguro.
+  
+* Definir un vocabulario común y estándares de metadatos para los recursos lingüísticos, facilitando una "versión única de la verdad" sobre los activos de datos. 
+
+**Eje Estratégico II: Impulso a la Generación y Disponibilidad de Recursos**
+
+* Promover la digitalización y recopilación masiva de corpus lingüísticos de calidad, incluyendo textos, audios y datos multimodales en español y lenguas cooficiales.
+
+* Lanzar convocatorias de ayudas y programas de apoyo para incentivar que las administraciones públicas, empresas y centros de investigación compartan sus datos lingüísticos.
+
+* Fomentar la generación automática de recursos lingüísticos y el uso de técnicas de anonimización y protección de datos personales. 
+
+**Eje Estratégico III: Desarrollo Tecnológico e Innovación**
+
+* Impulsar la creación de modelos de lenguaje especializados (LLMs) y herramientas de procesamiento del lenguaje natural (PLN) que aprovechen los datos disponibles.
+
+* Apoyar proyectos de innovación que utilicen el espacio de datos lingüístico para crear nuevos servicios y aplicaciones (ej. asistentes inteligentes, traducción automática de alta calidad). 
+
+Para cumplir las acciones estratégicas se requiere de roles bien definidos con responsabilidades claves que para EDNEL se han definido de la siguiente forma:
+
+* **Cuerpo de Gobernanza**:  son los consorcios, asociaciones, autoridades reguladoras o entidades de confianza que definen las reglas de uso, estándares técnicos, marcos legales y mecanismos de certificación.
+
+*Propuesta*: CNIE Centro Nacional de Industrias del Español.
+  
+* **Promotor / Facilitador**: son la/s entidades que habilitan el intercambio seguro de datos proporcionando la infraestructura técnica (plataformas, catálogos de datos, APIs, que  garantizan la interoperabilidad y gestionan aspectos de confianza.
+
+*Propuesta*: Fundación para la Transformación de La Rioja
+
+* **Proveedor de Datos**: empresas, administraciones o instituciones que generan o poseen los datos y que  ponen sus datos a disposición del espacio (abiertos, compartidos o bajo licencia)
+ 
+*Propuesta*: sector editorial, tecnologías lingüísticas (PLN, chatbots, traducción automática) tecnologías del habla (reconocimientos y síntesis de voz), los medios de comunicación y la prensa, universidades, etc.
+
+* **Proveedor de Servicios**: empresas tecnológicas que ofrecen servicios adicionales dentro del espacio que aportan valor añadido mediante la anonimización, calidad  y enriquecimiento del dato, análisis avanzado o IA. 
+
+*Propuesta*: Telefónica habilita la plataforma y capacidades de valor, UNIR y GNOSS facilita corpus y entrenamiento lingüístico basados en los casos de uso a desarrollar e Hiberus facilita el marketing y desarrollo de portales de acceso en la primera fase.
+
+* **Consumidores**: organizaciones o personas que utilizan los datos para crear valor que acceden a los datos bajo condiciones definidas para análisis, investigación, servicios o innovación
+
+*Propuesta*: sector financiero, sector educativo, contenidos en una etapa inicial y basado en los casos de uso a desarrollar en la primera fase.
+Gráficamente se podría representar de la siguiente forma:
+ 
+![Propuesta de valor EDNEL](images/propuesta_valor_ednel.png)
+
+---
+
+## 1.7. Ventaja Competitiva
+
+El EDNEL se configura como una infraestructura clave y única en la lengua española para:
+
+* Promover el **uso del español en entornos de inteligencia artificial**, reduciendo la dependencia tecnológica externa.
+
+* Fomentar la **digitalización del patrimonio lingüístico**, mediante un corpus oral diverso, representativo y accesible.
+
+* Impulsar **nuevos modelos de negocio** y colaboración entre el sector público, privado y académico en torno al dato.
+
+* Posicionar a La Rioja y España como **referentes europeos** en el uso de tecnologías del lenguaje y gobernanza de datos.
+
+---
+
+## 1.8. Métricas Claves (A definir)
+
+Inicialmente, el éxito del plan se medirá mediante indicadores clave, como:
+
+* Número de conjuntos de datos lingüísticos disponibles en la plataforma.
+  
+* Número de empresas y administraciones que participan activamente en el espacio de datos.
+  
+* Nivel de adopción de las infraestructuras lingüísticas desarrolladas. 
+
+---
+
+## 1.9. Canales de Comunicación y Difusión
+
+El EDNEL propone un Marketplace cuya oferta se puede acceder por diferentes canales que a efectos de los casos se podría resumir en:
+
+* **Acceso a portales y catálogos gratuitos**: acceder a datos o servicios accesibles para tener conocimiento de los daos y servicio que son publicados en los diferentes catálogos (ej. usuario imitado de prueba y búsqueda de contenidos disponibles).
+  
+* **Membresía**: tanto organizaciones públicas o privadas pueden convertirse en miembros del espacio de datos ya sea para compartir o utilizar datos lingüísticos o servicios relacionados (ej. publicar corpus entrenados en aspectos jurídicos, médicos, etc.)
+ 
+* **Conectores**: se pueden instalar en la propia infraestructura del participante para publicar, buscar y acceder a diferentes productos basados en datos (ej. compartir servicios de aprendizaje  basados en IA).
+
+---
+
+## 1.10. Segmentos de Mercado
+
+La segmentación del mercado debe obedecer a **casos de uso definidos** para el espacio de datos.
+Aun así se pueden distinguir 4 segmentos específicos para un espacio de datos lingüístico:
+
+* **Lenguaje y dialecto**: Segmentar por idioma principal (español, inglés), pero también por dialectos regionales (mexicano, argentino, español) ej. optimizar un sitio web basado en jergas y modismos locales o aplicaciones móviles bancarias adaptadas a las preferencias de los usuarios. No sólo se trata de traducción sino de adaptarse en consecuencia a experiencia local.
+
+* **Preferencias culturales**: Agrupar por sensibilidad a ciertos matices culturales, jerga o modismos locales ej. mensajes, tonos y referencias culturales.
+
+* **Nivel de competencia lingüística**: Dividir por nivel de fluidez o uso de terminología especializada (por ejemplo, un segmento técnico vs. uno general).
+
+* **Comportamiento de comunicación**: Analizar cómo se comunican, qué plataformas usan y qué tipo de contenido lingüístico consumen (foros, redes sociales, documentos técnicos). 
+
+---
+
+## 1.11. Casos de Uso Principales
 
 ### 1.4.1. Modelo de Lenguaje en Español
 
@@ -201,9 +336,13 @@ d) Herramientas de asesoría corporativa multilingüe
 **Aportación al Espacio de Datos**
 
 a) Interoperabilidad lingüística paneuropea: conexión directa con ELDS y otras infraestructuras de datos.
+
 b) Estándares compartidos: documentos y terminología uniformes para múltiples sectores.
+
 c) Gobierno del dato y trazabilidad: control sobre versiones terminológicas, documentos generados y APIs utilizadas.
+
 d) Fomento de servicios inteligentes basados en IA: habilita chatbots multilingües, traducción avanzada y localización asistida.
+
 e) Incremento de competitividad: permite a empresas hispanohablantes reducir costes, riesgos y tiempos de entrada a mercados europeos.
 
 ### 1.4.3. Repositorio abierto de terminología especializada en español
@@ -233,7 +372,7 @@ e) Fomentar la colaboración internacional entre expertos: habilitar un reposito
 
 **Componentes clave del caso de uso** 
 
-Estructura colaborativa del repositorio:
+a) Estructura colaborativa del repositorio:
 
 - Posibilidad de añadir, revisar y validar términos por parte de expertos, definiciones detalladas, sinónimos, ejemplos de uso y referencias normativas
 - Participación activa de universidades, centros de investigación y organismos especializados
@@ -275,6 +414,32 @@ c) Mejora de calidad en traducción y localización: permite producir contenido 
 d) Soberanía lingüística y científica: refuerza el papel del español como lengua de conocimiento avanzado.
 
 e) Fomento de innovación y competitividad: habilita aplicaciones en educación, investigación, industria, IA y documentación técnica.
+
+---
+---
+
+## 1.3. Autoridad de Gobernanza (Data Space Authority)
+La entidad responsable de la operación, mantenimiento y supervisión del cumplimiento de este Rulebook es el **Centro Nacional de Industrias del Español (CNIE)** `(Ref. Pliego: Apartado 3.2)`.
+
+El CNIE actúa con un doble rol en el ecosistema `(Ref. Pliego: Apartado 6.1)`:
+1.  **Como Autoridad (Trustee):** Administra el registro de participantes, homologa los conectores y gestiona las políticas de uso globales, actuando como punto neutro de confianza.
+2.  **Como Participante:** Puede actuar como proveedor o consumidor de datos dentro del espacio, sujeto a las mismas reglas que el resto de miembros.
+
+Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
+- Definir y actualizar este Rulebook y sus anexos técnicos.
+- Supervisar el cumplimiento de las políticas de uso así como facilitar la resolución de conflictos y la mediación entre participantes en caso de disputas relacionadas con el uso de datos o el cumplimiento de políticas.
+- Revocar la participación de entidades que incumplan las normas establecidas.
+- Garantizar la protección de datos personales y el cumplimiento de la normativa de privacidad aplicable en todas las operaciones del espacio.
+- Desarrollar y mantener una infraestructura tecnológica robusta, segura y escalable que soporte las operaciones del EDNEL, así como auditar dichas operaciones del espacio para asegurar la conformidad con los principios de soberanía y confianza.
+- Facilitar la interoperabilidad con otros espacios de datos europeos y sectoriales.
+- Promover la adopción de estándares abiertos y mejores prácticas en la gestión de datos lingüísticos y de IA.
+- Fomentar la innovación y el desarrollo de nuevos servicios dentro del ecosistema del EDNEL.
+- Colaborar con organismos reguladores y autoridades nacionales e internacionales para asegurar el alineamiento normativo y establecer alianzas estratégicas con otras infraestructuras de datos y organizaciones relevantes en el ámbito lingüístico y tecnológico.
+- Publicar informes periódicos sobre el estado del espacio, incluyendo métricas de uso, casos de éxito y desafíos enfrentados. Organizar actividades de formación y divulgación para promover la adopción del espacio entre potenciales participantes.
+
+
+**El CNIE se compromete** a operar con transparencia, imparcialidad y en estricto cumplimiento de la normativa vigente, garantizando la integridad del espacio y la protección de los derechos de todos los participantes `(Ref. Pliego: Apartado 6.1.3 - Dimensión Legal)`.
+
 
 ## 1.5. Glosario de Términos (Taxonomía de Roles)
 Para la interpretación de este Rulebook y sus Anexos Técnicos, se adoptan las siguientes definiciones estandarizadas conforme al modelo de roles del proyecto `(Ref. Pliego: Apartado 6.1.5)`:
