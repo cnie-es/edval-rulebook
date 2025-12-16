@@ -47,7 +47,7 @@ El EDNEL se configura como una infraestructura clave y única en la lengua espa�
 
 ---
 
-## 1.5. Canales de Comunicación y Difusión
+## 1.5. Canales de Comunicación y Difusión
 
 El Espacio de Datos utiliza tres canales principales para facilitar el acceso a su oferta:
 
@@ -365,18 +365,28 @@ Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
 - Colaborar con organismos reguladores y autoridades nacionales e internacionales para asegurar el alineamiento normativo y establecer alianzas estratégicas con otras infraestructuras de datos y organizaciones relevantes en el ámbito lingüístico y tecnológico.
 - Publicar informes periódicos sobre el estado del espacio, incluyendo métricas de uso, casos de éxito y desafíos enfrentados. Organizar actividades de formación y divulgación para promover la adopción del espacio entre potenciales participantes.
 
-
 **El CNIE se compromete** a operar con transparencia, imparcialidad y en estricto cumplimiento de la normativa vigente, garantizando la integridad del espacio y la protección de los derechos de todos los participantes `(Ref. Pliego: Apartado 6.1.3 - Dimensión Legal)`.
 
+## 1.4. Comite de dirección
 
-## 1.5. Glosario de Términos (Taxonomía de Roles)
-Para la interpretación de este Rulebook y sus Anexos Técnicos, se adoptan las siguientes definiciones estandarizadas conforme al modelo de roles del proyecto `(Ref. Pliego: Apartado 6.1.5)`:
+Es el órgano responsable de supervisar y dirigir la ejecución estratégica del Espacio de Datos de la Nueva Economía de la Lengua (EDNEL). Está compuesto por representantes del Centro Nacional de Industrias del Español (CNIE) y otros actores clave del ecosistema lingüístico y tecnológico:
 
-* **Participante:** Entidad legal (empresa, universidad, administración) que ha superado el proceso de admisión y posee una Credencial Verificable válida.
-* **Conector (Paquete Conector):** Componente de software certificado que actúa como puerta de enlace para el intercambio soberano de datos. Puede desplegarse en modalidad *On-Premise* (infraestructura del participante) o *SaaS* (nube del CNIE) `(Ref. Pliego: Apartado 6.1.8)`.
+* La autoridad de gobernanza (CNIE)
+
+* Representantes de los Participantes Estratégicos
+
+* Miembros del equipo de supervisión legal y cumplimiento
+
+## 1.5. Taxonomía de roles
+
+* **Participante:** Entidad legal (empresa, universidad, administración) que ha superado el proceso de admisión y posee una Credencial Verificable válida `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
 * **Proveedor de Datos (Data Provider):** Participante que publica la oferta de un activo de datos en el catálogo. Es el responsable de definir las políticas de uso y garantizar la propiedad intelectual `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
 * **Consumidor de Datos (Data Consumer):** Participante que negocia un contrato digital para adquirir derechos de acceso y uso sobre un activo de datos `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
 * **Intermediador:** Rol técnico o de negocio que facilita servicios auxiliares (ej. limpieza de corpus, anonimización, certificación) dentro del espacio `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
+  
+##  1.6. Glosario de Términos 
+
+* **Conector (Paquete Conector):** Componente de software certificado que actúa como puerta de enlace para el intercambio soberano de datos. Puede desplegarse en modalidad *On-Premise* (infraestructura del participante) o *SaaS* (nube del CNIE) `(Ref. Pliego: Apartado 6.1.8)`.
 * **Activo de Datos:** Cualquier recurso digital (corpus texto/audio, modelo algorítmico, léxico) ofrecido en el catálogo bajo condiciones contractuales específicas.
 
 ---
