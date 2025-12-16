@@ -10,14 +10,22 @@
 Se establece la siguiente matriz de responsabilidades para la operación diaria del EDNEL, conforme a la estructura definida en el Pliego `(Ref. Pliego: Apartado 6.1.5)`:
 
 ### A. Roles de Gestión (Infraestructura)
-1.  **Autoridad del Espacio (CNIE):**
+1.  **Autoridad del Espacio (CNIE) o Administrador:**
     * Responsable de la gobernanza, admisión (Onboarding) y expulsión (Offboarding) de miembros.
     * Administra las políticas de acceso globales y el catálogo raíz.
-2.  **Operador de Servicios Centrales:**
+2. **Operador**:
+    * Responsable de la gestión operativa diaria del Espacio de Dato.
+    * Revisa/Aprueba/Deniega solicitudes de Participante. Baja de Participantes. 
+    * Alta/Baja/Gestión de Conectores en EDNEL. 
+    * Acceso al entorno de test. 
+    * UAT de las nuevas versiones. 
+    * Consultar informes de administración. 
+    * Consultar informes de uso.
+3.  **Operador técnico**
     * Entidad técnica encargada del mantenimiento de los componentes comunes, como por ejemplo el *Identity Provider*.
     * Garantiza los SLAs de disponibilidad de la plataforma central `(Ref. Pliego: Apartado 6.1.12.2)`.
-3.  **Emisor de Confianza (Trust Anchor):**
-    * Entidad externa o interna habilitada para emitir y firmar Credenciales Verificables (VCs) y certificados X.509 que validan la identidad de los participantes `(Ref. Pliego: Apartado 6.1.11.3)`.
+4. **Gestor de contenido**
+    * Maneja contenidos del Portal Publico: crea/edita/elimina contenidos del portal público, gestiona FAQ, documentación, noticias, eventos, etc.
 
 ### B. Roles de Participación (Negocio)
 1.  **Proveedor de Datos (Data Provider):**
@@ -42,7 +50,7 @@ Los términos de adhesión definen las reglas básicas que rigen la relación en
 
 ### 3.2.2. Obligaciones del Participante
 1.  **Cumplir la Legislación Aplicable:** Respetar normativa nacional, UE y sectorial aplicable (protección de datos, propiedad intelectual, export control, etc.).
-2.  **Identidad y Credenciales:** Mantener la veracidad de la información KYC y presentar las credenciales verificables (VCs) requeridas para operar en el Espacio. El Conector debe almacenar y presentar VCs y certificados X.509 válidos para mTLS `(Ref. Pliego: Apartado 6.1.11.3)`.
+2.  **Identidad y Credenciales:** Mantener la veracidad de la información KYC y presentar las credenciales verificables (VCs) requeridas para operar en el Espacio. El Conector debe almacenar y presentar VCs y certificados X.509 válidos para mTLS `(Ref. Pliego: Apartado 6.1.11.3)`. Además, será obligatorio para todos los participantes habilitar mecanismos de autenticación en dos factores (2FA) antes de acceder a cualquier funcionalidad del Espacio de Datos.
 3.  **Políticas de Uso y Metadatos:** Publicar políticas ODRL correctas y metadatos conformes con DCAT-AP y JSON-LD; verificar que los `uid`, `profile` y `permission` se ajustan a los patrones del repositorio (`code/policies/`).
 4.  **Garantías Técnicas:** Mantener el Conector en condiciones operativas, aplicar parches de seguridad y configurar políticas en el Motor de Políticas; cumplir las pruebas de homologación técnica (Sandbox) antes de acceder a Producción.
 5.  **Confidencialidad y Buenas Prácticas:** Guardar confidencialidad sobre información clasificada y emplear medidas técnicas y organizativas para preservar la seguridad de los datos.
