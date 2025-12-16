@@ -1,9 +1,4 @@
 # CAPÍTULO 2: MARCO LEGAL Y DE CONFIANZA
-
-**Versión:** 1.0.0  
-**Estado:** Borrador para Validación Legal  
-**Referencia del Proyecto:** Expediente 71-7-2.01-0004/2025 (Dimensión Legal y Normativa)
-
 ---
 
 ## 2.1. El Acuerdo de Adhesión (Accession Agreement)
@@ -82,7 +77,7 @@ El acuerdo establece:
 - Los motivos de suspensión o expulsión
 - Las obligaciones tras la salida (eliminación de datos, no uso indebido, conservación de evidencias cuando proceda).
 
-[Contrato de adhesión](capitulo_2_contrato_adhesion.md)
+[Contrato de adhesión](capitulo_5_confianza_y_anexos.md#4-el-acuerdo-de-adhesi%C3%B3n-accession-agreement)
 
 ## 2.2. Soberanía del Dato y Propiedad Intelectual
 
