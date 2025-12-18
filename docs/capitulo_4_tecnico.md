@@ -1,9 +1,4 @@
 # CAPÍTULO 4: MARCO TÉCNICO Y ESTÁNDARES DE INTEROPERABILIDAD
-
-**Versión:** 1.0.0  
-**Estado:** Borrador para Validación de Arquitectura  
-**Referencia del Proyecto:** Expediente 71-7-2.01-0004/2025 (Dimensión Técnica)
-
 ---
 
 ## 4.1. Arquitectura de Referencia

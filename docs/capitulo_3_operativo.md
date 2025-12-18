@@ -1,41 +1,57 @@
 # CAPÍTULO 3: MARCO OPERATIVO Y PROCESOS
-
-**Versión:** 1.0.0  
-**Estado:** Borrador para Validación Operativa  
-**Referencia del Proyecto:** Expediente 71-7-2.01-0004/2025 (Dimensión Operativa - Procesos)
-
 ---
 
-## 3.1. Taxonomía de Roles Operativos
-Se establece la siguiente matriz de responsabilidades para la operación diaria del EDNEL, conforme a la estructura definida en el Pliego `(Ref. Pliego: Apartado 6.1.5)`:
+## 3.1. Taxonomía de Roles 
 
-### A. Roles de Gestión (Infraestructura)
-1.  **Autoridad del Espacio (CNIE) o Administrador:**
-    * Responsable de la gobernanza, admisión (Onboarding) y expulsión (Offboarding) de miembros.
-    * Administra las políticas de acceso globales y el catálogo raíz.
-2. **Operador**:
-    * Responsable de la gestión operativa diaria del Espacio de Dato.
-    * Revisa/Aprueba/Deniega solicitudes de Participante. Baja de Participantes. 
-    * Alta/Baja/Gestión de Conectores en EDNEL. 
-    * Acceso al entorno de test. 
-    * UAT de las nuevas versiones. 
-    * Consultar informes de administración. 
-    * Consultar informes de uso.
-3.  **Operador técnico**
-    * Entidad técnica encargada del mantenimiento de los componentes comunes, como por ejemplo el *Identity Provider*.
-    * Garantiza los SLAs de disponibilidad de la plataforma central `(Ref. Pliego: Apartado 6.1.12.2)`.
-4. **Gestor de contenido**
-    * Maneja contenidos del Portal Publico: crea/edita/elimina contenidos del portal público, gestiona FAQ, documentación, noticias, eventos, etc.
+### 3.1.1. Roles de Gobernanza
 
-### B. Roles de Participación (Negocio)
-1.  **Proveedor de Datos (Data Provider):**
-    * Publica la oferta de activos en el catálogo.
-    * Configura las políticas de uso y contrato en su Conector.
-2.  **Consumidor de Datos (Data Consumer):**
-    * Busca activos en el catálogo y negocia contratos de uso.
-    * Consume los datos respetando las restricciones técnicas impuestas.
-3.  **Intermediario / Proveedor Tecnológico:**
-    * Facilita servicios de valor añadido (ej. limpieza de corpus, entrenamiento de modelos) o provee infraestructura técnica a terceros `(Ref. Pliego: Apartado 6.1.5)`.
+Son roles exclusivos de la Autoridad de Gobernanza. No manejan datos de los participantes y se centran en la operación, supervisión, administración y control del espacio de datos.
+
+**Ejecutivos y administrativos**
+
+* *Administrador*: responsable máximo de la gestión global del espacio de datos. Puede nombrar a cualquier rol de Gobernanza.
+
+* *Operador*: Gestiona la operación diaria del EDNEL: altas y bajas de participantes, gestión de conectores, informes, control de uso.
+
+**Técnicos de operación**
+
+* *Operador técnico*: Supervisa infraestructura, monitorización, logs, entorno de pruebas y mantenimiento.
+
+**Gestión del portal**
+
+* *Gestor de Portal*: Administra la estructura y configuración general del portal público.
+
+* *Gestor de Contenidos*: Crea, edita y elimina contenidos del portal público.
+
+### 3.1.2. Roles de Participantes
+
+Asignables por cada entidad participante a sus miembros. Permiten interactuar con los datos, conectores, ofertas, contratos y procesos del espacio.
+
+**Corporativos**
+
+* *Representante Legal*: Actúa como punto de contacto oficial; solicita la participación en EDNEL y gestiona el estado de la entidad.
+
+* *Administrador de Usuarios*: Gestiona las cuentas y roles internos del participante.
+
+**Técnicos vinculados a conectores**
+
+* *Administrador de Conector*: Instala y mantiene los conectores del participante, gestiona su información y realiza pruebas en entorno de test.
+
+**Funcionales asociados al ciclo de datos**
+
+* *Consumidor de Datos*: Busca y consulta activos, negocia contratos de consumo y ejecuta transferencias entrantes.
+
+* *Proveedor de Datos*: Define y gestiona los metadatos de sus activos y supervisa contratos y transferencias salientes.
+
+* *Gestor de Ofertas de Datos*: Establece políticas y precios de activos, crea ofertas y gestiona negociaciones asociadas.
+
+**Financieros**
+
+* *Administrador Financiero*: Gestiona operaciones económicas vinculadas a contratos, facturación y pagos; accede a todas las transferencias y negociaciones.
+
+### 3.1.3 Roles de Usuario Público
+
+* *Usuario no autenticado*: Accede al portal público, consulta contenidos y puede explorar el catálogo público de datos.
 
 ---
 

@@ -1,9 +1,4 @@
 # CAPÍTULO 1: DISPOSICIONES GENERALES
-
-**Versión:** 1.0.0  
-**Estado:** Borrador para Aprobación  
-**Referencia del Proyecto:** Expediente 71-7-2.01-0004/2025 (Lote 1 - Bloque 1)
-
 ---
 
 ## 1.1. Definición y Naturaleza del Espacio
@@ -104,10 +99,55 @@ Estos segmentos permiten alinear datos y servicios con necesidades reales, impul
 (localización, transcripción, subtitulado, diseño de experiencias multilingües)
 
 ---
+## 1.8. Inteoperabilidad del espacio de datos
 
-## 1.11. Casos de Uso Principales
+La interoperabilidad es un elemento central del modelo de negocio del EDNEL: permite que los participantes interactúen sin problemas, que los datos y servicios se ofrezcan de forma homogénea y que el ecosistema pueda escalar más allá del ámbito nacional. Una interoperabilidad sólida maximiza el valor económico de los datos lingüísticos y facilita la creación de nuevos servicios basados en IA, localización, terminología especializada y análisis multilingüe.
 
-### 1.4.1. Modelo de Lenguaje en Español
+### 1.8.1. Interoperabilidad interna: creación de un mercado federado
+
+A nivel interno, la interoperabilidad garantiza que todos los participantes (proveedores, consumidores, intermediarios y la Autoridad de Gobernanza) operen bajo:
+
+* Procesos uniformes
+
+* Reglas de intercambio transparentes
+
+* Activos descritos con estándares comunes
+
+* Herramientas compatibles para negociar, consumir y ofrecer servicios
+
+Esto crea un mercado integrado, donde:
+
+* Los proveedores pueden llegar a más consumidores
+
+* Los consumidores pueden comparar y contratar activos bajo un modelo homogéneo
+
+* Los intermediarios pueden ofrecer servicios de valor añadido (búsqueda, mediación, monitorización)
+
+* La Autoridad puede supervisar la actividad con eficiencia
+
+La interoperabilidad interna convierte al EDNEL en una plataforma abierta de negocio, no en un conjunto aislado de participantes.
+
+### 1.8.2. Interoperabilidad externa con LDS: acceso al mercado europeo
+
+La alineación del EDNEL con el Language Data Space (LDS) amplía su impacto económico:
+
+* Los activos publicados en EDNEL pueden ser descubiertos y contratados por organizaciones europeas.
+
+* Los proveedores españoles acceden a un mercado paneuropeo, multiplicando las oportunidades comerciales.
+
+* Los consumidores locales pueden adquirir recursos multilingües alojados en otros nodos del LDS.
+
+* Se facilita la exportación de servicios lingüísticos (traducción, IA, corpus, modelos).
+
+* EDNEL se integra en la cadena de valor europea de datos, aumentando su visibilidad y atractivo.
+
+En términos de negocio, esta interoperabilidad convierte al EDNEL en el nodo principal del español en el mercado europeo de datos, posicionándolo estratégicamente dentro de la Nueva Economía de la Lengua.
+
+---
+
+## 1.9. Casos de Uso Principales
+
+### 1.9.1. Modelo de Lenguaje en Español
 
 El caso de uso describe la necesidad de habilitar un entorno seguro, gobernado e interoperable que permita entrenar modelos de inteligencia artificial en lengua española utilizando grandes corpus de datos audiovisuales (audio y vídeo) y de texto de alta calidad.
 
@@ -198,7 +238,7 @@ El caso de uso demuestra:
 - La importancia de un ecosistema que habilita IA soberana en español, alineada con los principios europeos.
 - La creación de activos estratégicos reutilizables para múltiples servicios públicos y privados.
 
-### 1.4.2. Localización y expansión de empresas hispanohablantes en Europa
+### 1.9.2. Localización y expansión de empresas hispanohablantes en Europa
 
 Creación de una plataforma de datos lingüísticos en español, conectada e interoperable con el European Language Data Space (ELDS), orientada a resolver barreras lingüísticas, terminológicas y culturales que enfrentan las empresas hispanohablantes al expandirse en Europa.
 
@@ -273,7 +313,7 @@ d) Fomento de servicios inteligentes basados en IA: habilita chatbots multiling�
 
 e) Incremento de competitividad: permite a empresas hispanohablantes reducir costes, riesgos y tiempos de entrada a mercados europeos.
 
-### 1.4.3. Repositorio abierto de terminología especializada en español
+### 1.9.3. Repositorio abierto de terminología especializada en español
 
 Creación de un repositorio abierto, colaborativo y estandarizado de terminología especializada en español, integrado dentro del Espacio de Datos de la Nueva Economía de la Lengua.
 
