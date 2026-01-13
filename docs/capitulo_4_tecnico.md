@@ -5,11 +5,11 @@
 El EDNEL implementa una arquitectura distribuida y federada, alineada con el modelo **IDS-RAM 4.0** (International Data Spaces Reference Architecture Model) y las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre) `(Ref. Pliego: Apartado 5.5 y 6.1.4)`, y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS)
 
 ### Principios Arquitectónicos
-1. **Soberanía del dato** Los datos residen siempre en los sistemas del proveedor y se transfieren *Peer-to-Peer* (P2P) al Consumidor. Las políticas de uso viajan con el activo y se aplican en tiempo real mediante el conector.
+1. **Soberanía del dato** Los datos residen siempre en los sistemas del proveedor y se transfieren *Peer-to-Peer* (P2P) al Consumidor. Las políticas de uso viajan con el activo y se aplican mediante el conector.
 2.  **Descentralización:** No existe un almacenamiento central de datos. Los activos residen en los sistemas de origen (infraestructura del Proveedor) 
-3.  **Separación de Planos:** Se distingue estrictamente entre el **Plano de Control** (gestión de identidad, metadatos, contratos, trazabilidad y polític) y el **Plano de Datos** (transferencia del contenido real).
+3.  **Separación de Planos:** Se distingue estrictamente entre el **Plano de Control** (gestión de identidad, metadatos, contratos, trazabilidad y políticas) y el **Plano de Datos** (transferencia del contenido real).
 4.  **Neutralidad Tecnológica:** Los componentes son agnósticos a la infraestructura subyacente (Cloud, On-Premise, Edge) `(Ref. Pliego: Apartado 5.17.2)`.
-5.  **Interoperabilidad garantizada**: Dataspace Protocol (alineado con EDC, IDS y LDS), DCAT-AP / JSON-LD, ODRL para políticas, DIDs/VCs para identidad (eIDAS 2)
+5.  **Interoperabilidad garantizada**: Dataspace Protocol (alineado con EDC, IDS y LDS), DCAT-AP / JSON-LD, ODRL para políticas
 6.  **Seguridad y confianza verificable**: Autenticación mutua (mTLS), cifrado E2E y auditoría automatizada.
 
 ---
@@ -19,7 +19,7 @@ El EDNEL implementa una arquitectura distribuida y federada, alineada con el mod
 ### Onboarding técnico de Participantes
 Para integrarse en el EDNEL, cada Participante debe completar un proceso de onboarding técnico `(Ref. Pliego: Apartado 6.1.5)` que incluye:
 * **Instalación del conector (On-Premise o SaaS):** Configuración inicial del conector certificado.
-* **Validación de identidad y certificados:** Emisión y verificación de DIDs y VCs.
+* **Autenticación e identidad:** Servicios centralizados de gestión de identidad y autenticación de Participantes.
 * **Pasar las pruebas automáticas del Sandbox:**: Validación de interoperabilidad y seguridad mediante un entorno de pruebas controlado. `(Ref. Pliego: Apartado 6.1.6)`.
 * **Activar autenticación 2FA:** Configuración de mecanismos de doble factor para accesos administrativos.
 * **Recepción de Credenciales Verificables oficiales:** Acreditación de atributos relevantes (ej. "Entidad certificada ENS", "Universidad").
@@ -115,9 +115,8 @@ Para evitar silos de información y garantizar la descubribilidad de los recurso
 La seguridad del espacio se basa en una cadena de confianza criptográfica, alineada con los requisitos de **Gaia-X** y el futuro reglamento **eIDAS 2** `(Ref. Pliego: Apartado 5.18.3 y 6.1.11.3)`.
 
 ### Componentes de Identidad
-1.  **Identificadores:** Uso de **DIDs (Decentralized Identifiers)** para identificar de forma única y persistente a cada Participante y Conector.
-2.  **Credenciales:** Uso de **Verifiable Credentials (VCs)** firmadas por Emisores de Confianza (Trust Anchors) para acreditar atributos (ej. "Entidad certificada ENS", "Universidad").
-3.  **Certificados de Transporte:** Uso obligatorio de certificados **X.509** emitidos por una CA reconocida para establecer túneles mTLS (autenticación mutua) entre conectores.
+1.  **Credenciales:** Uso de **Verifiable Credentials (VCs)** firmadas por Emisores de Confianza (Trust Anchors) para acreditar atributos (ej. "Entidad certificada ENS", "Universidad").
+2.  **Certificados de Transporte:** Uso obligatorio de certificados **X.509** emitidos por una CA reconocida para establecer túneles mTLS (autenticación mutua) entre conectores.
 
 ---
 
@@ -135,11 +134,11 @@ Toda la infraestructura central y los conectores gestionados (SaaS) deben cumpli
 
 ---
 
-## Interoperabilidad con Ecosistemas Externos
+## Interoperabilidad con Ecosistemas Externos e iniciativas Europeas
 
-Para maximizar la integración del EDNEL en el panorama europeo de espacios de datos, se garantiza la interoperabilidad técnica con los principales ecosistemas existentes `(Ref. Pliego: Apartado 5.17.1)`.
+Para maximizar la integración del EDNEL en el panorama europeo de espacios de datos, se garantiza la interoperabilidad técnica con los principales ecosistemas existentes `(Ref. Pliego: Apartado 5.17.1)`, en particular con LDS, y alineado con IDSA y DSSC.
 
-EDNEL es plenamente compatible con:
+EDNEL es compatible con:
 
 **LDS**
 
@@ -148,11 +147,13 @@ EDNEL es plenamente compatible con:
 * Mismo protocolo de contrato
 * Intercambio directo de activos (???)
 
+Además, se asegura la compatibilidad técnica con los marcos de referencia más relevantes:
+
 **IDSA**
 
 * Conectores soberanos con policy enforcement
 * Clearing House centralizada de registros
-* Identidad descentralizada con DIDs/VCs
+* Identidad descentralizada con VCs
 * Contract negotiation framework
 
 **DSSC**
