@@ -2,7 +2,10 @@
 ---
 
 ## Arquitectura de Referencia
-El EDNEL implementa una arquitectura distribuida y federada, alineada con el modelo **IDS-RAM 4.0** (International Data Spaces Reference Architecture Model) y las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre) `(Ref. Pliego: Apartado 5.5 y 6.1.4)`, y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS)
+El EDNEL implementa una arquitectura distribuida y federada, alineada con el modelo **IDS-RAM 4.0** (International Data Spaces Reference Architecture Model) y las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre) `(Ref. Pliego: Apartado 5.5 y 6.1.4)`, y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS).
+
+El EDNEL adopta como infraestructura base de referencia el ecosistema **Simpl-Open** promovido a nivel europeo, garantizando la compatibilidad con los servicios comunes de espacios de datos, en particular en los ámbitos de identidad, confianza, federación y observabilidad.
+En una primera fase, el marco de identidad se apoya en el modelo **DAPS (Dynamic Attribute Provisioning Service)** para la emisión y validación de atributos de participantes y conectores, con una estrategia de evolución hacia modelos de identidad autosoberana (SSI) basados en **Verifiable Credentials** (VCs) conforme al marco eIDAS 2.El EDNEL mantendrá un alineamiento continuo con el roadmap técnico de Simpl-Open, garantizando la compatibilidad futura de sus componentes y evitando bloqueos tecnológicos.
 
 ### Principios Arquitectónicos
 1. **Soberanía del dato** Los datos residen siempre en los sistemas del proveedor y se transfieren *Peer-to-Peer* (P2P) al Consumidor. Las políticas de uso viajan con el activo y se aplican mediante el conector.
@@ -72,7 +75,15 @@ Con el fin de garantizar la trazabilidad y el no repudio, todos los eventos rele
 * Operación ejecutada (entrenamiento, descarga, inferencia)
 * Estado final (completado, cancelado, suspendido)
   
-Estas evidencias se almacenan en el Clearing House.
+El Clearing House no actúa únicamente como registro de evidencias, sino como sistema central de observabilidad del ecosistema, para labores de auditoría, permitiendo:
+
+* Monitorización del estado de los conectores
+* Seguimiento de transacciones
+* Detección de patrones anómalos
+* Supervisión de cumplimiento de políticas
+* Generación de métricas de uso, rendimiento y calidad del servicio
+
+La Autoridad de Gobernanza utilizará esta información para garantizar la estabilidad, seguridad y confianza del espacio de datos.
 
 ---
 
@@ -88,6 +99,33 @@ El **Conector** es el componente de software obligatorio que actúa como puerta 
 Para garantizar la universalidad del acceso, se soportan dos topologías de despliegue `(Ref. Pliego: Apartado 6.1.8 - Alojamiento)`:
 1.  **Conector On-Premise (Self-Hosted):** Despliegue mediante contenedores (Docker/Kubernetes) en la infraestructura propia del Participante. Requiere IP pública estática y certificados válidos.
 2.  **Conector SaaS (Managed):** Instancia gestionada ("Connectors-as-a-Service") alojada en la infraestructura de computación del CNIE (Lote 4), facilitando el acceso a entidades con menor madurez digital.
+
+---
+
+## Servicios Técnicos Centrales de la Autoridad de Gobernanza
+
+La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes servicios técnicos centrales:
+
+* Portal del Espacio de Datos
+* Servicios de Identidad y Confianza
+* Catálogo Semántico y Servicio de Descubrimiento
+* Registro de Vocabularios y Esquemas Semánticos
+* Servicio de Observabilidad y Clearing House
+* Servicios de Certificación y Sandbox
+
+Estos servicios constituyen la infraestructura mínima obligatoria para garantizar la coherencia, seguridad, supervisión y operabilidad del espacio de datos.
+
+---
+
+## Requisitos Técnicos Mínimos de los Participantes
+
+Cada participante del EDNEL deberá disponer, como mínimo, de la siguiente infraestructura técnica, constituyendo el stack mínimo obligatorio para operar dentro del ecosistema `(Ref. Pliego: Apartado 6.1.7)`:
+
+* Un Conector certificado
+* Un almacén de credenciales y secretos
+* Un sistema de gestión de identidad compatible con el marco de confianza
+* Un verificador de credenciales
+* Un punto de integración con sus sistemas internos de datos o servicios
 
 ---
 
@@ -134,6 +172,19 @@ Toda la infraestructura central y los conectores gestionados (SaaS) deben cumpli
 
 ---
 
+## Gobierno técnico del Dato y de los derivados
+
+El EDNEL establece reglas técnicas para gobernar:
+
+* El linaje de los datos (origen, transformaciones, combinaciones)
+* La trazabilidad de los activos derivados (modelos entrenados, corpus procesados, datasets enriquecidos/complejos)
+* El control de las restricciones heredadas de los datos originales
+* La asociación de políticas de uso a los resultados derivados
+
+Los activos derivados estarán sujetos a las mismas obligaciones de soberanía, trazabilidad y control de uso que los datos originales.
+
+---
+
 ## Interoperabilidad con Ecosistemas Externos e iniciativas Europeas
 
 Para maximizar la integración del EDNEL en el panorama europeo de espacios de datos, se garantiza la interoperabilidad técnica con los principales ecosistemas existentes `(Ref. Pliego: Apartado 5.17.1)`, en particular con LDS, y alineado con IDSA y DSSC.
@@ -168,6 +219,7 @@ Además, se asegura la compatibilidad técnica con los marcos de referencia más
 ---
 
 ## Gobernanza Técnica y Evolución del Ecosistema
+
 Para asegurar la evolución sostenible del EDNEL, se establecerá un marco de gobernanza técnica que incluya `(Ref. Pliego: Apartado 5.19)`:
 * **Comité Técnico de Gobernanza:** Responsable de la definición y actualización de estándares, políticas y procedimientos técnicos.
 * **Proceso de Certificación de Conectores:** Mecanismo formal para certificar que los conectores cumplen con las especificaciones técnicas y de seguridad establecidas.
