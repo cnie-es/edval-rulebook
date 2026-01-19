@@ -1,34 +1,32 @@
 # CAPÍTULO 1: DISPOSICIONES GENERALES
+
 ---
 
-## 1.1. Definición y Naturaleza del Espacio
+## Definición y Naturaleza del Espacio
 El **Espacio de Datos de la Nueva Economía de la Lengua (EDNEL)** se constituye como una infraestructura digital federada para la compartición voluntaria, soberana y segura de activos lingüísticos y recursos de Inteligencia Artificial `(Ref. Pliego: Apartado 6.1.1)`.
 
 El EDNEL no opera como un repositorio centralizado de datos, sino como un ecosistema descentralizado construido en torno a componentes comunes ("building blocks") que permiten el intercambio eficaz y fiable entre participantes, garantizando que los datos permanecen bajo el control de sus proveedores `(Ref. Pliego: Apartado 5.5 - Estrategia Europea de Datos)`.
 
 Este marco de gobierno se rige por los principios de **Soberanía del Dato**, **Confianza** y **Generación de Valor**, alineándose con la arquitectura de referencia de IDSA y los principios del Data Spaces Support Centre (DSSC) `(Ref. Pliego: Apartado 6.1.4)`.
 
----
 
-## 1.2. Vision y misión
+## Vision y misión
 
 * **Visión**: Posicionar el español y las lenguas cooficiales como lenguas clave en la economía del dato y la inteligencia artificial a nivel europeo y global.
 
 * **Misión**: Garantizar la disponibilidad y el intercambio seguro de recursos lingüísticos de calidad para impulsar tecnologías y servicios innovadores, respetando siempre la soberanía y la privacidad del dato.
+  
 
----
-
-## 1.3. Propuesta de valor
+## Propuesta de valor
 
 Los Espacios de Datos impulsan la innovación y la competitividad al permitir una gestión y compartición de datos segura, interoperable y orientada al mercado único europeo. En este marco, los Espacios de Datos Lingüísticos desbloquean el valor del lenguaje para habilitar servicios avanzados de IA y soluciones multilingües, bajo un entorno de confianza y gobernanza común.
 
 Para describir la propuesta de valor se ha utilizado el Modelo Canvas para analizar el **modelo de negocio** para lo cual, a modo de resumen, se adjunta la siguiente figura:
 
-![Modelo de negocio](images/analisis_modelo_negocio.png)
+![Modelo de negocio](./docs/images/analisis_modelo_negocio.png)
 
----
 
-## 1.4. Ventaja Competitiva
+## Ventaja Competitiva
 
 El EDNEL se configura como una infraestructura clave y única en la lengua española para:
 
@@ -40,9 +38,7 @@ El EDNEL se configura como una infraestructura clave y única en la lengua espa�
 
 * Posicionar a La Rioja y España como **referentes europeos** en el uso de tecnologías del lenguaje y gobernanza de datos.
 
----
-
-## 1.5. Canales de Comunicación y Difusión
+## Canales de Comunicación y Difusión
 
 El Espacio de Datos utiliza tres canales principales para facilitar el acceso a su oferta:
 
@@ -54,9 +50,8 @@ El Espacio de Datos utiliza tres canales principales para facilitar el acceso a 
 
 Estos canales aseguran visibilidad, accesibilidad y escalabilidad, facilitando la participación y la adopción del ecosistema.
 
----
 
-## 1.6. Segmentos de Mercado
+## Segmentos de Mercado
 
 El Espacio de Datos orienta su propuesta de valor a cuatro segmentos clave del mercado lingüístico:
 
@@ -70,9 +65,8 @@ El Espacio de Datos orienta su propuesta de valor a cuatro segmentos clave del m
 
 Estos segmentos permiten alinear datos y servicios con necesidades reales, impulsando usos de alto valor en IA, localización, comunicación y análisis lingüístico.
 
----
 
-## 1.7. Potenciales participantes
+## Potenciales participantes
 
 - Proveedores de datos, anotadores y creadores de recursos lingüísticos
 (corpora, repositorios terminológicos, bases de datos sectoriales, laboratorios lingüísticos).
@@ -98,12 +92,12 @@ Estos segmentos permiten alinear datos y servicios con necesidades reales, impul
 - Consultoras y proveedores de servicios especializados
 (localización, transcripción, subtitulado, diseño de experiencias multilingües)
 
----
-## 1.8. Inteoperabilidad del espacio de datos
+
+## Inteoperabilidad del espacio de datos
 
 La interoperabilidad es un elemento central del modelo de negocio del EDNEL: permite que los participantes interactúen sin problemas, que los datos y servicios se ofrezcan de forma homogénea y que el ecosistema pueda escalar más allá del ámbito nacional. Una interoperabilidad sólida maximiza el valor económico de los datos lingüísticos y facilita la creación de nuevos servicios basados en IA, localización, terminología especializada y análisis multilingüe.
 
-### 1.8.1. Interoperabilidad interna: creación de un mercado federado
+### Interoperabilidad interna: creación de un mercado federado
 
 A nivel interno, la interoperabilidad garantiza que todos los participantes (proveedores, consumidores, intermediarios y la Autoridad de Gobernanza) operen bajo:
 
@@ -127,7 +121,7 @@ Esto crea un mercado integrado, donde:
 
 La interoperabilidad interna convierte al EDNEL en una plataforma abierta de negocio, no en un conjunto aislado de participantes.
 
-### 1.8.2. Interoperabilidad externa con LDS: acceso al mercado europeo
+### Interoperabilidad externa con LDS: acceso al mercado europeo
 
 La alineación del EDNEL con el Language Data Space (LDS) amplía su impacto económico:
 
@@ -143,11 +137,10 @@ La alineación del EDNEL con el Language Data Space (LDS) amplía su impacto eco
 
 En términos de negocio, esta interoperabilidad convierte al EDNEL en el nodo principal del español en el mercado europeo de datos, posicionándolo estratégicamente dentro de la Nueva Economía de la Lengua.
 
----
 
-## 1.9. Casos de Uso Principales
+## Casos de Uso Principales (Pendiente de adaptar)
 
-### 1.9.1. Modelo de Lenguaje en Español
+### Modelo de Lenguaje en Español
 
 El caso de uso describe la necesidad de habilitar un entorno seguro, gobernado e interoperable que permita entrenar modelos de inteligencia artificial en lengua española utilizando grandes corpus de datos audiovisuales (audio y vídeo) y de texto de alta calidad.
 
@@ -238,7 +231,7 @@ El caso de uso demuestra:
 - La importancia de un ecosistema que habilita IA soberana en español, alineada con los principios europeos.
 - La creación de activos estratégicos reutilizables para múltiples servicios públicos y privados.
 
-### 1.9.2. Localización y expansión de empresas hispanohablantes en Europa
+### Localización y expansión de empresas hispanohablantes en Europa
 
 Creación de una plataforma de datos lingüísticos en español, conectada e interoperable con el European Language Data Space (ELDS), orientada a resolver barreras lingüísticas, terminológicas y culturales que enfrentan las empresas hispanohablantes al expandirse en Europa.
 
@@ -313,7 +306,7 @@ d) Fomento de servicios inteligentes basados en IA: habilita chatbots multiling�
 
 e) Incremento de competitividad: permite a empresas hispanohablantes reducir costes, riesgos y tiempos de entrada a mercados europeos.
 
-### 1.9.3. Repositorio abierto de terminología especializada en español
+### Repositorio abierto de terminología especializada en español
 
 Creación de un repositorio abierto, colaborativo y estandarizado de terminología especializada en español, integrado dentro del Espacio de Datos de la Nueva Economía de la Lengua.
 
@@ -384,9 +377,10 @@ d) Soberanía lingüística y científica: refuerza el papel del español como l
 e) Fomento de innovación y competitividad: habilita aplicaciones en educación, investigación, industria, IA y documentación técnica.
 
 ---
----
 
-## 1.3. Autoridad de Gobernanza (Data Space Authority)
+**( Pendiente de ubicar en el capítulo correspondiente )**
+
+## Autoridad de Gobernanza (Data Space Authority)
 La entidad responsable de la operación, mantenimiento y supervisión del cumplimiento de este Rulebook es el **Centro Nacional de Industrias del Español (CNIE)** `(Ref. Pliego: Apartado 3.2)`.
 
 El CNIE actúa con un doble rol en el ecosistema `(Ref. Pliego: Apartado 6.1)`:
@@ -407,7 +401,7 @@ Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
 
 **El CNIE se compromete** a operar con transparencia, imparcialidad y en estricto cumplimiento de la normativa vigente, garantizando la integridad del espacio y la protección de los derechos de todos los participantes `(Ref. Pliego: Apartado 6.1.3 - Dimensión Legal)`.
 
-## 1.4. Comite de dirección
+## Comite de dirección
 
 Es el órgano responsable de supervisar y dirigir la ejecución estratégica del Espacio de Datos de la Nueva Economía de la Lengua (EDNEL). Está compuesto por representantes del Centro Nacional de Industrias del Español (CNIE) y otros actores clave del ecosistema lingüístico y tecnológico:
 
@@ -417,16 +411,14 @@ Es el órgano responsable de supervisar y dirigir la ejecución estratégica del
 
 * Miembros del equipo de supervisión legal y cumplimiento
 
-## 1.5. Taxonomía de roles
+## Taxonomía de roles
 
 * **Participante:** Entidad legal (empresa, universidad, administración) que ha superado el proceso de admisión y posee una Credencial Verificable válida `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
 * **Proveedor de Datos (Data Provider):** Participante que publica la oferta de un activo de datos en el catálogo. Es el responsable de definir las políticas de uso y garantizar la propiedad intelectual `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
 * **Consumidor de Datos (Data Consumer):** Participante que negocia un contrato digital para adquirir derechos de acceso y uso sobre un activo de datos `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
 * **Intermediador:** Rol técnico o de negocio que facilita servicios auxiliares (ej. limpieza de corpus, anonimización, certificación) dentro del espacio `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
   
-##  1.6. Glosario de Términos 
+##  Glosario de Términos 
 
 * **Conector (Paquete Conector):** Componente de software certificado que actúa como puerta de enlace para el intercambio soberano de datos. Puede desplegarse en modalidad *On-Premise* (infraestructura del participante) o *SaaS* (nube del CNIE) `(Ref. Pliego: Apartado 6.1.8)`.
 * **Activo de Datos:** Cualquier recurso digital (corpus texto/audio, modelo algorítmico, léxico) ofrecido en el catálogo bajo condiciones contractuales específicas.
-
----
