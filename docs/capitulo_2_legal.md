@@ -1,7 +1,8 @@
 # CAPÍTULO 2: MARCO LEGAL Y DE CONFIANZA
+
 ---
 
-## 2.1. El Acuerdo de Adhesión (Accession Agreement)
+## El Acuerdo de Adhesión (Accession Agreement)
 La participación en el EDNEL se formaliza mediante la firma electrónica de un único **Acuerdo de Adhesión** con la Autoridad del Espacio (CNIE).
 
 * **Modelo de Contratación:** Se establece un esquema de "Club" o Ecosistema. Los participantes no firman contratos bilaterales entre sí para unirse, sino que se adhieren a este *Rulebook*.
@@ -79,7 +80,7 @@ El acuerdo establece:
 
 [Contrato de adhesión](capitulo_5_confianza_y_anexos.md#4-el-acuerdo-de-adhesi%C3%B3n-accession-agreement)
 
-## 2.2. Soberanía del Dato y Propiedad Intelectual
+## Soberanía del Dato y Propiedad Intelectual
 
 El principio fundamental del EDNEL es que la compartición de datos no implica la cesión de la propiedad, sino la licencia de uso bajo condiciones específicas.
 
@@ -96,11 +97,11 @@ La aportación de datos al Espacio no supone transferencia de los **derechos de 
 
 **No Exclusividad:** La publicación de un activo en el EDNEL no impide al Proveedor explotarlo por otros canales.
 
-## 2.3. Publicación de Activos
+## Publicación de Activos
 
 Cada activo (corpus, vocabulario, modelo o herramienta/servicio) publicado en el catálogo debe incluir metadatos obligatorios que contengan: identificador, titular,la **política de uso** (*conditions-of-use*), la licencia aplicable, esquema semántico, y contrato o template asociado. La ausencia de metadatos impide la publicación.
 
-## 2.4. Políticas de Uso y Licencias.
+## Políticas de Uso y Licencias.
 
 Cada activo publicado en el catálogo debe incluir una **pólitica de uso** que defina los derechos y obligaciones del consumidor respecto al activo. Esta política se asocia al activo mediante metadatos y se aplica automáticamente durante el proceso de intercambio peer-to-peer, a través del conector del proveedor.
 
@@ -111,7 +112,7 @@ La política se interpreta y se aplica antes de permitir cualquier transferencia
 2. **Para qué** (ej. "Solo investigación", "Entrenamiento de IA", "Atribución obligatoria", "Prohibido uso comercial").
 3. **Durante cuánto tiempo** (ej. "30 días").
 
-### 2.4.1. Políticas de Uso Estandarizadas (ODRL)
+### Políticas de Uso Estandarizadas (ODRL)
 Para automatizar la negociación de contratos, las reglas legales deben expresarse en lenguaje **ODRL (Open Digital Rights Language)**. Se definen las siguientes políticas marco que los participantes pueden seleccionar:
 
 | ID Política | Nombre Descriptivo        | Descripción Legal (Resumen)                                                                                                                                           | Código ODRL                          |
@@ -121,11 +122,11 @@ Para automatizar la negociación de contratos, las reglas legales deben expresar
 | **POL-N3**  | *Ventana Temporal*        | El derecho de uso expira automáticamente tras un periodo definido (ej. 30 días) desde la descarga.                                                                    | `/code/policies/n3_timelimit.json`   |
 | **POL-N4**  | *Atribución Obligatoria*  | Se permite el uso comercial, condicionado a citar la fuente original en los metadatos del producto resultante.                                                        | `/code/policies/n4_attribution.json` |
 
-## 2.5. Derechos sobre Derivados y Modelos
+## Derechos sobre Derivados y Modelos
 
 Salvo pacto en contrario, los resultados derivados (modelos, índices, anotaciones) serán propiedad del desarrollador del derivado, pudiendo su explotación estar sujeta a obligaciones contractuales frente al proveedor original (por ejemplo, remuneración, atribución, limitaciones comerciales). Siempre que el derivado contenga datos personales, sus responsables deberán respetar las obligaciones de protección de datos que correspondan.
 
-## 2.6. Protección de Datos y Ética (RGPD/AI Act)
+## Protección de Datos y Ética (RGPD/AI Act)
 El EDNEL opera en estricto cumplimiento de la normativa europea y nacional.
 
 Para activos que incluyan datos personales o sensibles, el proveedor y el consumidor deberán aplicar medidas de privacidad por diseño y por defecto; la Autoridad podrá imponer técnicas PET (anonimización, pseudonimización, enclaves seguros, procesamiento in-situ) y limitaciones de exportación de datos si procede
@@ -134,14 +135,14 @@ Para activos que incluyan datos personales o sensibles, el proveedor y el consum
     * Para el **Corpus Oral**, es obligatorio aplicar técnicas de anonimización de voz y supresión de metadatos identificativos antes de su ingesta `(Ref. Pliego: Apartado 6.2.4.3)`.
 * **Ética de la IA:** Los participantes se comprometen a utilizar los datos para entrenar modelos que respeten los principios de no discriminación y transparencia de la *AI Act* europea.
 
-## 2.7. Responsabilidad e Indemnización
+## Responsabilidad e Indemnización
 * **Entre Pares:** El proveedor garantiza que ostenta los derechos necesarios sobre los datos que aporta y exime a otros participantes de reclamaciones por infracción de IPR debidas a la titularidad de esos datos; en tal caso, el proveedor asumirá responsabilidad e indemnizará a las partes afectadas, salvo que el contrato de asset indique limitaciones específicas.
 
 * **De la Autoridad:** El CNIE, como operador de la plataforma, no inspecciona los datos y se exime de responsabilidad sobre el contenido intercambiado peer-to-peer, limitando su responsabilidad a la disponibilidad de los servicios centrales (Catálogo, Identidad) `(Ref. Pliego: Apartado 6.1.3 - Dimensión Legal)`.
 
-## 2.8. Legistación Aplicable al Espacio de Datos (Propuesta a espera de hablar con Legal)
+## Legistación Aplicable al Espacio de Datos (Propuesta a espera de hablar con Legal)
 
-### 2.8.1. Normativa europea de obligado cumplimiento
+### Normativa europea de obligado cumplimiento
 
 #### Reglamento General de Protección de Datos (GDPR – Reglamento (UE) 2016/679)
 
@@ -199,7 +200,7 @@ Aplicable a entidades esenciales o importantes involucradas en la infraestructur
 
 Obligatoria cuando participen administraciones públicas que aporten recursos lingüísticos, terminológicos o documentales.
 
-### 2.8.2. Legislación española aplicable
+### Legislación española aplicable
 
 #### Ley Orgánica de Protección de Datos y Garantía de Derechos Digitales (LO 3/2018)
 
@@ -229,7 +230,7 @@ Aplica a datasets aportados por administraciones públicas o entidades del secto
 
 Aplica según el tipo de participante e infraestructura utilizada.
 
-### 2.8.3 Marcos técnicos y de gobernanza internacionales aplicables
+### Marcos técnicos y de gobernanza internacionales aplicables
 
 -  LDS Rulebook (Language Data Space): asegura la interoperabilidad y confianza entre los dos espacios de datos lingüísticos.
 -  IDSA Rulebook / International Data Spaces
@@ -250,5 +251,3 @@ IDSA — IDSA Rulebook (principios y estructura de rulebook).
 Sitra — Rulebook model / IPR Q&A (guidance sobre IPR en data spaces). 
 
 Datos.gob.es — nota sobre LDS operativa y soberanía.**
-
----

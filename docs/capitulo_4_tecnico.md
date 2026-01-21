@@ -1,4 +1,5 @@
 # CAPÍTULO 4: MARCO TÉCNICO Y ESTÁNDARES DE INTEROPERABILIDAD
+
 ---
 
 ## Arquitectura de Referencia
@@ -15,7 +16,6 @@ En una primera fase, el marco de identidad se apoya en el modelo **DAPS (Dynamic
 5.  **Interoperabilidad garantizada**: Dataspace Protocol (alineado con EDC, IDS y LDS), DCAT-AP / JSON-LD, ODRL para políticas
 6.  **Seguridad y confianza verificable**: Autenticación mutua (mTLS), cifrado E2E y auditoría automatizada.
 
----
 
 ## Procesos técnicos fundamentales
 
@@ -85,7 +85,6 @@ El Clearing House no actúa únicamente como registro de evidencias, sino como s
 
 La Autoridad de Gobernanza utilizará esta información para garantizar la estabilidad, seguridad y confianza del espacio de datos.
 
----
 
 ## Especificaciones del Paquete Conector
 El **Conector** es el componente de software obligatorio que actúa como puerta de enlace segura para cualquier participante. Debe cumplir las siguientes especificaciones técnicas `(Ref. Pliego: Apartado 6.1.8)`:
@@ -100,7 +99,6 @@ Para garantizar la universalidad del acceso, se soportan dos topologías de desp
 1.  **Conector On-Premise (Self-Hosted):** Despliegue mediante contenedores (Docker/Kubernetes) en la infraestructura propia del Participante. Requiere IP pública estática y certificados válidos.
 2.  **Conector SaaS (Managed):** Instancia gestionada ("Connectors-as-a-Service") alojada en la infraestructura de computación del CNIE (Lote 4), facilitando el acceso a entidades con menor madurez digital.
 
----
 
 ## Servicios Técnicos Centrales de la Autoridad de Gobernanza
 
@@ -115,7 +113,6 @@ La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes serv
 
 Estos servicios constituyen la infraestructura mínima obligatoria para garantizar la coherencia, seguridad, supervisión y operabilidad del espacio de datos.
 
----
 
 ## Requisitos Técnicos Mínimos de los Participantes
 
@@ -127,7 +124,6 @@ Cada participante del EDNEL deberá disponer, como mínimo, de la siguiente infr
 * Un verificador de credenciales
 * Un punto de integración con sus sistemas internos de datos o servicios
 
----
 
 ## Estándares Semánticos y Metadatos
 Para evitar silos de información y garantizar la descubribilidad de los recursos lingüísticos, se imponen los siguientes estándares de interoperabilidad semántica `(Ref. Pliego: Apartado 6.1.9 y 6.1.12.1)`:
@@ -147,7 +143,6 @@ Para evitar silos de información y garantizar la descubribilidad de los recurso
 ### Políticas de Uso
 * Las políticas de uso asociadas a cada recurso se definirán utilizando el estándar **ODRL** (Open Digital Rights Language) `(Ref. Pliego: Apartado 6.1.8.5)`.
 
----
 
 ## Marco de Identidad y Confianza (Trust Framework)
 La seguridad del espacio se basa en una cadena de confianza criptográfica, alineada con los requisitos de **Gaia-X** y el futuro reglamento **eIDAS 2** `(Ref. Pliego: Apartado 5.18.3 y 6.1.11.3)`.
@@ -156,7 +151,6 @@ La seguridad del espacio se basa en una cadena de confianza criptográfica, alin
 1.  **Credenciales:** Uso de **Verifiable Credentials (VCs)** firmadas por Emisores de Confianza (Trust Anchors) para acreditar atributos (ej. "Entidad certificada ENS", "Universidad").
 2.  **Certificados de Transporte:** Uso obligatorio de certificados **X.509** emitidos por una CA reconocida para establecer túneles mTLS (autenticación mutua) entre conectores.
 
----
 
 ## Seguridad y Cumplimiento Normativo (ENS)
 Toda la infraestructura central y los conectores gestionados (SaaS) deben cumplir con los requisitos del **Esquema Nacional de Seguridad (ENS)** `(Ref. Pliego: Apartado 5.18.1.1)`.
@@ -170,7 +164,6 @@ Toda la infraestructura central y los conectores gestionados (SaaS) deben cumpli
 * **Separación de datos personales y no personales:** Implementación de técnicas de anonimización y pseudonimización para proteger la privacidad de los usuarios.
 * **Protección de Datos Personales:** Cumplimiento con el **RGPD** y la **LOPDGDD**, incluyendo mecanismos para la gestión de consentimientos y derechos ARCO.
 
----
 
 ## Gobierno técnico del Dato y de los derivados
 
@@ -183,7 +176,6 @@ El EDNEL establece reglas técnicas para gobernar:
 
 Los activos derivados estarán sujetos a las mismas obligaciones de soberanía, trazabilidad y control de uso que los datos originales.
 
----
 
 ## Interoperabilidad con Ecosistemas Externos e iniciativas Europeas
 
@@ -216,7 +208,6 @@ Además, se asegura la compatibilidad técnica con los marcos de referencia más
 * Mismo protocolo de contrato
 * Intercambio directo de activos
 
----
 
 ## Gobernanza Técnica y Evolución del Ecosistema
 
@@ -225,6 +216,3 @@ Para asegurar la evolución sostenible del EDNEL, se establecerá un marco de go
 * **Proceso de Certificación de Conectores:** Mecanismo formal para certificar que los conectores cumplen con las especificaciones técnicas y de seguridad establecidas.
 * **Estrategia de Actualización:** Planificación de revisiones periódicas para incorporar nuevas tecnologías y estándares emergentes en el ámbito de los espacios de datos.
 * **Soporte y Formación:** Programas de capacitación para los participantes sobre el uso correcto del conector y las mejores prácticas de seguridad y gestión de datos.
-
----
-

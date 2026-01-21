@@ -1,26 +1,29 @@
 # CAPÍTULO 5: MARCO DE CONFIANZA (TRUST FRAMEWORK)
+
 ---
 
-## 5.1. Lista de Anclas de Confianza (Trust Anchors)
+## Lista de Anclas de Confianza (Trust Anchors)
 Para garantizar una identidad federada y segura, el EDNEL no actúa como único validador, sino que se apoya en una red de **Anclas de Confianza**. Solo se aceptarán Credenciales Verificables (VCs) y certificados emitidos por entidades presentes en la *Trusted List* del espacio `(Ref. Pliego: Apartado 6.1.5 y 6.1.11.3)`.
 
 Se reconocen dos categorías de emisores:
 1.  **Proveedores Cualificados (eIDAS):** Prestadores de Servicios de Confianza Cualificados (QTSP) reconocidos en la lista europea (EUTL), válidos para la identificación legal de organizaciones (ej. FNMT, Camerfirma).
 2.  **Emisores de Atributos de Negocio:** Entidades delegadas por el CNIE para certificar atributos específicos del sector (ej. "Entidad Académica Acreditada", "Miembro del PERTE").
 
-## 5.2. Gestión de Identidad Descentralizada (eIDAS 2)
+## Gestión de Identidad Descentralizada (eIDAS 2)
 El EDNEL se alinea con la arquitectura de referencia de la Cartera de Identidad Digital de la UE (EUDI Wallet) `(Ref. Pliego: Apartado 5.18.3)`.
 
 * **Identificadores:** Cada participante debe estar identificado mediante un **DID (Decentralized Identifier)** único, resoluble y persistente.
 * **Credenciales Verificables (VCs):** Los participantes deben presentar VCs firmadas criptográficamente para acceder a los servicios. El formato de las credenciales seguirá el modelo de datos de **W3C** y **Gaia-X**.
 
-## 5.3. Certificación de Componentes y Software
+## Certificación de Componentes y Software
 Para mantener la integridad de la red, no se permite la conexión de software no verificado.
 
 * **Homologación del Conector:** Todo Conector que desee unirse a la red productiva debe superar el **Test de Interoperabilidad** automatizado en el entorno de Sandbox `(Ref. Pliego: Apartado 6.1.11.1)`.
 * **Atestación Remota (Remote Attestation):** Los conectores deben implementar mecanismos técnicos que permitan verificar criptográficamente la integridad de su código en tiempo de ejecución, garantizando que no han sido manipulados por el participante para evadir las políticas de uso `(Ref. Pliego: Apartado 6.1.8.7)`.
 
 ---
+
+(CAMBIAR POR ACUERDO Y CONDICIONES)
 
 # ANEXO I: CONTRATO DE ADHESIÓN AL ESPACIO DE DATOS DE LA NUEVA ECONOMÍA DE LA LENGUA
 
@@ -38,9 +41,9 @@ con domicilio en ..., CIF/NIF ..., representada en este acto por ..., en su cali
 
 Ambas partes, reconociéndose capacidad legal suficiente, acuerdan suscribir el presente:
 
-## CONTRATO DE ADHESIÓN AL ESPACIO DE DATOS
+### CONTRATO DE ADHESIÓN AL ESPACIO DE DATOS
 
-### 1. Objeto del contrato
+#### 1. Objeto del contrato
 
 El presente contrato tiene por objeto regular la adhesión del Participante al Espacio de Datos, estableciendo:
 
@@ -52,7 +55,7 @@ El presente contrato tiene por objeto regular la adhesión del Participante al E
 
 - La supervisión y competencias de la Autoridad de Gobernanza.
 
-### 2. Rol del participante en el Ecosistema
+#### 2. Rol del participante en el Ecosistema
 
 El Participante declara integrarse en el Espacio de Datos con el rol de:
 
@@ -66,7 +69,7 @@ El Participante declara integrarse en el Espacio de Datos con el rol de:
 
 El rol declarado determina las responsabilidades específicas en materia de acceso, provisión, trazabilidad, seguridad y calidad del dato.
 
-### 3. Aceptación del marco de gobernanza
+#### 3. Aceptación del marco de gobernanza
 
 El Participante acepta íntegramente:
 
@@ -74,24 +77,23 @@ El Participante acepta íntegramente:
 - Las normas, políticas, procedimientos y estándares adoptados y aprobados por la Autoridad de Gobernanza.
 - Las decisiones, instrucciones y resoluciones que esta emita durante la vigencia del contrato.
 
-### 4. Derechos y responsabilidades del Participante
+#### 4. Derechos y responsabilidades del Participante
 
 El Participante se obliga a:
 
-#### 4.1. Cumplimiento técnico y operativo
-
+##### 4.1. Cumplimiento técnico y operativo
 - Seguir los estándares técnicos, semánticos y de interoperabilidad publicados por la Autoridad de Gobernanza.
 - Integrarse con las APIs, catálogos, servicios federados y mecanismos de trazabilidad del Espacio.
 - Mantener procesos internos de seguridad y protección adecuados.
 
-#### 4.2. Calidad y veracidad del dato
+##### 4.2. Calidad y veracidad del dato
 
 *Cuando actúe como proveedor:*
 
 - Garantizar la calidad, integridad, actualización y clasificación de los datos que ponga a disposición.
 - Proporcionar metadatos, políticas de acceso y licencias asociadas.
 
-#### 4.3. Uso legítimo del dato
+##### 4.3. Uso legítimo del dato
 
 *Cuando actúe como consumidor:*
 
@@ -99,12 +101,12 @@ El Participante se obliga a:
 - Respetar las reglas de acceso, uso, redistribución y transformación definidas por el proveedor.
 - Evitar cualquier práctica de reidentificación o uso abusivo.
 
-#### 4.4. Evidencias y trazabilidad
+##### 4.4. Evidencias y trazabilidad
 
 - Registrar, conservar y poner a disposición evidencias de provisión, acceso, uso y transformación de los datos.
 - Integrarse con los sistemas de auditoría del ecosistema.
 
-### 5. Protección de datos, privacidad y consentimiento
+#### 5. Protección de datos, privacidad y consentimiento
 
 El Participante se compromete a cumplir con:
 
@@ -113,7 +115,7 @@ El Participante se compromete a cumplir con:
 - La correcta gestión del consentimiento digital cuando los datos lo requieran.
 - La notificación inmediata de incidentes de seguridad que afecten a la integridad o confidencialidad del dato.
 
-###  6. Interoperabilidad y estándares
+#### 6. Interoperabilidad y estándares
 
 El Participante acepta:
 
@@ -121,7 +123,7 @@ El Participante acepta:
 - Asegurar compatibilidad con catálogos federados, brokers, conectores y servicios de confianza.
 - Participar en procesos de certificación o validación técnica cuando la Autoridad de Gobernanza lo requiera.
 
-### 7. Auditoría, supervisión y control
+#### 7. Auditoría, supervisión y control
 
 El Participante acepta que la Autoridad de Gobernanza:
 
@@ -132,7 +134,7 @@ El Participante acepta que la Autoridad de Gobernanza:
 
 En caso de incumplimiento grave o reiterado, podrá aplicarse la suspensión o revocación del acceso.
 
-### 8. Propiedad intelectual y licencias
+#### 8. Propiedad intelectual y licencias
 
 El Participante declara:
 
@@ -141,18 +143,18 @@ El Participante declara:
 - Respetar los derechos que asisten a proveedores y terceros
 - Los datos recibidos podrán emplearse únicamente en los términos establecidos en este contrato y en las reglas asociadas a cada conjunto de datos.
 
-### 9. Condiciones de adhesión, permanencia y baja
+#### 9. Condiciones de adhesión, permanencia y baja
 
 El Participante se adhiere al Espacio de Datos aceptando todas las cláusulas del presente contrato, las políticas de gobernanza vigentes, y declara haber leído y aceptar el Marco de Gobernanza (Rulebook) del EDNEL en su versión vigente [Rulebook v1.0.0](), el cual forma parte integrante de este contrato.
 
-#### 9.1. Adhesión
+##### 9.1. Adhesión
 La adhesión surtirá efecto una vez firmado el contrato y superados los requisitos de certificación técnica y organizativa.
 
-#### 9.2. Permanencia
+##### 9.2. Permanencia
 
 El Participante deberá cumplir las obligaciones derivadas de su rol durante toda su permanencia en el espacio.
 
-#### 9.3. Suspensión
+##### 9.3. Suspensión
 
 La Autoridad de Gobernanza podrá suspender temporalmente el acceso en caso de:
 
@@ -161,7 +163,7 @@ La Autoridad de Gobernanza podrá suspender temporalmente el acceso en caso de:
 - Uso indebido de datos
 - Falta de cooperación en auditorías
 
-#### 9.4. Baja
+##### 9.4. Baja
 
 El Participante podrá darse de baja notificándolo por escrito.
 Tras la baja deberá:
@@ -170,7 +172,7 @@ Tras la baja deberá:
 - Cesar su uso
 - Conservar evidencias cuando así lo exija la normativa.
 
-### 10. Declaración ética
+#### 10. Declaración ética
 
 El Participante se compromete a:
 
@@ -179,11 +181,11 @@ El Participante se compromete a:
 - Respetar los derechos fundamentales y los valores europeos,
 aplicar principios de conducta ética en desarrollos de IA y automatización.
 
-### 11. Entrada en vigor y duración
+#### 11. Entrada en vigor y duración
 
 El contrato tendrá vigencia desde su firma y duración indefinida, pudiendo ser actualizado por la Autoridad de Gobernanza mediante notificación formal y proceso aprobado por el marco de gobernanza.
 
-### 12. Resolución de conflictos
+#### 12. Resolución de conflictos
 
 Las partes acuerdan:
 

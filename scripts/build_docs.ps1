@@ -9,18 +9,18 @@ Write-Host "Building documentation..."
 
 # 1. Create aggregated Markdown file
 Write-Host "Aggregating content..."
-"---" | Out-File -FilePath $tempFile -Encoding utf8
-"title: EDNEL Rulebook" | Out-File -FilePath $tempFile -Encoding utf8 -Append
-"date: $(Get-Date -Format 'yyyy-MM-dd')" | Out-File -FilePath $tempFile -Encoding utf8 -Append
-"---" | Out-File -FilePath $tempFile -Encoding utf8 -Append
-"" | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#"---" | Out-File -FilePath $tempFile -Encoding utf8
+#"title: EDNEL Rulebook" | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#"date: $(Get-Date -Format 'yyyy-MM-dd')" | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#"---" | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#"" | Out-File -FilePath $tempFile -Encoding utf8 -Append
 
-# Add README (Introduction)
-if (Test-Path "README.md") {
-    Write-Host "Adding README.md"
-    Get-Content "README.md" -Encoding utf8 | Out-File -FilePath $tempFile -Encoding utf8 -Append
-    "`n`n" | Out-File -FilePath $tempFile -Encoding utf8 -Append
-}
+## Add README (Introduction)
+#if (Test-Path "README.md") {
+#    Write-Host "Adding README.md"
+#    Get-Content "README.md" -Encoding utf8 | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#    "`n`n" | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#}
 
 # Add Chapters from docs/
 if (Test-Path $docsDir) {

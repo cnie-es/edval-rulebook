@@ -1,9 +1,10 @@
 # CAPÍTULO 3: MARCO OPERATIVO Y PROCESOS
+
 ---
 
-## 3.1. Taxonomía de Roles 
+## Taxonomía de Roles 
 
-### 3.1.1. Roles de Gobernanza
+### Roles de Gobernanza
 
 Son roles exclusivos de la Autoridad de Gobernanza. No manejan datos de los participantes y se centran en la operación, supervisión, administración y control del espacio de datos.
 
@@ -23,7 +24,7 @@ Son roles exclusivos de la Autoridad de Gobernanza. No manejan datos de los part
 
 * *Gestor de Contenidos*: Crea, edita y elimina contenidos del portal público.
 
-### 3.1.2. Roles de Participantes
+### Roles de Participantes
 
 Asignables por cada entidad participante a sus miembros. Permiten interactuar con los datos, conectores, ofertas, contratos y procesos del espacio.
 
@@ -49,22 +50,21 @@ Asignables por cada entidad participante a sus miembros. Permiten interactuar co
 
 * *Administrador Financiero*: Gestiona operaciones económicas vinculadas a contratos, facturación y pagos; accede a todas las transferencias y negociaciones.
 
-### 3.1.3 Roles de Usuario Público
+### Roles de Usuario Público
 
 * *Usuario no autenticado*: Accede al portal público, consulta contenidos y puede explorar el catálogo público de datos.
 
----
 
-## 3.2. Adhesión al Espacio de Datos: Derechos y Obligaciones
+## Adhesión al Espacio de Datos: Derechos y Obligaciones
 Los términos de adhesión definen las reglas básicas que rigen la relación entre los Participantes (Proveedores, Consumidores e Intermediarios) y la Autoridad del Espacio (CNIE), incluyendo derechos, obligaciones, limitaciones de responsabilidad, y consecuencias por incumplimiento. Esta sección se inspira en buenas prácticas de espacios de datos similares y adapta los principios del *Language Data Space* (LDS Beta) para el contexto del EDNEL `(Ref. Pliego: Apartado 6.1.11)`.
 
-### 3.2.1. Derechos del Participante
+### Derechos del Participante
 1.  **Acceso a Metadatos:** El Participante tiene derecho a publicar y mantener metadatos de sus activos en el Catálogo Central para facilitar su descubribilidad.
 2.  **Negociación de Contratos:** El Participante puede negociar acuerdos de uso con otros miembros del Espacio mediante su Conector y aceptar o proponer condiciones (políticas ODRL) de uso y explotación.
 3.  **Reclamación y Soporte:** Derecho a recibir soporte por parte del Operador de Servicios Centrales en las incidencias relacionadas con conectividad, autenticación y seguridad, según los SLA vigentes.
 4.  **Protección de la Propiedad Intelectual:** Conservación de derechos de autor y licencias sobre los activos publicados, sujetos a las condiciones definidas en el Acuerdo de Adhesión y en las políticas ODRL publicadas.
 
-### 3.2.2. Obligaciones del Participante
+### Obligaciones del Participante
 1.  **Cumplir la Legislación Aplicable:** Respetar normativa nacional, UE y sectorial aplicable (protección de datos, propiedad intelectual, export control, etc.).
 2.  **Identidad y Credenciales:** Mantener la veracidad de la información KYC y presentar las credenciales verificables (VCs) requeridas para operar en el Espacio. El Conector debe almacenar y presentar VCs y certificados X.509 válidos para mTLS `(Ref. Pliego: Apartado 6.1.11.3)`. Además, será obligatorio para todos los participantes habilitar mecanismos de autenticación en dos factores (2FA) antes de acceder a cualquier funcionalidad del Espacio de Datos.
 3.  **Políticas de Uso y Metadatos:** Publicar políticas ODRL correctas y metadatos conformes con DCAT-AP y JSON-LD; verificar que los `uid`, `profile` y `permission` se ajustan a los patrones del repositorio (`code/policies/`).
@@ -72,25 +72,24 @@ Los términos de adhesión definen las reglas básicas que rigen la relación en
 5.  **Confidencialidad y Buenas Prácticas:** Guardar confidencialidad sobre información clasificada y emplear medidas técnicas y organizativas para preservar la seguridad de los datos.
 6.  **Responsabilidad y Auditoría:** Permitir auditorías técnicas cuando la Autoridad lo solicite, y mantener registros (logs) en el Conector que garanticen trazabilidad y no repudio (Clearing House) `(Ref. Pliego: Apartado 6.1.10)`.
 
-### 3.2.3. Limitaciones, Exenciones y Responsabilidades
+### Limitaciones, Exenciones y Responsabilidades
 1.  **Limitación de Responsabilidad:** La Autoridad y los Operadores no asumen responsabilidad por el contenido de los activos publicados por terceros; cada Participante es responsable de su propio contenido y cumplimiento de licencias.
 2.  **Indemnización:** Los Participantes se comprometen a indemnizar a la Autoridad por reclamaciones derivadas de su incumplimiento legal o contractual.
 3.  **SLA y Soporte:** La disponibilidad y soporte de componentes centrales se describen en SLA; sin embargo, la Autoridad puede limitar servicios ante abuso o compromiso de seguridad.
 
-### 3.2.4. Suspensión y Rescisión
+### Suspensión y Rescisión
 1.  **Suspensión Temporal:** La Autoridad puede suspender temporalmente el acceso de un Participante en caso de riesgo inminente (vulnerabilidades, fraude, compromisos de seguridad) hasta la resolución del incidente.
 2.  **Expulsión Definitiva:** Tras un proceso de investigación y notificación, la Autoridad podrá expulsar a un Participante por incumplimiento grave, con reserva de acciones legales y la revocación de credenciales (Offboarding). La expulsión no exime al Participante de obligaciones preexistentes.
 3.  **Consecuencias Operativas:** La suspensión o expulsión conlleva la revocación de VCs, baja en el Catálogo y la obligación de ejecutar las acciones de eliminación/revocación requeridas por las políticas aplicables (ej. `delete` duty en ODRL con `elapsedTime`).
 
-### 3.2.5. Disputa y Resolución
+### Disputa y Resolución
 1.  **Canales de Reclamación:** Los Participantes deben usar los canales oficiales del CNIE para reclamar o escalar incidencias; el Comité de Dirección actúa como órgano de resolución.
 2.  **Jurisdicción y Legislación:** Las controversias se resolverán conforme al ordenamiento jurídico aplicable y a lo acordado en el Acuerdo de Adhesión.
 
 > Nota: Este apartado adapta principios generales de los Términos y Condiciones del *Language Data Space* (LDS Beta) para nuestro contexto, priorizando coherencia con el `Ref. Pliego` y con los estándares técnicos y legales aquí descritos. Cualquier cambio que afecte la interpretación legal del documento deberá revisarse por el Comité de Dirección y por los asesores legales del CNIE.
 
----
 
-## 3.3. Proceso de Admisión (Onboarding)
+## Proceso de Admisión (Onboarding)
 El proceso para convertirse en Participante del EDNEL consta de cuatro fases secuenciales obligatorias `(Ref. Pliego: Apartado 6.1.11.2)`:
 
 ### Fase 1: Identificación y Registro (KYC)
@@ -112,24 +111,23 @@ El Solicitante debe seleccionar una de las dos modalidades de despliegue permiti
 * Tras superar la homologación, el Emisor de Confianza expide una **Credencial Verificable (VC)** vinculada al DID (Identidad Digital) del participante.
 * El Participante carga esta credencial en su Conector para acceder al Entorno de Producción.
 
----
 
-## 3.4. Ciclo de Vida del Intercambio de Datos
+## Ciclo de Vida del Intercambio de Datos
 Los participantes operan bajo el modelo "Publish-Find-Bind" (Publicar-Buscar-Vincular), ejecutado de forma descentralizada:
 
-### 3.4.1. Publicación (Publish)
+### Publicación (Publish)
 * El Proveedor registra los metadatos de su activo (título, descripción, idioma, formato) en su Conector local.
 * El Conector sincroniza automáticamente estos metadatos con el **Catálogo Central** (Broker) para hacerlos descubribles, sin subir los datos reales `(Ref. Pliego: Apartado 6.1.6.2)`.
 * Para cada activo se publican: metadatos descriptivos(mencionados en el punto anterior), condiciones de uso y licencia, restricciones (p. ej., solo investigación / no comercial),requisitos de seguridad y privacidad, posibles condiciones económicas (aunque el pago se hará fuera del espacio).
 * Esta información es accesible a través de los conectores y del Marketplace.
 
-### 3.4.2. Descubrimiento y solicitud
+### Descubrimiento y solicitud
 
 * El Consumidor busca activos en el catálogo (por idioma, dominio, tipo de recurso, licencia, precio…).
 * Selecciona el activo y envía una solicitud de acceso a través de su conector.
 * El Intermediario / Marketplace registra la solicitud y la asocia a la oferta del Proveedor.
 
-### 3.4.3. Verificación de elegibilidad e identidad
+### Verificación de elegibilidad e identidad
 
 Antes de negociar:
 
@@ -137,8 +135,8 @@ Antes de negociar:
 * Se comprueba el rol (proveedor, consumidor) y el cumplimiento de requisitos (p.ej. entidad académica, empresa, organismo público).
 * Se valida la identidad mediante las credenciales verificables (VCs) almacenadas en los conectores.
 * Solo si ambas partes cumplen los requisitos, se procede a la negociación del contrato.
-  
-### 3.4.4. Negociación (Negotiation)
+
+### Negociación (Negotiation)
 
  El Proveedor y el Consumidor, a través de los conectores, negocian un **contrato de datos**:
 
@@ -154,7 +152,7 @@ Antes de negociar:
 
 Una vez acordadas las condiciones, el contrato de datos se registra en ambos conectores y, opcionalmente, en un servicio central de evidencias gestionado por la Autoridad de Gobernanza.
 
-### 3.4.5. Confirmación de pago (si aplica)
+### Confirmación de pago (si aplica)
 
 Aunque el pago se realiza en canales externos:
 
@@ -166,7 +164,7 @@ Aunque el pago se realiza en canales externos:
 
 * Solo cuando la transacción aparece como “pago confirmado”, el conector del Proveedor puede habilitar el acceso.
 
-### 3.4.6. Evaluación de políticas y autorización
+### Evaluación de políticas y autorización
 
 Previo a cualquier transferencia o acceso:
 
@@ -205,7 +203,7 @@ Específicas de cada activo: licencia, restricciones, requisitos éticos, térmi
 Acordadas en cada contrato concreto (por ejemplo, proyecto de investigación concreto, límite de llamadas a una API, etc.).
 
 
-### 3.4.7. Transferencia y Registro (Transfer & Log)
+### Transferencia y Registro (Transfer & Log)
 * Se establece un canal seguro y cifrado punto a punto para la transferencia del activo.
 * La transacción se registra (metadatos de la operación, hash del contrato) en el **Centro de Intercambio de Información (Clearing House)** para garantizar la trazabilidad y no repudio `(Ref. Pliego: Apartado 6.1.10)`.
 
@@ -219,16 +217,14 @@ Cada transacción genera:
 
 * Estado final de la transacción (completada, parcial, cancelada)
 
----
 
-## 3.5. Salida del Espacio (Offboarding)
+## Salida del Espacio (Offboarding)
 * **Salida Voluntaria:** Mediante notificación a la Autoridad con 30 días de antelación. Implica la revocación de certificados y la baja en el Catálogo.
 * **Expulsión Forzosa:** La Autoridad revocará inmediatamente las credenciales de cualquier participante que viole el Acuerdo de Adhesión o comprometa la seguridad del ecosistema.
 * **Persistencia:** La salida no exime de las obligaciones de confidencialidad ni de los derechos de uso adquiridos legítimamente antes de la fecha de baja, salvo estipulación contraria en las políticas de uso (Cláusula de Supervivencia).
 
----
 
-## 3.6. Modelo económico
+## Modelo económico
 
 El EDNEL promueve una economía federada basada en datos, servicios, calidad y confianza, donde la cadena de valor se articula en torno a:
 
@@ -237,7 +233,7 @@ El EDNEL promueve una economía federada basada en datos, servicios, calidad y c
 - Intermediación y certificación
 - Servicios de confianza y gobernanza
 
-### 3.6.1. Actores Económicos
+### Actores Económicos
 
 **Autoridad de gobernanza**
 
@@ -263,7 +259,7 @@ Contribuyen económicamente mediante:
 - Suscripciones
 - Servicios asociados
 
-### 3.6.2. Valor en el consumo
+### Valor en el consumo
 
 El consumo de datos puede ser:
 
@@ -277,7 +273,7 @@ El modelo de coste será:
 - Suscripción temporal: Pago por acceso durante un periodo
 - Acceso por volumen: Pago según volumen de datos consumidos
 
-### 3.6.3. Servicios de valor añadido
+### Servicios de valor añadido
 
 Valor económico de los derivados, especialmente modelos de IA entrenados sobre datos lingüísticos. Incluye:
 
@@ -286,7 +282,7 @@ Valor económico de los derivados, especialmente modelos de IA entrenados sobre 
 - Royalties por uso de derivados en entornos comerciales
 - Tasas por distribución de modelos entrenados
 
-### 3.6.4. Mecanismos de remuneración
+### Mecanismos de remuneración
 
 **Monetización por volumen o tipo de dato**: precios diferenciados según sensibilidad, calidad, curación, granularidad o dominio.
 
@@ -298,7 +294,7 @@ El modelo económico incluye incentivos: descuentos, prioridad de acceso, visibi
 
 Estos incentivos buscan fomentar la participación activa para: aportar datos, mejorar calidad, enriquecer terminología...
 
-### 3.6.5. Modelos de licencia y propiedad intelectual
+### Modelos de licencia y propiedad intelectual
 
 El espacio debe soportar licencias diferenciadas:
 
@@ -316,7 +312,7 @@ Datos abiertos, aplicables a corpus públicos o terminología básica.
 
 Servicios avanzados, corpus curados, anotación experta, etc.
 
-### 3.6.6. Servicios gratuitos para participantes
+### Servicios gratuitos para participantes
 
 - Adhesión al espacio (onboarding)
 - Acceso al catálogo y búsqueda de activos
@@ -324,7 +320,7 @@ Servicios avanzados, corpus curados, anotación experta, etc.
 - Acceso al clearing house y sus servicios de trazabilidad
 - Soporte técnico básico
 
-### 3.7 Método de Pago
+### Método de Pago
 
 El Espacio de Datos no actúa como intermediario financiero, plataforma de pago ni custodio de fondos.
 Todos los pagos derivados del acceso a datos, licencias, servicios o productos derivados se realizan fuera del perímetro del Espacio, mediante acuerdos bilaterales o multilaterales entre los participantes implicados.
@@ -336,7 +332,7 @@ Los participantes pueden utilizar, de forma externa al Espacio:
 - Facturación directa entre partes
 - Otros medios acordados contractualmente
 
-### 3.8 Gestión de Transacciones
+### Gestión de Transacciones
 
 El Espacio **no impone ni gestiona** un proveedor de pagos concreto. Aunque el pago se realiza externamente, el Espacio sí registra la existencia de la transacción, exclusivamente con fines de: trazabilidad, auditoría, control de cumplimiento, resolución de disputas.
 El registro no incluye información financiera sensible, sino metadatos de transacción.
@@ -362,7 +358,7 @@ El registro no incluye información financiera sensible, sino metadatos de trans
 - *Cancelada*: la transacción se cancela antes de su finalización, conforme a lo pactado.
 
 
-### 3.9 Mecanismo de resolución de disputas
+### Mecanismo de resolución de disputas
 
 **Fase 1 – Resolución bilateral**
 
