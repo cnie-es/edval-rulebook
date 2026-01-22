@@ -3,127 +3,157 @@
 ---
 
 ## Arquitectura de Referencia
-El EDNEL implementa una arquitectura distribuida y federada, alineada con el modelo **IDS-RAM 4.0** (International Data Spaces Reference Architecture Model) y las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre) `(Ref. Pliego: Apartado 5.5 y 6.1.4)`, y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS).
+El EDNEL implementa una arquitectura distribuida y federada, alineada con los principios del **IDS-RAM** (International Data Spaces Reference Architecture Model), las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre), y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS).
 
 El EDNEL adopta como infraestructura base de referencia el ecosistema **Simpl-Open** promovido a nivel europeo, garantizando la compatibilidad con los servicios comunes de espacios de datos, en particular en los ámbitos de identidad, confianza, federación y observabilidad.
-En una primera fase, el marco de identidad se apoya en el modelo **DAPS (Dynamic Attribute Provisioning Service)** para la emisión y validación de atributos de participantes y conectores, con una estrategia de evolución hacia modelos de identidad autosoberana (SSI) basados en **Verifiable Credentials** (VCs) conforme al marco eIDAS 2.El EDNEL mantendrá un alineamiento continuo con el roadmap técnico de Simpl-Open, garantizando la compatibilidad futura de sus componentes y evitando bloqueos tecnológicos.
 
 ### Principios Arquitectónicos
-1. **Soberanía del dato** Los datos residen siempre en los sistemas del proveedor y se transfieren *Peer-to-Peer* (P2P) al Consumidor. Las políticas de uso viajan con el activo y se aplican mediante el conector.
+1. **Soberanía del dato** Los datos permanecen bajo control del proveedor en todo momento. El acceso o uso solo se permite conforme a políticas explícitas y verificables.
 2.  **Descentralización:** No existe un almacenamiento central de datos. Los activos residen en los sistemas de origen (infraestructura del Proveedor) 
 3.  **Separación de Planos:** Se distingue estrictamente entre el **Plano de Control** (gestión de identidad, metadatos, contratos, trazabilidad y políticas) y el **Plano de Datos** (transferencia del contenido real).
-4.  **Neutralidad Tecnológica:** Los componentes son agnósticos a la infraestructura subyacente (Cloud, On-Premise, Edge) `(Ref. Pliego: Apartado 5.17.2)`.
-5.  **Interoperabilidad garantizada**: Dataspace Protocol (alineado con EDC, IDS y LDS), DCAT-AP / JSON-LD, ODRL para políticas
-6.  **Seguridad y confianza verificable**: Autenticación mutua (mTLS), cifrado E2E y auditoría automatizada.
+4.  **Neutralidad Tecnológica:** El marco de gobernanza no impone tecnologías de implementación concretas, sino requisitos funcionales y normativos.
+5.  **Seguridad y confianza verificable**: Todo intercambio debe realizarse sobre una base de identidad autenticada, políticas ejecutables y trazabilidad verificable.
 
+## Componentes técnicos fundamentales
 
-## Procesos técnicos fundamentales
+El ecosistema del EDNEL se compone, como mínimo, de los siguientes tipos de componentes:
 
-### Onboarding técnico de Participantes
-Para integrarse en el EDNEL, cada Participante debe completar un proceso de onboarding técnico `(Ref. Pliego: Apartado 6.1.5)` que incluye:
-* **Instalación del conector (On-Premise o SaaS):** Configuración inicial del conector certificado.
-* **Autenticación e identidad:** Servicios centralizados de gestión de identidad y autenticación de Participantes.
-* **Pasar las pruebas automáticas del Sandbox:**: Validación de interoperabilidad y seguridad mediante un entorno de pruebas controlado. `(Ref. Pliego: Apartado 6.1.6)`.
-* **Activar autenticación 2FA:** Configuración de mecanismos de doble factor para accesos administrativos.
-* **Recepción de Credenciales Verificables oficiales:** Acreditación de atributos relevantes (ej. "Entidad certificada ENS", "Universidad").
+### Componentes de los Participantes:
+Cada Participante (Proveedor o Consumidor) debe disponer de:
+* Un **Conector** certificado que actúe como puerta de enlace segura.
+* Un sistema de gestión de **identidad, credenciales y secretos**, compatible con el marco de confianza.
+* Mecanismos de **integración** con sus sistemas internos de datos o servicios.
+* Capacidades de **control, monitoreo y registro** de sus operaciones.
 
-### Publicación y Descubrimiento de Recursos
-Los Proveedores deben seguir un proceso estandarizado para publicar sus recursos lingüísticos en el catálogo federado `(Ref. Pliego: Apartado 6.1.9)`:
+### Componentes Centrales de la Autoridad de Gobernanza:
+La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios técnicos centrales:
+* **Portal** del Espacio de Datos.
+* Servicios de **Identidad y Confianza**.
+* **Catálogo Semántico** y Servicio de **Descubrimiento**.
+* Servicio registro de evicencia (**Clearing House**).
+* Servicios de **certificación** y entorno de **pruebas**.
 
-* **Validación de formatos:** Verificación de compatibilidad con los formatos estándar de recursos lingüísticos (ej. .txt, .wav, .onnx).
-* **Validación de metadatos DCAT-AP:** Asegurar que los metadatos cumplan con el estándar DCAT-AP y estén correctamente estructurados.
-* **Asignación de políticas ODRL:** Aplicación de políticas de uso definidas en ODRL para controlar el acceso a los recursos.
-* **Sincronización automática con el catálogo central:** Actualización automática del catálogo federado con los nuevos recursos publicados.
-* **Validación semántica (cuando aplique):** Verificación de la coherencia semántica de los metadatos y recursos publicados.
+## Conector
 
-### Negociación Técnica del Contrato
+Los conectores son componentes técnicos fundamentales que actúan como puerta de enlace segura entre los participantes del EDNEL y el ecosistema. Cada participante debe desplegar un conector certificado, que garantiza la interoperabilidad técnica y la seguridad en las operaciones de intercambio de datos.
 
-La negociación sigue un flujo estándar compatible con LDS y EDC:
+Todo conector deberá:
+* Representar la identidad técnica del participante.
+* Autenticar a las partes/participantes del intercambio.
+* Evaluar y aplicar políticas antes de cada uso.
+* Gestionar contratos y autorizaciones.
+* Controlar la ejecución efectiva del acceso.
+* Registrar evidencias técnicas de cada operación.
 
-1. Solicitud
-2. Oferta
-3. Propuesta de condiciones
-4. Validación de políticas
-5. Registro del contrato en ambos conectores
-6. Validación del pago externo (Opcional)
-7. Emisión de autorización de uso
+El conector garantiza técnicamente la soberanía del dato, asegurando que los datos solo se utilicen conforme a las políticas acordadas y registrando todas las operaciones para su posterior auditoría, siendo obligatorio su uso para cualquier intercambio dentro del ecosistema.
 
-### Transferencia y Acceso Remoto
+## Obligaciones Técnicas de los Participantes
 
-Dos modalidades: (????)
+Todo participante está obligado a:
 
-**1. Transferencia segura peer-to-peer**
-
-* Cifrado TLS 1.3
-* mTLS obligatorio
-* Control de integridad
-* Evaluación previa de políticas
-
-**2. Acceso in situ (no mueve datos)**
-
-* Sandboxes
-* Infraestructura de ejecución controlada
-* Uso típico: corpus sensibles, vídeo, voz, datos biométricos
-
-### Registro y Auditoría
-
-Con el fin de garantizar la trazabilidad y el no repudio, todos los eventos relevantes se registran en el componente *Clearing House* `(Ref. Pliego: Apartado 6.1.10)`. Cada operación relevante (publicación, negociación, transferencia, acceso) genera un registro inmutable que incluye:
-
-* Hash del contrato digital
-* Identidad del consumidor
-* Fecha, hora, duración
-* Operación ejecutada (entrenamiento, descarga, inferencia)
-* Estado final (completado, cancelado, suspendido)
-  
-El Clearing House no actúa únicamente como registro de evidencias, sino como sistema central de observabilidad del ecosistema, para labores de auditoría, permitiendo:
-
-* Monitorización del estado de los conectores
-* Seguimiento de transacciones
-* Detección de patrones anómalos
-* Supervisión de cumplimiento de políticas
-* Generación de métricas de uso, rendimiento y calidad del servicio
-
-La Autoridad de Gobernanza utilizará esta información para garantizar la estabilidad, seguridad y confianza del espacio de datos.
-
-
-## Especificaciones del Paquete Conector
-El **Conector** es el componente de software obligatorio que actúa como puerta de enlace segura para cualquier participante. Debe cumplir las siguientes especificaciones técnicas `(Ref. Pliego: Apartado 6.1.8)`:
-
-### A. Requisitos Funcionales del Conector
-* **Protocolo de Comunicación:** Debe soportar **IDSCP2** (IDS Communication Protocol) o **HTTPS sobre mTLS** para asegurar el canal de datos.
-* **Motor de Políticas (Policy Engine):** Capacidad nativa para interpretar y ejecutar políticas de uso escritas en lenguaje **ODRL** (W3C), bloqueando la transferencia si no se cumplen las condiciones `(Ref. Pliego: Apartado 6.1.8.5)`.
-* **Gestión de Identidad:** Integración con carteras de identidad (Wallets) para almacenar y presentar Credenciales Verificables (VCs) y certificados X.509.
-
-### B. Modalidades de Despliegue Permitidas
-Para garantizar la universalidad del acceso, se soportan dos topologías de despliegue `(Ref. Pliego: Apartado 6.1.8 - Alojamiento)`:
-1.  **Conector On-Premise (Self-Hosted):** Despliegue mediante contenedores (Docker/Kubernetes) en la infraestructura propia del Participante. Requiere IP pública estática y certificados válidos.
-2.  **Conector SaaS (Managed):** Instancia gestionada ("Connectors-as-a-Service") alojada en la infraestructura de computación del CNIE (Lote 4), facilitando el acceso a entidades con menor madurez digital.
+* Mantener su infraestructura técnica en condiciones de seguridad y operatividad.
+* Garantizar la correcta ejecución de las políticas de uso asociadas a sus recursos.
+* Asegurar la trazabilidad de las operaciones realizadas dentro del ecosistema.
+* Someterse a procesos de certificación y auditoría técnica por parte de la Autoridad de Gobernanza.
+* Notificar incidentes de seguridad relevantes que puedan afectar al ecosistema, así como
+cooperar en la resolución de incidentes y procesos de supervisión
 
 
 ## Servicios Técnicos Centrales de la Autoridad de Gobernanza
 
 La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes servicios técnicos centrales:
 
-* Portal del Espacio de Datos
-* Servicios de Identidad y Confianza
-* Catálogo Semántico y Servicio de Descubrimiento
-* Registro de Vocabularios y Esquemas Semánticos
-* Servicio de Observabilidad y Clearing House
-* Servicios de Certificación y Sandbox
+* Portal del Espacio de Datos: punto de acceso web para la gestión administrativa, documentación y soporte a los participantes.
+* Servicios de Identidad y Confianza: gestión de identidades, credenciales y atributos de los participantes.
+* Catálogo Semántico y Servicio de Descubrimiento: repositorio centralizado de metadatos y vocabularios para facilitar la localización de recursos.
+* Registro de Vocabularios y Esquemas Semánticos: gestión de estándares semánticos utilizados en el espacio.
+* Servicio de Observabilidad y Clearing House: registro de evidencias técnicas de las operaciones realizadas.
+* Servicios de Certificación y entorno de Pruebas: mecanismos para certificar conectores y validar su conformidad técnica.
 
 Estos servicios constituyen la infraestructura mínima obligatoria para garantizar la coherencia, seguridad, supervisión y operabilidad del espacio de datos.
 
 
-## Requisitos Técnicos Mínimos de los Participantes
+## Marco de identidad, atributos y confianza
 
-Cada participante del EDNEL deberá disponer, como mínimo, de la siguiente infraestructura técnica, constituyendo el stack mínimo obligatorio para operar dentro del ecosistema `(Ref. Pliego: Apartado 6.1.7)`:
+El EDNEL establece un marco descentralizado de identidad que garantiza:
 
-* Un Conector certificado
-* Un almacén de credenciales y secretos
-* Un sistema de gestión de identidad compatible con el marco de confianza
-* Un verificador de credenciales
-* Un punto de integración con sus sistemas internos de datos o servicios
+* Identificación verificable de organizaciones y componentes, para la admisión de participantes.
+* Acreditación de atributos relevantes (jurídicos, técnicos, sectoriales).
+* Autenticación mutua entre participantes.
+* Uso de emisores de confianza reconocidos.
 
+### Identidades organizativas vs. identidades técnicas
+
+En lo referente a las identidades, se distingue entre:
+
+* **Identidades organizativas:** representan a las entidades jurídicas participantes (proveedores, consumidores, autoridades). Gestionadas por la Autoridad de Gobernanza.
+* **Identidades técnicas:** representan a los componentes técnicos (conectores), y que actuan en nombre de las anteriores. Gestionadas por los propios participantes.
+
+Cada operación deberá estar vinculada de forma inequívoca a:
+* Una organización responsable
+* Un componente técnico autenticado
+
+### Atributos y roles
+
+Además de la identidad básica, el EDNEL utiliza atributos verificables para expresar:
+
+* El rol del participante (proveedor, consumidor, intermediario, etc.)
+* Su naturaleza (empresa, universidad, organismo público, etc.)
+* Certificaciones o cualificaciones relevantes
+* Condiciones de elegibilidad para determinados tipos de activos o usos
+
+Estos atributos:
+
+* Son emitidos o reconocidos por emisores de confianza
+* Son utilizados por los conectores para evaluar políticas de acceso y uso
+* Pueden ser requeridos como condición previa para participar en una transacción
+
+La **identidad** y los **atributos** no son solo mecanismos de acceso, sino elementos centrales del modelo de soberanía del dato:
+
+Las políticas de uso pueden exigir determinados atributos o cualificaciones. El incumplimiento de condiciones de identidad o elegibilidad debe impedir técnicamente el acceso.
+
+
+## Seguridad y control de uso de los datos
+
+La seguridad del EDNEL se basa en un modelo de control soberano del uso del dato, fundamentado en:
+
+* Identidad verificable de los participantes y componentes
+* Políticas de uso formalizadas y ejecutables
+* Decisiones de autorización previas a cada acceso o uso
+* Registro obligatorio de evidencias y trazabilidad completa
+
+En el EDNEL, todo acceso o uso de un activo está sujeto a una decisión explícita de autorización, evaluada por el Conector del proveedor en función de:
+
+* La identidad y atributos del solicitante.
+* El contrato vigente.
+* Las políticas del espacio, del proveedor y de la transacción
+* El contexto de uso (finalidad, entorno, periodo, límites, etc.)
+
+### Políticas de control
+
+El control de uso de los datos se organiza en cuatro niveles:
+
+* **Políticas legales y regulatorias** derivadas de la normativa aplicable (protección de datos, gobernanza de datos, IA, etc.).
+* **Políticas del espacio de datos** definidas en este Rulebook y en las normas del EDNEL (tipos de activos permitidos, requisitos de certificación, condiciones de uso, etc.).
+* **Políticas del proveedor** asociadas a cada activo concreto (licencia, restricciones, finalidades, condiciones sectoriales, etc.)
+* **Políticas contractuales de la transacción** acordadas entre proveedor y consumidor en cada transacción específica.
+
+### Trazabilidad, supervisión y no repudio
+
+El EDNEL establece como obligación:
+
+* El registro de todas las operaciones relevantes
+* La generación de evidencias técnicas de contratos, accesos, usos y transferencias.
+
+Estas evidencias:
+
+* Permiten auditoría y supervisión por la Autoridad de Gobernanza
+* Soportan la resolución de disputas
+* Garantizan el no repudio entre las partes
+
+
+
+---
 
 ## Estándares Semánticos y Metadatos
 Para evitar silos de información y garantizar la descubribilidad de los recursos lingüísticos, se imponen los siguientes estándares de interoperabilidad semántica `(Ref. Pliego: Apartado 6.1.9 y 6.1.12.1)`:
