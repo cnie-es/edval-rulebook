@@ -5,7 +5,6 @@
 ## Arquitectura de Referencia
 El EDNEL implementa una arquitectura distribuida y federada, alineada con los principios del **IDS-RAM** (International Data Spaces Reference Architecture Model), las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre), y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS).
 
-El EDNEL adopta como infraestructura base de referencia el ecosistema **Simpl-Open** promovido a nivel europeo, garantizando la compatibilidad con los servicios comunes de espacios de datos, en particular en los ámbitos de identidad, confianza, federación y observabilidad.
 
 ### Principios Arquitectónicos
 1. **Soberanía del dato** Los datos permanecen bajo control del proveedor en todo momento. El acceso o uso solo se permite conforme a políticas explícitas y verificables.
@@ -38,14 +37,22 @@ La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios téc
 Los conectores son componentes técnicos fundamentales que actúan como puerta de enlace segura entre los participantes del EDNEL y el ecosistema. Cada participante debe desplegar un conector certificado, que garantiza la interoperabilidad técnica y la seguridad en las operaciones de intercambio de datos.
 
 Todo conector deberá:
-* Representar la identidad técnica del participante.
-* Autenticar a las partes/participantes del intercambio.
-* Evaluar y aplicar políticas antes de cada uso.
-* Gestionar contratos y autorizaciones.
-* Controlar la ejecución efectiva del acceso.
-* Registrar evidencias técnicas de cada operación.
+* Representar la **identidad técnica** del participante y operar únicamente en su nombre.
+* **Autenticar y verificar** la identidad y atributos.
+* Participar en la **negociación**, formalización y gestión de contratos de datos.
+* Evaluar y aplicar las **políticas de uso** antes de cada acceso o uso efectivo.
+* Decidir y ejecutar técnicamente la **autorización o denegación** del acceso.
+* **Controlar la ejecución** del acceso y transferencia conforme a lo autorizado. 
+* Registrar **evidencias** de las operaciones realizadas para fines de trazabilidad, auditoría y no repudio.
 
-El conector garantiza técnicamente la soberanía del dato, asegurando que los datos solo se utilicen conforme a las políticas acordadas y registrando todas las operaciones para su posterior auditoría, siendo obligatorio su uso para cualquier intercambio dentro del ecosistema.
+El conector garantiza técnicamente la soberanía del dato, asegurando que los datos solo se utilicen conforme a las políticas acordadas y registrando todas las operaciones para su posterior auditoría, siendo obligatorio su uso para cualquier intercambio dentro del ecosistema. Solo los conectores certificados por la Autoridad de Gobernanza podrán operar en el entorno productivo del EDNEL.
+
+Queda expresamente **prohibido**:
+
+* El acceso directo a los datos de un participante eludiendo el Conector.
+* El establecimiento de flujos paralelos fuera del marco del EDNEL.
+* El uso de credenciales, APIs o accesos no gobernados por el Conector.
+  
 
 ## Obligaciones Técnicas de los Participantes
 
@@ -138,63 +145,6 @@ El control de uso de los datos se organiza en cuatro niveles:
 * **Políticas del proveedor** asociadas a cada activo concreto (licencia, restricciones, finalidades, condiciones sectoriales, etc.)
 * **Políticas contractuales de la transacción** acordadas entre proveedor y consumidor en cada transacción específica.
 
-### Trazabilidad, supervisión y no repudio
-
-El EDNEL establece como obligación:
-
-* El registro de todas las operaciones relevantes
-* La generación de evidencias técnicas de contratos, accesos, usos y transferencias.
-
-Estas evidencias:
-
-* Permiten auditoría y supervisión por la Autoridad de Gobernanza
-* Soportan la resolución de disputas
-* Garantizan el no repudio entre las partes
-
-
-
----
-
-## Estándares Semánticos y Metadatos
-Para evitar silos de información y garantizar la descubribilidad de los recursos lingüísticos, se imponen los siguientes estándares de interoperabilidad semántica `(Ref. Pliego: Apartado 6.1.9 y 6.1.12.1)`:
-
-### Modelo de Datos del Catálogo
-* **Vocabulario Base:** Se adopta el estándar **DCAT-AP** (Data Catalog Vocabulary - Application Profile) como esquema raíz para la publicación de metadatos.
-* **Extensiones Sectoriales:** Se incorporarán propiedades específicas del dominio lingüístico alineadas con el **Language Data Space (LDS)** y **ELG (European Language Grid)**, tales como:
-    * `lds:language` (Código ISO 639-1/3)
-    * `lds:dialect` (Región/Variante)
-    * `lds:mediaType` (audio/wav, text/plain, model/onnx)
-    * `lds:domain` (Legal, Médico, Turismo)
-
-### Intercambio de Información
-* Las interfaces de metadatos (Broker) deben exponerse mediante **API REST** documentadas con **OpenAPI 3.0** `(Ref. Pliego: Apartado 6.1.12.1)`.
-* Los metadatos se serializarán preferentemente en formato **JSON-LD** para facilitar su vinculación semántica.
-
-### Políticas de Uso
-* Las políticas de uso asociadas a cada recurso se definirán utilizando el estándar **ODRL** (Open Digital Rights Language) `(Ref. Pliego: Apartado 6.1.8.5)`.
-
-
-## Marco de Identidad y Confianza (Trust Framework)
-La seguridad del espacio se basa en una cadena de confianza criptográfica, alineada con los requisitos de **Gaia-X** y el futuro reglamento **eIDAS 2** `(Ref. Pliego: Apartado 5.18.3 y 6.1.11.3)`.
-
-### Componentes de Identidad
-1.  **Credenciales:** Uso de **Verifiable Credentials (VCs)** firmadas por Emisores de Confianza (Trust Anchors) para acreditar atributos (ej. "Entidad certificada ENS", "Universidad").
-2.  **Certificados de Transporte:** Uso obligatorio de certificados **X.509** emitidos por una CA reconocida para establecer túneles mTLS (autenticación mutua) entre conectores.
-
-
-## Seguridad y Cumplimiento Normativo (ENS)
-Toda la infraestructura central y los conectores gestionados (SaaS) deben cumplir con los requisitos del **Esquema Nacional de Seguridad (ENS)** `(Ref. Pliego: Apartado 5.18.1.1)`.
-
-* **Cifrado:**
-    * *En tránsito:* TLS 1.3 obligatorio para todas las comunicaciones externas.
-    * *En reposo:* Cifrado de claves y secretos mediante módulos HSM o Vault.
-* **Integridad del Software:** Implementación de mecanismos de **Atestación Remota** (Remote Attestation) para verificar que el código del Conector no ha sido manipulado antes de autorizar una transferencia de datos `(Ref. Pliego: Apartado 6.1.8.7)`.
-* **Trazabilidad:** Registro inmutable de transacciones (log de operaciones) en el componente *Clearing House* para fines de auditoría y no repudio `(Ref. Pliego: Apartado 6.1.10)`.
-* **Política Zero Trust:** Autenticación y autorización estricta basada en el principio de mínimo privilegio para todos los accesos a recursos. 
-* **Separación de datos personales y no personales:** Implementación de técnicas de anonimización y pseudonimización para proteger la privacidad de los usuarios.
-* **Protección de Datos Personales:** Cumplimiento con el **RGPD** y la **LOPDGDD**, incluyendo mecanismos para la gestión de consentimientos y derechos ARCO.
-
-
 ## Gobierno técnico del Dato y de los derivados
 
 El EDNEL establece reglas técnicas para gobernar:
@@ -204,12 +154,31 @@ El EDNEL establece reglas técnicas para gobernar:
 * El control de las restricciones heredadas de los datos originales
 * La asociación de políticas de uso a los resultados derivados
 
-Los activos derivados estarán sujetos a las mismas obligaciones de soberanía, trazabilidad y control de uso que los datos originales.
+Se consideran **activos derivados** aquellos que resultan de la transformación, combinación o procesamiento de uno o más activos originales, incluyendo pero no limitándose a:
+* Datasets limpiados, anotados, combinados o enriquecidos.
+* Corpus lingüísticos procesados o segmentados.
+* Modelos de IA entrenados o ajustados utilizando datos del EDNEL.
+* Cualquier otro recurso generado a partir de los datos originales.
+
+Todo activo derivado:
+
+* Hereda automáticamente las restricciones, obligaciones y condiciones de uso de los activos de origen
+* No puede ser publicado, transferido o explotado en condiciones más permisivas que las de sus fuentes
+* Debe reflejar explícitamente: qué políticas aplican, que restricciones se heredan, y que usos están permitidos o prohibidos.
+
+En cuanto al **linaje**, el EDNEL exige a cada activo:
+* Tener un origen claro y verificable.
+* Registrar todas las transformaciones aplicadas.
+* Estar vinculado a uno o mas activos, uno o más contratos y un conjunto de políticas de uso.
+
+Para permitir la **trazabilidad** de todos los activos, se debe permitir:
+* Reconstruir el árbol de linaje de cualquier activo.
+* Identificar las fuentes originales.
 
 
 ## Interoperabilidad con Ecosistemas Externos e iniciativas Europeas
 
-Para maximizar la integración del EDNEL en el panorama europeo de espacios de datos, se garantiza la interoperabilidad técnica con los principales ecosistemas existentes `(Ref. Pliego: Apartado 5.17.1)`, en particular con LDS, y alineado con IDSA y DSSC.
+Para maximizar la integración del EDNEL en el panorama europeo de espacios de datos, se garantiza la interoperabilidad técnica con los principales ecosistemas existentes en particular con LDS, y alineado con IDSA y DSSC.
 
 EDNEL es compatible con:
 
@@ -218,7 +187,6 @@ EDNEL es compatible con:
 * Misma arquitectura federada
 * Misma semántica para metadatos lingüísticos
 * Mismo protocolo de contrato
-* Intercambio directo de activos (???)
 
 Además, se asegura la compatibilidad técnica con los marcos de referencia más relevantes:
 
@@ -241,7 +209,7 @@ Además, se asegura la compatibilidad técnica con los marcos de referencia más
 
 ## Gobernanza Técnica y Evolución del Ecosistema
 
-Para asegurar la evolución sostenible del EDNEL, se establecerá un marco de gobernanza técnica que incluya `(Ref. Pliego: Apartado 5.19)`:
+Para asegurar la evolución sostenible del EDNEL, se establecerá un marco de gobernanza técnica que incluya:
 * **Comité Técnico de Gobernanza:** Responsable de la definición y actualización de estándares, políticas y procedimientos técnicos.
 * **Proceso de Certificación de Conectores:** Mecanismo formal para certificar que los conectores cumplen con las especificaciones técnicas y de seguridad establecidas.
 * **Estrategia de Actualización:** Planificación de revisiones periódicas para incorporar nuevas tecnologías y estándares emergentes en el ámbito de los espacios de datos.
