@@ -10,7 +10,7 @@ La Autoridad de Gobernanza es responsable de la operación, supervisión y contr
 
 * Dirección y administración del espacio de datos
 * Operación de los servicios centrales, como el Catálogo Central y el Clearing House
-* Supervisión técnica, auditoría y cumplimiento de políticas
+* Supervisión técnica, auditoría y asegurar el cumplimiento de políticas
 * Gestión del portal y de los servicios de soporte
 * Definición y actualización del Rulebook
 * Gestión del proceso de onboarding y offboarding de participantes
@@ -23,20 +23,35 @@ Cada entidad participante es responsable de:
 * Su representación ante el EDNEL
 * La generación y gestión de sus usuarios internos
 * La operación de su conector
-* La publicación y/o consumo de datos y servicios
+* La publicación y/o consumo de activos
 * El cumplimiento de las políticas y términos del espacio
 * La gestión de sus contratos y acuerdos bilaterales
 
-Los roles específicos son: 
-* *Proveedor de Datos*: Publica activos de datos en el espacio, define políticas de uso y gestiona solicitudes de acceso.
+En general, los participantes pueden asumir uno o varios roles dentro del espacio de datos: 
+* *Proveedor de Datos*: Publica activos de datos en el espacio, define políticas de uso y gestiona ofertas entrantes.
 * *Consumidor de Datos*: Busca, solicita y consume activos de datos publicados por otros participantes.
-* *Administrador*: Gestiona la configuración, seguridad y operación del conector local de su organización.
+* *Administrador*: Gestiona la configuración, seguridad y operación del conector local de su organización. Gestiona también la administración de usuarios internos.
 
 ### Usuario Público
 
-El EDNEL podrá ofrecer acceso público al portal y al catálogo en modalidad de consulta, sin autenticación y sin acceso a datos protegidos.
+El EDNEL ofrece acceso público al portal y al catálogo en modalidad de consulta, sin autenticación y sin acceso a datos protegidos. Esto permite a cualquier usuario:
 
-Los permisos concretos asociados a cada rol se definen en el diseño funcional y en la implementación técnica del sistema.
+* Descubrir el ecosistema del Espacio de Datos
+* Explorar el catálogo público de recursos, datasets y servicios disponibles
+* Conocer los tipos de activos, dominios, idiomas y casos de uso soportados
+* Identificar oportunidades de reutilización, colaboración o negocio
+* Evaluar el valor del ecosistema antes de convertirse en participante activo.
+
+El acceso público no permite en ningún caso:
+
+* Acceder a datos protegidos o restringidos
+* Descargar o utilizar activos sujetos a políticas de uso
+* Participar en negociaciones o contratos
+
+No obstante, constituye la principal puerta de entrada al ecosistema EDNEL, y un elemento fundamental de su estrategia de crecimiento, adopción y posicionamiento europeo.
+
+<br>
+Los permisos concretos asociados a cada rol se definen en el diseño funcional (EDNEL B1.E02.VX.X - Análisis y diseño Funcional.docx) y en la implementación técnica del sistema (EDNEL B1.E03.VX.X - Diseño Técnico.docx).
 
 
 ## Adhesión al Espacio de Datos: Derechos y Obligaciones
@@ -46,20 +61,21 @@ Los términos de adhesión definen las reglas básicas que rigen la relación en
 1. Publicar y mantener metadatos en el Catálogo Central para hacer sus activos descubribles.
 2. Negociar contratos de uso de datos mediante los conectores.
 3. Acceder a los servicios centrales del Espacio (Catálogo, Clearing House, Portal).
-4. Recibir soporte técnico y operativo según los SLA definidos.
+4. Recibir soporte técnico y operativo.
 5. Conservar la propiedad intelectual y derechos sobre sus datos y activos.
 
 ### Obligaciones del Participante
-1. Cumplir con el Acuerdo de Adhesión y las políticas del Espacio.
-2. Mantener la seguridad y confidencialidad de sus credenciales y datos.
-3. Mantener su conector operativo y seguro.
-4. Publicar metadadatos y politicas de uso conforme a los estándares del Espacio.
-5. Aceptar auditorías y revisiones por parte de la Autoridad.
+1. Cumplir en cada acción con el Acuerdo de Adhesión y las políticas del Espacio.
+2. Mantener la seguridad y confidencialidad de sus credenciales y datos. En particular, cumplir la normativa y mejores prácticas asociadas a la gestión de sus usuarios de Participante (doble factor de autenticación, etc.).
+3. Mantener su conector operativo y seguro. En el caso concreto de Conectores on premises, desplegar y operar su Conector.
+4. Publicar metadatos y políticas de uso conforme a los estándares del Espacio.
+5. Cumplir las políticas de uso y licencias acordadas en cada transacción.
+6. Aceptar auditorías y revisiones por parte de la Autoridad.
 
 ### Limitaciones, Exenciones y Responsabilidades
 1.  **Limitación de Responsabilidad:** La Autoridad y los Operadores no asumen responsabilidad por el contenido de los activos publicados por terceros; cada Participante es responsable de su propio contenido y cumplimiento de licencias.
 2.  **Indemnización:** Los Participantes se comprometen a indemnizar a la Autoridad por reclamaciones derivadas de su incumplimiento legal o contractual.
-3.  **SLA y Soporte:** La disponibilidad y soporte de componentes centrales se describen en SLA; sin embargo, la Autoridad puede limitar servicios ante abuso o compromiso de la seguridad.
+3.  **Limitación de servicios:** La Autoridad puede limitar servicios ante abuso o compromiso de la seguridad.
 
 ### Suspensión y Rescisión
 1.  **Suspensión Temporal:** La Autoridad puede suspender temporalmente el acceso de un Participante en caso de riesgo inminente (vulnerabilidades, fraude, compromisos de seguridad) hasta la resolución del incidente.
@@ -88,7 +104,7 @@ Los participantes operan bajo el modelo "Publish-Find-Bind" (Publicar-Buscar-Vin
 3. Negociación de condiciones de uso y contrato.
 4. Evaluación de políticas y autorización previa al acceso.
 5. Ejecución del acceso o transferencia.
-6. Registro de evidencias y trazabilidad en el Clearing House.
+6. Registro de evidencias y trazabilidad.
 
 La evaluación de políticas y la autorización previa a cada uso del dato constituyen un principio esencial del EDNEL para garantizar la soberanía del dato durante todo su ciclo de vida, y no únicamente en el momento de la formalización del contrato.
 
@@ -103,7 +119,7 @@ El EDNEL promueve una economía federada basada en datos, servicios, calidad y c
 
 La Autoridad de Gobernanza no participa en las transacciones económicas entre participantes y *no actúa con ánimo de lucro*.
 
-El modelo económico se basa en la remuneración directa entre participantes, sin que el Espacio actúe como intermediario financiero ni custodio de fondos. Este modelo incluyen:
+El modelo económico se basa en la remuneración directa entre participantes, sin que el Espacio actúe como intermediario financiero ni custodio de fondos. Este modelo incluye:
 
 - Tasas de acceso
 - Licencias de uso
