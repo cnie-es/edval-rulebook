@@ -3,11 +3,11 @@
 ---
 
 ## Definición y Naturaleza del Espacio
-El **Espacio de Datos de la Nueva Economía de la Lengua (EDNEL)** se constituye como una infraestructura digital federada para la compartición voluntaria, soberana y segura de activos lingüísticos y recursos de Inteligencia Artificial `(Ref. Pliego: Apartado 6.1.1)`.
+El **Espacio de Datos de la Nueva Economía de la Lengua (EDNEL)** se constituye como una infraestructura digital federada para la compartición voluntaria, soberana y segura de activos lingüísticos y recursos de Inteligencia Artificial.
 
-El EDNEL no opera como un repositorio centralizado de datos, sino como un ecosistema descentralizado construido en torno a componentes comunes ("building blocks") que permiten el intercambio eficaz y fiable entre participantes, garantizando que los datos permanecen bajo el control de sus proveedores `(Ref. Pliego: Apartado 5.5 - Estrategia Europea de Datos)`.
+El EDNEL no opera como un repositorio centralizado de datos, sino como un ecosistema descentralizado construido en torno a componentes comunes ("building blocks") que permiten el intercambio eficaz y fiable entre participantes, garantizando que los datos permanecen bajo el control de sus proveedores.
 
-Este marco de gobierno se rige por los principios de **Soberanía del Dato**, **Confianza** y **Generación de Valor**, alineándose con la arquitectura de referencia de IDSA y los principios del Data Spaces Support Centre (DSSC) `(Ref. Pliego: Apartado 6.1.4)`.
+Este marco de gobierno se rige por los principios de **Soberanía del Dato**, **Confianza** y **Generación de Valor**, alineándose con la arquitectura de referencia de IDSA y los principios del Data Spaces Support Centre (DSSC).
 
 
 ## Vision y misión
@@ -381,9 +381,9 @@ e) Fomento de innovación y competitividad: habilita aplicaciones en educación,
 **( Pendiente de ubicar en el capítulo correspondiente )**
 
 ## Autoridad de Gobernanza (Data Space Authority)
-La entidad responsable de la operación, mantenimiento y supervisión del cumplimiento de este Rulebook es el **Centro Nacional de Industrias del Español (CNIE)** `(Ref. Pliego: Apartado 3.2)`.
+La entidad responsable de la operación, mantenimiento y supervisión del cumplimiento de este Rulebook es el **Centro Nacional de Industrias del Español (CNIE)**.
 
-El CNIE actúa con un doble rol en el ecosistema `(Ref. Pliego: Apartado 6.1)`:
+El CNIE actúa con un doble rol en el ecosistema:
 1.  **Como Autoridad (Trustee):** Administra el registro de participantes, homologa los conectores y gestiona las políticas de uso globales, actuando como punto neutro de confianza.
 2.  **Como Participante:** Puede actuar como proveedor o consumidor de datos dentro del espacio, sujeto a las mismas reglas que el resto de miembros.
 
@@ -399,7 +399,7 @@ Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
 - Colaborar con organismos reguladores y autoridades nacionales e internacionales para asegurar el alineamiento normativo y establecer alianzas estratégicas con otras infraestructuras de datos y organizaciones relevantes en el ámbito lingüístico y tecnológico.
 - Publicar informes periódicos sobre el estado del espacio, incluyendo métricas de uso, casos de éxito y desafíos enfrentados. Organizar actividades de formación y divulgación para promover la adopción del espacio entre potenciales participantes.
 
-**El CNIE se compromete** a operar con transparencia, imparcialidad y en estricto cumplimiento de la normativa vigente, garantizando la integridad del espacio y la protección de los derechos de todos los participantes `(Ref. Pliego: Apartado 6.1.3 - Dimensión Legal)`.
+**El CNIE se compromete** a operar con transparencia, imparcialidad y en estricto cumplimiento de la normativa vigente, garantizando la integridad del espacio y la protección de los derechos de todos los participantes.
 
 ## Comite de dirección
 
@@ -413,12 +413,12 @@ Es el órgano responsable de supervisar y dirigir la ejecución estratégica del
 
 ## Taxonomía de roles
 
-* **Participante:** Entidad legal (empresa, universidad, administración) que ha superado el proceso de admisión y posee una Credencial Verificable válida `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
-* **Proveedor de Datos (Data Provider):** Participante que publica la oferta de un activo de datos en el catálogo. Es el responsable de definir las políticas de uso y garantizar la propiedad intelectual `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
-* **Consumidor de Datos (Data Consumer):** Participante que negocia un contrato digital para adquirir derechos de acceso y uso sobre un activo de datos `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
-* **Intermediador:** Rol técnico o de negocio que facilita servicios auxiliares (ej. limpieza de corpus, anonimización, certificación) dentro del espacio `(Ref. Pliego: Apartado 6.1.5 - Roles)`.
+* **Participante:** Entidad legal (empresa, universidad, administración) que ha superado el proceso de admisión y posee una Credencial Verificable válida.
+* **Proveedor de Datos (Data Provider):** Participante que publica la oferta de un activo de datos en el catálogo. Es el responsable de definir las políticas de uso y garantizar la propiedad intelectual.
+* **Consumidor de Datos (Data Consumer):** Participante que negocia un contrato digital para adquirir derechos de acceso y uso sobre un activo de datos.
+* **Intermediador:** Rol técnico o de negocio que facilita servicios auxiliares (ej. limpieza de corpus, anonimización, certificación) dentro del espacio.
   
 ##  Glosario de Términos 
 
-* **Conector (Paquete Conector):** Componente de software certificado que actúa como puerta de enlace para el intercambio soberano de datos. Puede desplegarse en modalidad *On-Premise* (infraestructura del participante) o *SaaS* (nube del CNIE) `(Ref. Pliego: Apartado 6.1.8)`.
+* **Conector (Paquete Conector):** Componente de software certificado que actúa como puerta de enlace para el intercambio soberano de datos. Puede desplegarse en modalidad *On-Premise* (infraestructura del participante) o *SaaS* (nube del CNIE).
 * **Activo de Datos:** Cualquier recurso digital (corpus texto/audio, modelo algorítmico, léxico) ofrecido en el catálogo bajo condiciones contractuales específicas.
