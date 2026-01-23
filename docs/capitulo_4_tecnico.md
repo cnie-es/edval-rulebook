@@ -5,6 +5,8 @@
 ## Arquitectura de Referencia
 El EDNEL implementa una arquitectura distribuida y federada, alineada con los principios del **IDS-RAM** (International Data Spaces Reference Architecture Model), las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre), y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS).
 
+El EDNEL adopta como infraestructura base de referencia el ecosistema Simpl-Open promovido a nivel europeo, garantizando la compatibilidad con los servicios comunes de espacios de datos, en particular en los ámbitos de identidad, confianza, federación y observabilidad. Mantendrá un alineamiento continuo con el roadmap técnico de Simpl-Open, garantizando la compatibilidad futura de sus componentes y evitando bloqueos tecnológicos.
+
 
 ### Principios Arquitectónicos
 1. **Soberanía del dato** Los datos permanecen bajo control del proveedor en todo momento. El acceso o uso solo se permite conforme a políticas explícitas y verificables.
@@ -12,6 +14,7 @@ El EDNEL implementa una arquitectura distribuida y federada, alineada con los pr
 3.  **Separación de Planos:** Se distingue estrictamente entre el **Plano de Control** (gestión de identidad, metadatos, contratos, trazabilidad y políticas) y el **Plano de Datos** (transferencia del contenido real).
 4.  **Neutralidad Tecnológica:** El marco de gobernanza no impone tecnologías de implementación concretas, sino requisitos funcionales y normativos.
 5.  **Seguridad y confianza verificable**: Todo intercambio debe realizarse sobre una base de identidad autenticada, políticas ejecutables y trazabilidad verificable.
+6.  **Interoperabilidad federada**: El espacio se basa en estándares abiertos y perfiles comunes que garantizan la interoperabilidad con otros espacios de datos europeos.
 
 ## Componentes técnicos fundamentales
 
@@ -31,6 +34,7 @@ La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios téc
 * **Catálogo Semántico** y Servicio de **Descubrimiento**.
 * Servicio registro de evicencia (**Clearing House**).
 * Servicios de **certificación** y entorno de **pruebas**.
+
 
 ## Conector
 
@@ -66,7 +70,7 @@ Todo participante está obligado a:
 cooperar en la resolución de incidentes y procesos de supervisión
 
 
-## Servicios Técnicos Centrales de la Autoridad de Gobernanza
+## Servicios Técnicos Centrales
 
 La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes servicios técnicos centrales:
 
@@ -80,14 +84,18 @@ La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes serv
 Estos servicios constituyen la infraestructura mínima obligatoria para garantizar la coherencia, seguridad, supervisión y operabilidad del espacio de datos.
 
 
-## Marco de identidad, atributos y confianza
+## Marco de identidad, atributos y confianza (Trust Framework)
 
-El EDNEL establece un marco descentralizado de identidad que garantiza:
+La seguridad del espacio se basa en una cadena de confianza criptográfica, alineada con los requisitos de Gaia-X y el futuro reglamento eIDAS 2.
+
+Sobre esta base, el EDNEL establece un marco federado de identidad, atributos y confianza que constituye el fundamento para:
 
 * Identificación verificable de organizaciones y componentes, para la admisión de participantes.
 * Acreditación de atributos relevantes (jurídicos, técnicos, sectoriales).
 * Autenticación mutua entre participantes.
 * Uso de emisores de confianza reconocidos.
+
+En el EDNEL, ningún intercambio de datos o servicio puede producirse sin una verificación previa de identidad y atributos de las partes implicadas.
 
 ### Identidades organizativas vs. identidades técnicas
 
@@ -104,7 +112,7 @@ Cada operación deberá estar vinculada de forma inequívoca a:
 
 Además de la identidad básica, el EDNEL utiliza atributos verificables para expresar:
 
-* El rol del participante (proveedor, consumidor, intermediario, etc.)
+* El rol o roles del participante (proveedor, consumidor, intermediario, etc.)
 * Su naturaleza (empresa, universidad, organismo público, etc.)
 * Certificaciones o cualificaciones relevantes
 * Condiciones de elegibilidad para determinados tipos de activos o usos
@@ -136,7 +144,21 @@ En el EDNEL, todo acceso o uso de un activo está sujeto a una decisión explíc
 * Las políticas del espacio, del proveedor y de la transacción
 * El contexto de uso (finalidad, entorno, periodo, límites, etc.)
 
-### Políticas de control
+### Políticas de acceso
+Las políticas de acceso definen las condiciones bajo las cuales un activo puede ser descubierto o accedido. Estas políticas pueden incluir, entre otras:
+
+* **Políticas de identidad**: definen los requisitos de identidad que debe cumplir el solicitante para acceder al activo.
+* **Políticas de certificación**: definen las certificaciones que debe poseer el solicitante para acceder al activo.
+* **Políticas de rol**: definen los roles permitidos o prohibidos para acceder al activo.
+
+### Políticas de uso y niveles de control
+Las políticas de uso definen las condiciones bajo las cuales un activo puede ser utilizado. Estas políticas pueden incluir, entre otras:
+
+* **Políticas temporales**: definen períodos específicos durante los cuales el activo puede ser accedido o utilizado.
+* **Políticas de finalidades**: definen los propósitos permitidos o prohibidos para el uso del activo.
+* **Políticas geográficas**: definen las ubicaciones geográficas donde el activo puede ser accedido o utilizado.
+* **Políticas de volumen**: definen límites en la cantidad de datos que pueden ser accedidos o utilizados.
+* **Políticas de derivados**: definen restricciones específicas sobre la creación y uso de activos derivados.
 
 El control de uso de los datos se organiza en cuatro niveles:
 
@@ -144,6 +166,8 @@ El control de uso de los datos se organiza en cuatro niveles:
 * **Políticas del espacio de datos** definidas en este Rulebook y en las normas del EDNEL (tipos de activos permitidos, requisitos de certificación, condiciones de uso, etc.).
 * **Políticas del proveedor** asociadas a cada activo concreto (licencia, restricciones, finalidades, condiciones sectoriales, etc.)
 * **Políticas contractuales de la transacción** acordadas entre proveedor y consumidor en cada transacción específica.
+
+
 
 ## Gobierno técnico del Dato y de los derivados
 
