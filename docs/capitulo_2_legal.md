@@ -233,7 +233,7 @@ Aplica según el tipo de participante e infraestructura utilizada.
 ### Marcos técnicos y de gobernanza internacionales aplicables
 
 -  LDS Rulebook (Language Data Space): asegura la interoperabilidad y confianza entre los dos espacios de datos lingüísticos.
--  IDSA Rulebook / International Data Spaces
+-  GAIA-X Trust Framework y GAIA-X Compliance Rules: marco europeo de identidad, confianza, soberanía del dato, transparencia y conformidad.
 -  DSSC – Data Spaces Support Centre Blueprint
 
 ---
@@ -246,7 +246,7 @@ LDS Architecture & Components (Common European Language Data Space).
 
 European Language Data Space — About / Principles. 
 
-IDSA — IDSA Rulebook (principios y estructura de rulebook). 
+GAIA-X Trust Framework — GAIA-X Compliance Rules.
 
 Sitra — Rulebook model / IPR Q&A (guidance sobre IPR en data spaces). 
 
