@@ -7,7 +7,7 @@ El **Espacio de Datos de la Nueva Economía de la Lengua (EDNEL)** se constituye
 
 El EDNEL no opera como un repositorio centralizado de datos, sino como un ecosistema descentralizado construido en torno a componentes comunes ("building blocks") que permiten el intercambio eficaz y fiable entre participantes, garantizando que los datos permanecen bajo el control de sus proveedores.
 
-Este marco de gobierno se rige por los principios de **Soberanía del Dato**, **Confianza** y **Generación de Valor**, alineándose con la arquitectura de referencia de IDSA y los principios del Data Spaces Support Centre (DSSC).
+Este marco de gobierno se rige por los principios de **Soberanía del Dato**, **Confianza** y **Generación de Valor**, alineándose con los principios de **GAIA-X,** el marco de convergencia técnica del Data Spaces Support Centre (**DSSC**) y la **estrategia europea de espacios de datos**.
 
 
 ## Vision y misión

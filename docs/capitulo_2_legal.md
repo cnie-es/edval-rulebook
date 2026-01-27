@@ -243,15 +243,9 @@ Regulación del régimen jurídico de los servicios de la sociedad de la informa
 
 ### Marcos técnicos y de gobernanza internacionales aplicables
 
--  **LDS Rulebook** (Language Data Space): asegura la interoperabilidad y confianza entre los dos espacios de datos lingüísticos.
--  **GAIA-X Trust Framework** y **GAIA-X Compliance Rules**: marco europeo de identidad, confianza, soberanía del dato, transparencia y conformidad.
--  **DSSC – Data Spaces Support Centre Blueprint**.
--  Centro Criptológico Nacional (CCN-CERT). **Guías CCN-STIC – Serie 800**: Esquema Nacional de Seguridad (ENS). CCN-CNI
-- **Especificación UNE 0087**: Definición y caracterización de los Espacios de Datos
-- **ISO 24622-1:2015** Gestión de recursos del lenguaje — Infraestructura de Metadatos Componentes (CMDI)
-- **ISO/IEC 38507:2022**: Tecnologías de la información — Gobernanza de TI — Implicaciones de gobernanza del uso de inteligencia artificial por parte de las organizaciones
-- **ISO/IEC 42001:2023**: Sistema de gestión de la inteligencia artificial (SGIA)
-- **UNE-ISO 24495-1:2024**: Lenguaje claro. Parte 1: Principios rectores y directrices.
+-  LDS Rulebook (Language Data Space): asegura la interoperabilidad y confianza entre los dos espacios de datos lingüísticos.
+-  GAIA-X Trust Framework y GAIA-X Compliance Rules: marco europeo de identidad, confianza, soberanía del dato, transparencia y conformidad.
+-  DSSC – Data Spaces Support Centre Blueprint
 
 ---
 
