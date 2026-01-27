@@ -32,7 +32,7 @@ La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios téc
 * **Portal** del Espacio de Datos.
 * Servicios de **Identidad y Confianza**.
 * **Catálogo Semántico** y Servicio de **Descubrimiento**.
-* Servicio registro de evicencia (**Clearing House**).
+* Servicio registro de evidencias (**Clearing House**).
 
 
 ## Conector
