@@ -3,9 +3,9 @@
 ---
 
 ## Arquitectura de Referencia
-El EDNEL implementa una arquitectura distribuida y federada, alineada con los principios del **IDS-RAM** (International Data Spaces Reference Architecture Model), las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre), y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS).
+El EDNEL implementa una arquitectura distribuida y federada, alineada con los principios del **GAIA-X**, las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre), y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS).
 
-El EDNEL adopta como infraestructura base de referencia el ecosistema Simpl-Open promovido a nivel europeo, garantizando la compatibilidad con los servicios comunes de espacios de datos, en particular en los ámbitos de identidad, confianza, federación y observabilidad. Mantendrá un alineamiento continuo con el roadmap técnico de Simpl-Open, garantizando la compatibilidad futura de sus componentes y evitando bloqueos tecnológicos.
+El EDNEL adopta como infraestructura base de referencia el ecosistema Simpl-Open promovido a nivel europeo, garantizando la compatibilidad con los servicios comunes de espacios de datos, en particular en los ámbitos de identidad, confianza, federación y observabilidad. Mantendrá una monitorización continua con el roadmap técnico de Simpl-Open, garantizando la compatibilidad futura de sus componentes y evitando bloqueos tecnológicos.
 
 
 ### Principios Arquitectónicos
@@ -33,7 +33,6 @@ La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios téc
 * Servicios de **Identidad y Confianza**.
 * **Catálogo Semántico** y Servicio de **Descubrimiento**.
 * Servicio registro de evicencia (**Clearing House**).
-* Servicios de **certificación** y entorno de **pruebas**.
 
 
 ## Conector
@@ -168,7 +167,6 @@ El control de uso de los datos se organiza en cuatro niveles:
 * **Políticas contractuales de la transacción** acordadas entre proveedor y consumidor en cada transacción específica.
 
 
-
 ## Gobierno técnico del Dato y de los derivados
 
 El EDNEL establece reglas técnicas para gobernar:
@@ -202,33 +200,31 @@ Para permitir la **trazabilidad** de todos los activos, se debe permitir:
 
 ## Interoperabilidad con Ecosistemas Externos e iniciativas Europeas
 
-Para maximizar la integración del EDNEL en el panorama europeo de espacios de datos, se garantiza la interoperabilidad técnica con los principales ecosistemas existentes en particular con LDS, y alineado con IDSA y DSSC.
-
-EDNEL es compatible con:
+Para maximizar la integración del EDNEL en el panorama europeo de espacios de datos, se garantiza que esté alineado con:
 
 **LDS**
+
+EDNEL asegura la interoperabilidad técnica con el ecosistema europeo de espacios de datos lingüísticos (LDS) mediante:
 
 * Misma arquitectura federada
 * Misma semántica para metadatos lingüísticos
 * Mismo protocolo de contrato
-
-Además, se asegura la compatibilidad técnica con los marcos de referencia más relevantes:
-
-**IDSA**
-
-* Conectores soberanos con policy enforcement
-* Clearing House centralizada de registros
-* Identidad descentralizada con VCs
-* Contract negotiation framework
+* Principios comunes de soberanía del dato y control de uso
 
 **DSSC**
 
 * Convergencia técnica en arquitectura
-* Alineamiento con estándares europeos de referencia
-* Misma arquitectura federada
-* Misma semántica para metadatos lingüísticos
-* Mismo protocolo de contrato
-* Intercambio directo de activos
+* Separación de planos de control y datos
+* Uso de conectores certificados
+* Modelos comunes de identidad y confianza
+* Interoperabilidad entre espacios
+
+**GAIA-X**
+
+* Identidad federada y de confianza (GAIA-X Trust Framework)
+* Soberenía del dato y control de uso (Data Sovereignty by Design)
+* Transparencia y trazabilidad (Auditability and Transparency)
+* Infraestructura interoperable (Interoperable Infrastructure)
 
 
 ## Gobernanza Técnica y Evolución del Ecosistema
