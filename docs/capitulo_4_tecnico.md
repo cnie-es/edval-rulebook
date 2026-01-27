@@ -78,7 +78,7 @@ La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes serv
 * Catálogo Semántico y Servicio de Descubrimiento: repositorio centralizado de metadatos y vocabularios para facilitar la localización de recursos.
 * Registro de Vocabularios y Esquemas Semánticos: gestión de estándares semánticos utilizados en el espacio.
 * Servicio de Observabilidad y Clearing House: registro de evidencias técnicas de las operaciones realizadas.
-* Servicios de Certificación y entorno de Pruebas: mecanismos para certificar conectores y validar su conformidad técnica.
+* Labores de Certificación: mecanismos para certificar conectores y validar su conformidad técnica.
 
 Estos servicios constituyen la infraestructura mínima obligatoria para garantizar la coherencia, seguridad, supervisión y operabilidad del espacio de datos.
 
@@ -92,7 +92,6 @@ Sobre esta base, el EDNEL establece un marco federado de identidad, atributos y 
 * Identificación verificable de organizaciones y componentes, para la admisión de participantes.
 * Acreditación de atributos relevantes (jurídicos, técnicos, sectoriales).
 * Autenticación mutua entre participantes.
-* Uso de emisores de confianza reconocidos.
 
 En el EDNEL, ningún intercambio de datos o servicio puede producirse sin una verificación previa de identidad y atributos de las partes implicadas.
 
