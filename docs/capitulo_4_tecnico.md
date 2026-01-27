@@ -77,10 +77,7 @@ La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes serv
 * Servicios de Identidad y Confianza: gestión de identidades, credenciales y atributos de los participantes.
 * Catálogo Semántico y Servicio de Descubrimiento: repositorio centralizado de metadatos y vocabularios para facilitar la localización de recursos.
 * Registro de Vocabularios y Esquemas Semánticos: gestión de estándares semánticos utilizados en el espacio.
-* Servicio de Observabilidad y Clearing House: registro de evidencias técnicas de las operaciones realizadas.
-* Labores de Certificación: mecanismos para certificar conectores y validar su conformidad técnica.
-
-Estos servicios constituyen la infraestructura mínima obligatoria para garantizar la coherencia, seguridad, supervisión y operabilidad del espacio de datos.
+* Servicio de Observabilidad y Clearing House: registro de evidencias técnicas de las operaciones realizadas.Estos servicios constituyen la infraestructura mínima obligatoria para garantizar la coherencia, seguridad, supervisión y operabilidad del espacio de datos.
 
 
 ## Marco de identidad, atributos y confianza (Trust Framework)
