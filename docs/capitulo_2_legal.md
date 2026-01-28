@@ -78,7 +78,7 @@ El acuerdo establece:
 - Los motivos de suspensión o expulsión
 - Las obligaciones tras la salida (eliminación de datos, no uso indebido, conservación de evidencias cuando proceda).
 
-[Contrato de adhesión](capitulo_5_confianza_y_anexos.md#4-el-acuerdo-de-adhesi%C3%B3n-accession-agreement)
+[Contrato de adhesión](capitulo_5_anexo3_concidiones.md)
 
 ## Soberanía del Dato y Propiedad Intelectual
 

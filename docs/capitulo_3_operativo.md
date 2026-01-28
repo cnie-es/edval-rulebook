@@ -4,7 +4,22 @@
 
 ## Roles y responsabilidades
 
-### Autoridad de Gobernanza
+### Autoridad de Gobernanza (Data Space Authority)
+La entidad responsable de la operación, mantenimiento y supervisión del cumplimiento de este Rulebook es el **Centro Nacional de Industrias del Español (CNIE)**.
+
+Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
+- Definir y actualizar este Rulebook y sus anexos técnicos.
+- Supervisar el cumplimiento de las políticas de uso así como facilitar la resolución de conflictos y la mediación entre participantes en caso de disputas relacionadas con el uso de datos o el cumplimiento de políticas.
+- Revocar la participación de entidades que incumplan las normas establecidas.
+- Garantizar el cumplimiento de la normativa de privacidad aplicable en todas las operaciones del espacio.
+- Desarrollar y mantener una infraestructura tecnológica robusta, segura y escalable que soporte las operaciones del EDNEL, así como auditar dichas operaciones del espacio para asegurar la conformidad con los principios de soberanía y confianza.
+- Facilitar la interoperabilidad con otros espacios de datos europeos y sectoriales.
+- Promover la adopción de estándares abiertos y mejores prácticas en la gestión de datos lingüísticos y de IA.
+- Fomentar la innovación y el desarrollo de nuevos servicios dentro del ecosistema del EDNEL.
+- Colaborar con organismos reguladores y autoridades nacionales e internacionales para asegurar el alineamiento normativo y establecer alianzas estratégicas con otras infraestructuras de datos y organizaciones relevantes en el ámbito lingüístico y tecnológico.
+- Publicar informes periódicos sobre el estado del espacio, incluyendo métricas de uso, casos de éxito y desafíos enfrentados. Organizar actividades de formación y divulgación para promover la adopción del espacio entre potenciales participantes.
+
+**El CNIE se compromete** a operar con transparencia, imparcialidad y en estricto cumplimiento de la normativa vigente, garantizando la integridad del espacio y la protección de los derechos de todos los participantes.
 
 La Autoridad de Gobernanza es responsable de la operación, supervisión y control del espacio de datos, sin acceso al contenido de los datos de los participantes. Sus funciones incluyen:
 
@@ -52,6 +67,16 @@ No obstante, constituye la principal puerta de entrada al ecosistema EDNEL, y un
 
 <br>
 Los permisos concretos asociados a cada rol se definen en el diseño funcional (EDNEL B1.E02.VX.X - Análisis y diseño Funcional.docx) y en la implementación técnica del sistema (EDNEL B1.E03.VX.X - Diseño Técnico.docx).
+
+## Comite de dirección
+
+Es el órgano responsable de supervisar y dirigir la ejecución estratégica del Espacio de Datos de la Nueva Economía de la Lengua (EDNEL). Está compuesto por representantes del Centro Nacional de Industrias del Español (CNIE) y otros actores clave del ecosistema lingüístico y tecnológico:
+
+* La autoridad de gobernanza (CNIE)
+
+* Representantes de los Participantes Estratégicos
+
+* Miembros del equipo de supervisión legal y cumplimiento
 
 
 ## Adhesión al Espacio de Datos: Derechos y Obligaciones
