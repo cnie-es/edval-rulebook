@@ -1,6 +1,7 @@
-## ANEXO 1: CASOS DE USO
+# ANEXO 1: CASOS DE USO
+---
 
-### Modelo de Lenguaje en Español
+## Modelo de Lenguaje en Español
 
 El caso de uso describe la necesidad de habilitar un entorno seguro, gobernado e interoperable que permita entrenar modelos de inteligencia artificial en lengua española utilizando grandes corpus de datos audiovisuales (audio y vídeo) y de texto de alta calidad.
 
@@ -91,7 +92,7 @@ El caso de uso demuestra:
 - La importancia de un ecosistema que habilita IA soberana en español, alineada con los principios europeos.
 - La creación de activos estratégicos reutilizables para múltiples servicios públicos y privados.
 
-### Localización y expansión de empresas hispanohablantes en Europa
+## Localización y expansión de empresas hispanohablantes en Europa
 
 Creación de una plataforma de datos lingüísticos en español, conectada e interoperable con el European Language Data Space (ELDS), orientada a resolver barreras lingüísticas, terminológicas y culturales que enfrentan las empresas hispanohablantes al expandirse en Europa.
 
@@ -166,7 +167,7 @@ d) Fomento de servicios inteligentes basados en IA: habilita chatbots multiling�
 
 e) Incremento de competitividad: permite a empresas hispanohablantes reducir costes, riesgos y tiempos de entrada a mercados europeos.
 
-### Repositorio abierto de terminología especializada en español
+## Repositorio abierto de terminología especializada en español
 
 Creación de un repositorio abierto, colaborativo y estandarizado de terminología especializada en español, integrado dentro del Espacio de Datos de la Nueva Economía de la Lengua.
 

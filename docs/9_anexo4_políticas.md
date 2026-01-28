@@ -1,6 +1,7 @@
-## ANEXO IV - POLÍTICAS DE ACCESO Y USO DE DATOS
+# ANEXO IV - POLÍTICAS DE ACCESO Y USO DE DATOS
+---
 
- En este anexo se presentan ejemplos de políticas de acceso y uso de datos que pueden ser aplicadas en el EDNEL, y que serán definidas con más detalle en el futuro por la Autoridad de Gobernanza en función de las necesidades del ecosistema.
+En este anexo se presentan ejemplos de políticas de acceso y uso de datos que pueden ser aplicadas en el EDNEL, y que serán definidas con más detalle en el futuro por la Autoridad de Gobernanza en función de las necesidades del ecosistema.
 
 ### Políticas de acceso
 

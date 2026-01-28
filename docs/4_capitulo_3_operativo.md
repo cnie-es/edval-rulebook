@@ -189,7 +189,7 @@ Los participantes pueden utilizar, de forma externa al Espacio:
 - Facturación directa entre partes
 - Otros medios acordados contractualmente
 
-### Gestión de Transacciones
+### Gestión de Transacciones
 
 El Espacio **no impone ni gestiona** un proveedor de pagos concreto. Aunque el pago se realiza externamente, el Espacio sí registra la existencia de la transacción, exclusivamente con fines de: trazabilidad, auditoría, control de cumplimiento, resolución de disputas.
 El registro no incluye información financiera sensible, sino metadatos de transacción.
