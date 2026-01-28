@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-$outputBase = "EDNEL-Rulebook"
+$outputBase = "EDNEL B1.E21.1 VX.X - Implantación del modelo de gobernanza"
 $tempFile = "temp_full_docs.md"
 $docsDir = "docs"
 $policiesDir = "code/policies"
@@ -33,20 +33,20 @@ if (Test-Path $docsDir) {
 }
 
 # Add Policies from code/policies/
-if (Test-Path $policiesDir) {
-    Write-Host "Adding Policies..."
-    "# Policies`n" | Out-File -FilePath $tempFile -Encoding utf8 -Append
-    
-    $policies = Get-ChildItem -Path $policiesDir -Filter *.json | Sort-Object Name
-    foreach ($policy in $policies) {
-        Write-Host "Adding $($policy.Name)"
-        "## $($policy.Name)`n" | Out-File -FilePath $tempFile -Encoding utf8 -Append
-        '```json' | Out-File -FilePath $tempFile -Encoding utf8 -Append
-        Get-Content $policy.FullName -Encoding utf8 | Out-File -FilePath $tempFile -Encoding utf8 -Append
-        '```' | Out-File -FilePath $tempFile -Encoding utf8 -Append
-        "`n`n" | Out-File -FilePath $tempFile -Encoding utf8 -Append
-    }
-}
+#if (Test-Path $policiesDir) {
+#    Write-Host "Adding Policies..."
+#    "# Policies`n" | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#    
+#    $policies = Get-ChildItem -Path $policiesDir -Filter *.json | Sort-Object Name
+#    foreach ($policy in $policies) {
+#        Write-Host "Adding $($policy.Name)"
+#        "## $($policy.Name)`n" | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#        '```json' | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#        Get-Content $policy.FullName -Encoding utf8 | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#        '```' | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#        "`n`n" | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#    }
+#}
 
 # 2. Generate Word Document
 Write-Host "Generating Word document ($outputBase.docx)..."

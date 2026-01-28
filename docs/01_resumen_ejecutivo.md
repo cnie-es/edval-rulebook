@@ -1,4 +1,5 @@
 # RESUMEN EJECUTIVO
+
 ---
 
 El **Espacio de Datos de la Nueva Economía de la Lengua** (EDNEL) es una infraestructura digital federada y soberana que facilita el intercambio seguro de datos y recursos lingüísticos en español. Se trata de un ecosistema descentralizado en el que los datos permanecen siempre bajo el control de sus propietarios y solo se comparten bajo condiciones explícitas, contractuales y verificables. Su misión principal es posicionar el español como activos estratégicos en la economía del dato y la IA en Europa y el mundo.
