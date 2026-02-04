@@ -1,0 +1,15 @@
+# Abstract
+
+This document is part of deliverable *B1.E21, Documentación de Implantación del Modelo de Gobernanza*, and more specifically corresponds to deliverable *B1.E21.1 Borrador de la implantación del Modelo de Gobernanza*, as a preliminary version, which we will also refer to as the *Rulebook del Espacio de Datos de la Nueva Economía de la Lengua* (EDNEL). 
+
+**Rulebook del Espacio de Datos de la Nueva Economía de la Lengua** (EDNEL) establishes the comprehensive **framework for governance**, trust, operations, and technical aspects for a federated ecosystem for the secure and sovereign exchange of linguistic data. It defines the **strategic vision** of promoting Spanish in the data economy, together with the roles, responsibilities, and processes for the participants. It includes a **legal framework** aligned with the GDPR, the Data Act, the DGA, and the AI Act, regulating intellectual property, licensing, and rights over derivatives. It establishes an **operational model** based on onboarding, publication, negotiation, and traceability processes through certified connectors. The **technical framework** is based on federated architectures compatible with the DSSC and aligned with the principles of GAIA-X, using standards such as DCAT-AP, JSON-LD, and ODRL policies. The Trust Framework guarantees identity, trust, and traceability. Altogether, this ensures interoperability, security, data sovereignty, and value creation for the entire ecosystem. 
+
+Keywords: Data Space, Data Governance, Data Economy, Trust and Security, Interoperability. 
+
+# Resumen
+
+Este documento forma parte del entregable *B1.E21 Documentación de la implantación del modelo de gobernanza*, en concreto se corresponde al entregable *B1.E21.1 Borrador de la implantación del Modelo de Gobernanza*, como versión preliminar, que también llamaremos Rulebook del Espacio de Datos de la Nueva Economía de la Lengua (EDNEL). 
+
+El **Rulebook del Espacio de Datos de la Nueva Economía de la Lengua** (EDNEL) establece el **marco integral de gobernanza**, confianza, operación y aspectos técnicos para un ecosistema federado de intercambio seguro y soberano de datos lingüísticos. Define la **visión estratégica** de impulsar el español en la economía del dato, junto con los roles, responsabilidades y procesos para los participantes. Incluye un **marco legal** alineado con GDPR, Data Act, DGA y AI Act, regulando propiedad intelectual, licencias y derechos sobre derivados. Establece un **modelo operativo** basado en procesos de onboarding, publicación, negociación y trazabilidad mediante conectores certificados. El **marco técnico** se fundamenta en arquitecturas federadas compatibles con DSSC y alineado con los principios de GAIA-X, con estándares como DCAT-AP, JSON-LD y políticas ODRL. El Trust Framework garantiza identidad, confianza y trazabilidad. El conjunto asegura interoperabilidad, seguridad, soberanía del dato y creación de valor para todo el ecosistema.
+
+**Palabras clave:** Espacio de Datos, Gobernanza de Datos, Economía del Dato, Confianza y Seguridad, Interoperabilidad.

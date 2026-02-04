@@ -13,87 +13,93 @@ El acuerdo debe contemplar los elementos que se describen a continuación:
 
 **Identificación del participante y su rol en el ecosistema**
 
-- La identidad jurídica del participante.
-- Su naturaleza (empresa privada, organismo público, universidad, centro de investigación, proveedor tecnológico, etc.).
-- El rol que desempeñará dentro del espacio de datos, según las categorías previstas en el modelo: proveedor de datos, consumidor de datos, intermediario, proveedor de servicios, etc.
+* La identidad jurídica del participante.
+* Su naturaleza (empresa privada, organismo público, universidad, centro de investigación, proveedor tecnológico, etc.).
+* El rol que desempeñará dentro del espacio de datos, según las categorías previstas en el modelo: proveedor de datos, consumidor de datos, intermediario, proveedor de servicios, etc.
 Cada rol implica obligaciones específicas en materia de provisión, uso, trazabilidad, seguridad y calidad del dato.
 
 **Aceptación del marco de gobernanza**
 
 El participante debe aceptar expresamente:
-- Las políticas y reglas de gobernanza del espacio.
-- Los mecanismos de supervisión y control establecidos.
-- Los procedimientos operativos comunes.
-- Las reglas de participación y coordinación entre actores.
-- La adhesión a los principios de interoperabilidad, confianza, transparencia y no discriminación.
 
+* Las políticas y reglas de gobernanza del espacio.
+* Los mecanismos de supervisión y control establecidos.
+* Los procedimientos operativos comunes.
+* Las reglas de participación y coordinación entre actores.
+* La adhesión a los principios de interoperabilidad, confianza, transparencia y no discriminación.
 La aceptación implica asumir los estándares técnicos, semánticos, operativos y legales definidos para garantizar el funcionamiento harmonizado del espacio.
 
 **Condiciones de uso y acceso a los datos**
 
 El acuerdo define:
 
-- Los datos accesibles para el participante
-- Las finalidades permitidas
-- Los límites de reutilización y redistribución
-- Las prohibiciones (como la reidentificación o usos no autorizados)
+* Los datos accesibles para el participante
+* Las finalidades permitidas
+* Los límites de reutilización y redistribución
+* Las prohibiciones (como la reidentificación o usos no autorizados)
 
 **Responsabilidades del participante**
 
-- Cumplir los requisitos técnicos y de seguridad,
-- Respetar los metadatos, licencias y reglas definidas por los proveedores
-- Garantizar calidad, integridad y veracidad de los datos que aporte
-- Mantener compatibilidad con los servicios y estándares del ecosistema
-- Colaborar en auditorías y supervisiones.
+* Cumplir los requisitos técnicos y de seguridad,
+* Respetar los metadatos, licencias y reglas definidas por los proveedores
+* Garantizar calidad, integridad y veracidad de los datos que aporte
+* Mantener compatibilidad con los servicios y estándares del ecosistema
+* Colaborar en auditorías y supervisiones.
 
 **Protección de datos, privacidad y consentimiento**
 
 El participante se compromete a:
-- Aplicar principios de privacidad por diseño
-- Cumplir el RGPD y normativa europea asociada
-- Gestionar correctamente el consentimiento digital cuando aplique
-- Proteger los datos personales y reportar incidentes de forma inmediata
+
+* Aplicar principios de privacidad por diseño
+* Cumplir el RGPD y normativa europea asociada
+* Gestionar correctamente el consentimiento digital cuando aplique
+* Proteger los datos personales y reportar incidentes de forma inmediata
 
 **Interoperabilidad y estándares técnicos**
 
 La adhesión implica respetar:
-- Los modelos semánticos comunes
-- Las APIs y protocolos oficiales
-- Los servicios de confianza y trazabilidad
-- Los requisitos de interoperabilidad con otros espacios europeos
+
+* Los modelos semánticos comunes
+* Las APIs y protocolos oficiales
+* Los servicios de confianza y trazabilidad
+* Los requisitos de interoperabilidad con otros espacios europeos
 
 **Supervisión, control y auditoría**
 
 La entidad acepta:
-- Monitorización continua de sus operaciones
-- Auditorías periódicas técnicas y legales
-- Revisión de evidencias de uso
-- Posibles medidas de corrección, suspensión o limitación en caso de incumplimiento
+
+* Monitorización continua de sus operaciones
+* Auditorías periódicas técnicas y legales
+* Revisión de evidencias de uso
+* Posibles medidas de corrección, suspensión o limitación en caso de incumplimiento
 
 **Condiciones de incorporación, permanencia y salida**
 
 El acuerdo establece:
-- El proceso de adhesión
-- Las reglas de permanencia
-- Los motivos de suspensión o expulsión
-- Las obligaciones tras la salida (eliminación de datos, no uso indebido, conservación de evidencias cuando proceda).
 
-[Contrato de adhesión](capitulo_5_confianza_y_anexos.md#4-el-acuerdo-de-adhesi%C3%B3n-accession-agreement)
+* El proceso de adhesión
+* Las reglas de permanencia
+* Los motivos de suspensión o expulsión
+* Las obligaciones tras la salida (eliminación de datos, no uso indebido, conservación de evidencias cuando proceda).
+
+[Términos y condiciones](capitulo_5_anexo3_concidiones.md)
 
 ## Soberanía del Dato y Propiedad Intelectual
 
 El principio fundamental del EDNEL es que la compartición de datos no implica la cesión de la propiedad, sino la licencia de uso bajo condiciones específicas.
 
 Los participantes reconocen y aceptan que la **soberanía del dato** corresponde al Data Owner que aporta el activo. Dicho propietario mantiene el control sobre: 
-1) La localización física o lógica del dato 
-2) Las políticas de acceso y uso
-3) Las condiciones contractuales y de licencia aplicables 
-4) La revocación de permisos
 
-La aportación de datos al Espacio no supone transferencia de los **derechos de propiedad intelectual** subyacentes, salvo que se acuerde expresamente por escrito. El proveedor declarará la titularidad y otorgará una licencia de uso que podrá ser: 
-- **Abierta**: especificando la licencia
-- **Condicionada**: uso restringido para investigación, no comercial, etc.
-- **De pago (comercial)**: la licencia incluirá reglas sobre redistribución y la explotación de derivados (incluyendo modelos entrenados).
+1. La localización física o lógica del dato 
+2. Las políticas de acceso y uso
+3. Las condiciones contractuales y de licencia aplicables 
+4. La revocación de permisos
+
+La aportación de datos al Espacio no supone transferencia de los **derechos de propiedad intelectual** subyacentes, salvo que se acuerde expresamente por escrito. El proveedor declarará la titularidad y otorgará una licencia de uso que podrá ser:
+
+* **Abierta**: especificando la licencia
+* **Condicionada**: uso restringido para investigación, no comercial, etc.
+* **De pago (comercial)**: la licencia incluirá reglas sobre redistribución y la explotación de derivados (incluyendo modelos entrenados).
 
 **No Exclusividad:** La publicación de un activo en el EDNEL no impide al Proveedor explotarlo por otros canales.
 
@@ -108,6 +114,7 @@ Cada activo publicado en el catálogo debe incluir una **pólitica de uso** que 
 La política se interpreta y se aplica antes de permitir cualquier transferencia o acceso. El control se ejerce mediante el *Motor de Políticas del Conector*, que permite expresar y hacer cumplir las políticas del Data Owner sin necesidad de centralizar los datos.
 
 **Pólitica de uso** El Proveedor tiene el derecho inalienable de definir técnicamente:
+
 1. **Quién** puede acceder (ej. "Solo Universidades").
 2. **Para qué** (ej. "Solo investigación", "Entrenamiento de IA", "Atribución obligatoria", "Prohibido uso comercial").
 3. **Durante cuánto tiempo** (ej. "30 días").
@@ -124,7 +131,8 @@ El EDNEL opera en estricto cumplimiento de la normativa europea y nacional.
 
 Para activos que incluyan datos personales o sensibles, el proveedor y el consumidor deberán aplicar medidas de privacidad por diseño y por defecto; la Autoridad podrá imponer técnicas PET (anonimización, pseudonimización, enclaves seguros, procesamiento in-situ) y limitaciones de exportación de datos si procede
 
-* **Datos Personales (RGPD):** * Queda prohibida la publicación de datos personales no anonimizados, salvo base legitimadora expresa.
+* **Datos Personales (RGPD):** 
+    *  Queda prohibida la publicación de datos personales no anonimizados, salvo base legitimadora expresa.
     * Para el **Corpus Oral**, es obligatorio aplicar técnicas de anonimización de voz y supresión de metadatos identificativos antes de su ingesta.
     * **Ética de la IA:** Los participantes se comprometen a utilizar los datos para entrenar modelos que respeten los principios de no discriminación y transparencia de la *AI Act* europea.
 
@@ -144,10 +152,10 @@ Marco fundamental para cualquier flujo de **datos personales** dentro del espaci
 #### - Data Act: Reglamento (UE) 2023/28554 del Parlamento Europeo y del Consejo, de 13 de diciembre de 2023, sobre normas armonizadas para un acceso justo a los datos y su utilización, que modifica el Reglamento (UE) 2017/2394 y la Directiva (UE) 2020/1828 (Reglamento de datos)
 Establece derechos y obligaciones en torno al acceso, compartición y reutilización de datos generados por usuarios y sistemas. Relevante para:
 
-- Acuerdos contractuales entre proveedores y consumidores
-- Condiciones de portabilidad
-- Compartición B2B y B2G
-- Interoperabilidad entre servicios cloud y espacios de datos
+* Acuerdos contractuales entre proveedores y consumidores
+* Condiciones de portabilidad
+* Compartición B2B y B2G
+* Interoperabilidad entre servicios cloud y espacios de datos
 
 #### - Reglamento (UE) 2024/1183 del Parlamento y del Consejo Europeo de 11 de abril de 2024, establecimiento del marco europeo de identidad digital (eIDAS 2.0)
 
@@ -158,29 +166,30 @@ Proporciona el marco común seguro e interoperable de identidad electrónica y s
 
 Aplica directamente al **modelo organizativo** del espacio de datos, especialmente en lo relativo a:
 
-- Servicios de intermediación de datos
-- Neutralidad, transparencia y requisitos de certificación de intermediarios
-- Mecanismos de altruismo de datos
-- Reutilización de datos públicos protegidos
+* Servicios de intermediación de datos
+* Neutralidad, transparencia y requisitos de certificación de intermediarios
+* Mecanismos de altruismo de datos
+* Reutilización de datos públicos protegidos
 
 
 #### - Directiva sobre Derechos de Autor en el Mercado Único Digital (DSM – Directiva 2019/790)
 
 Especialmente relevante para:
 
-- Text and Data Mining (TDM), tanto con fines de investigación como comerciales
-- Gestión de corpus y materiales sujetos a derechos de autor
-- Opt-outs de titulares
-- Derechos sobre obras derivadas y reutilización de contenido protegido
+* Text and Data Mining (TDM), tanto con fines de investigación como comerciales
+* Gestión de corpus y materiales sujetos a derechos de autor
+* Opt-outs de titulares
+* Derechos sobre obras derivadas y reutilización de contenido protegido
 
 #### - Reglamento de Inteligencia Artificial (AI Act – 2024)
 
 Aplicable a cualquier sistema de IA entrenado o desplegado mediante datos del espacio.
 Incluye requisitos sobre:
-- Calidad y gobernanza de datos de entrenamiento
-- Transparencia
-- Riesgos elevados
-- Obligaciones del proveedor, usuario y distribuidor de IA generativa o de propósito general
+
+* Calidad y gobernanza de datos de entrenamiento
+* Transparencia
+* Riesgos elevados
+* Obligaciones del proveedor, usuario y distribuidor de IA generativa o de propósito general
 
 #### - Directiva 2002/58/CE del Parlamento Europeo y del Consejo, de 12 de julio de 2002, relativa al tratamiento de datos personales y a la protección de intimidad en el sector de las comunicaciones electrónicas (Directiva sobre la privacidad y las comunicaciones electrónicas)
 
@@ -205,21 +214,21 @@ Establece las reglas básicas para la puesta a disposición, el acceso y la reut
 
 Complementa el GDPR en ámbitos como:
 
-- Tratamiento de datos biométricos (voz, imagen)
-- Derechos digitales
-- Datos especialmente protegidos
-- Tratamiento por entidades públicas
+* Tratamiento de datos biométricos (voz, imagen)
+* Derechos digitales
+* Datos especialmente protegidos
+* Tratamiento por entidades públicas
 
 #### - Texto Refundido de la Ley de Propiedad Intelectual (TRLPI – Real Decreto Legislativo 1/1996)
 
 Esencial para regular la propiedad intelectual sobre:
 
-- Corpus textuales
-- Grabaciones de audio y vídeo
-- Anotaciones lingüísticas
-- Bases de datos
-- Recursos terminológicos
-- Modelos derivados entrenados
+* Corpus textuales
+* Grabaciones de audio y vídeo
+* Anotaciones lingüísticas
+* Bases de datos
+* Recursos terminológicos
+* Modelos derivados entrenados
 
 #### - Ley 37/2007, de 16 de noviembre sobre reutilización del la información del sector público (RISP)
 
@@ -240,29 +249,12 @@ Regulación del régimen jurídico de los servicios de la sociedad de la informa
 
 ### Marcos técnicos y de gobernanza internacionales aplicables
 
--  **LDS Rulebook** (Language Data Space): asegura la interoperabilidad y confianza entre los dos espacios de datos lingüísticos.
--  **GAIA-X Trust Framework** y **GAIA-X Compliance Rules**: marco europeo de identidad, confianza, soberanía del dato, transparencia y conformidad.
--  **DSSC – Data Spaces Support Centre Blueprint**
--  Centro Criptológico Nacional (CCN-CERT). **Guías CCN-STIC – Serie 800**: Esquema Nacional de Seguridad (ENS). CCN-CNI
-- Especificación UNE 0087: Definición y caracterización de los Espacios de Datos
-- ISO 24622-1:2015 Gestión de recursos del lenguaje — Infraestructura de Metadatos Componentes (CMDI)
-- **ISO/IEC 38507**:2022: Tecnologías de la información — Gobernanza de TI — Implicaciones de gobernanza del uso de inteligencia artificial por parte de las organizaciones
-- **ISO/IEC 42001:2023**: Sistema de gestión de la inteligencia artificial (SGIA)
-- **UNE-ISO 24495-1:2024**: Lenguaje claro. Parte 1: Principios rectores y directrices.
-
-
----
-
-**Fuentes:**
-
-Pliego
-
-LDS Architecture & Components (Common European Language Data Space). 
-
-European Language Data Space — About / Principles. 
-
-GAIA-X Trust Framework — GAIA-X Compliance Rules.
-
-Sitra — Rulebook model / IPR Q&A (guidance sobre IPR en data spaces). 
-
-Datos.gob.es — nota sobre LDS operativa y soberanía.**
+*  **LDS Rulebook** (Language Data Space): asegura la interoperabilidad y confianza entre los dos espacios de datos lingüísticos.
+*  **GAIA-X Trust Framework** y **GAIA-X Compliance Rules**: marco europeo de identidad, confianza, soberanía del dato, transparencia y conformidad.
+*  **DSSC – Data Spaces Support Centre Blueprint**
+*  Centro Criptológico Nacional (CCN-CERT). **Guías CCN-STIC – Serie 800**: Esquema Nacional de Seguridad (ENS). CCN-CNI
+* **Especificación UNE 0087**: Definición y caracterización de los Espacios de Datos
+* **ISO 24622-1:2015** Gestión de recursos del lenguaje — Infraestructura de Metadatos Componentes (CMDI)
+* **ISO/IEC 38507**:2022: Tecnologías de la información — Gobernanza de TI — Implicaciones de gobernanza del uso de inteligencia artificial por parte de las organizaciones
+* **ISO/IEC 42001:2023**: Sistema de gestión de la inteligencia artificial (SGIA)
+* **UNE-ISO 24495-1:2024**: Lenguaje claro. Parte 1: Principios rectores y directrices.
