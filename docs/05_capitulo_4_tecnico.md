@@ -22,6 +22,7 @@ El ecosistema del EDNEL se compone, como mínimo, de los siguientes tipos de com
 
 ### Componentes de los Participantes:
 Cada Participante (Proveedor o Consumidor) debe disponer de:
+
 * Un **Conector** certificado que actúe como puerta de enlace segura.
 * Un sistema de gestión de **identidad, credenciales y secretos**, compatible con el marco de confianza.
 * Mecanismos de **integración** con sus sistemas internos de datos o servicios.
@@ -29,6 +30,7 @@ Cada Participante (Proveedor o Consumidor) debe disponer de:
 
 ### Componentes Centrales de la Autoridad de Gobernanza:
 La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios técnicos centrales:
+
 * **Portal** del Espacio de Datos.
 * Servicios de **Identidad y Confianza**.
 * **Catálogo Semántico** y Servicio de **Descubrimiento**.
@@ -40,6 +42,7 @@ La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios téc
 Los conectores son componentes técnicos fundamentales que actúan como puerta de enlace segura entre los participantes del EDNEL y el ecosistema. Cada participante debe desplegar un conector certificado, que garantiza la interoperabilidad técnica y la seguridad en las operaciones de intercambio de datos.
 
 Todo conector deberá:
+
 * Representar la **identidad técnica** del participante y operar únicamente en su nombre.
 * **Autenticar y verificar** la identidad y atributos.
 * Participar en la **negociación**, formalización y gestión de contratos de datos.
@@ -173,6 +176,7 @@ El EDNEL establece reglas técnicas para gobernar:
 * La asociación de políticas de uso a los resultados derivados
 
 Se consideran **activos derivados** aquellos que resultan de la transformación, combinación o procesamiento de uno o más activos originales, incluyendo pero no limitándose a:
+
 * Datasets limpiados, anotados, combinados o enriquecidos.
 * Corpus lingüísticos procesados o segmentados.
 * Modelos de IA entrenados o ajustados utilizando datos del EDNEL.
@@ -185,11 +189,13 @@ Todo activo derivado:
 * Debe reflejar explícitamente: qué políticas aplican, que restricciones se heredan, y que usos están permitidos o prohibidos.
 
 En cuanto al **linaje**, el EDNEL exige a cada activo:
+
 * Tener un origen claro y verificable.
 * Registrar todas las transformaciones aplicadas.
 * Estar vinculado a uno o mas activos, uno o más contratos y un conjunto de políticas de uso.
 
 Para permitir la **trazabilidad** de todos los activos, se debe permitir:
+
 * Reconstruir el árbol de linaje de cualquier activo.
 * Identificar las fuentes originales.
 
@@ -226,6 +232,7 @@ EDNEL asegura la interoperabilidad técnica con el ecosistema europeo de espacio
 ## Gobernanza Técnica y Evolución del Ecosistema
 
 Para asegurar la evolución sostenible del EDNEL, se establecerá un marco de gobernanza técnica que incluya:
+
 * **Comité Técnico de Gobernanza:** Responsable de la definición y actualización de estándares, políticas y procedimientos técnicos.
 * **Proceso de Certificación de Conectores:** Mecanismo formal para certificar que los conectores cumplen con las especificaciones técnicas y de seguridad establecidas.
 * **Estrategia de Actualización:** Planificación de revisiones periódicas para incorporar nuevas tecnologías y estándares emergentes en el ámbito de los espacios de datos.

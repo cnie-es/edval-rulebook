@@ -1,12 +1,12 @@
-# ANEXO IV - POLÍTICAS DE ACCESO Y USO DE DATOS
+# ANEXO IV - POLÍTICAS DE ACCESO Y USO DE DATOS
 
 ---
 
 En este anexo se presentan ejemplos de políticas de acceso y uso de datos que pueden ser aplicadas en el EDNEL, y que serán definidas con más detalle en el futuro por la Autoridad de Gobernanza en función de las necesidades del ecosistema.
 
-### Políticas de acceso
+## Políticas de acceso
 
-#### Sólo participantes onboarded
+**Sólo participantes onboarded**
 ```json
 {
   "@context": "http://www.w3.org/ns/odrl.jsonld",
@@ -24,7 +24,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Identidad verificada
+**Identidad verificada**
 ```json
 {
   "@type": "Set",
@@ -41,7 +41,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Conformidad GAIA-X
+**Conformidad GAIA-X**
 
 ```json
 {
@@ -59,7 +59,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Acreditación universidad
+**Acreditación universidad**
 
 ```json
 {
@@ -77,7 +77,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Sólo data consumers
+**Sólo data consumers**
 
 ```json
 {
@@ -95,9 +95,9 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-### Políticas de uso
+## Políticas de uso
 
-#### Permitido hasta una fecha
+**Permitido hasta una fecha**
 
 ```json
 {
@@ -115,7 +115,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Permitido en un periodo
+**Permitido en un periodo**
 
 ```json
 {
@@ -133,7 +133,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Sólo investigación
+**Sólo investigación**
 
 ```json
 {
@@ -151,7 +151,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Prohibido uso comercial
+**Prohibido uso comercial**
 
 ```json
 {
@@ -169,7 +169,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Dentro de la UE
+**Dentro de la UE**
 
 ```json
 {
@@ -187,7 +187,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Límite de descargas
+**Límite de descargas**
 
 ```json
 {
@@ -205,7 +205,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Límite de volumen
+**Límite de volumen**
 
 ```json
 {
@@ -223,7 +223,7 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
-#### Prohibido crear derivados
+**Prohibido crear derivados**
 
 ```json
 {

@@ -21,10 +21,6 @@ Este marco de gobierno se rige por los principios de **Soberanía del Dato**, **
 
 Los Espacios de Datos impulsan la innovación y la competitividad al permitir una gestión y compartición de datos segura, interoperable y orientada al mercado único europeo. En este marco, los Espacios de Datos Lingüísticos desbloquean el valor del lenguaje para habilitar servicios avanzados de IA y soluciones multilingües, bajo un entorno de confianza y gobernanza común.
 
-Para describir la propuesta de valor se ha utilizado el Modelo Canvas para analizar el **modelo de negocio** para lo cual, a modo de resumen, se adjunta la siguiente figura:
-
-![Modelo de negocio](./docs/images/analisis_modelo_negocio.png)
-
 
 ## Ventaja Competitiva
 
@@ -68,28 +64,28 @@ Estos segmentos permiten alinear datos y servicios con necesidades reales, impul
 
 ## Potenciales participantes
 
-- Proveedores de datos, anotadores y creadores de recursos lingüísticos
+* Proveedores de datos, anotadores y creadores de recursos lingüísticos
 (corpora, repositorios terminológicos, bases de datos sectoriales, laboratorios lingüísticos).
 
-- Empresas que operan en distintos países o regiones lingüísticas
+* Empresas que operan en distintos países o regiones lingüísticas
 (e-commerce, banca, telecomunicaciones, turismo, plataformas digitales).
 
-- Organizaciones que requieren adaptación cultural de contenidos
+* Organizaciones que requieren adaptación cultural de contenidos
 (agencias de marketing, medios de comunicación, productoras audiovisuales).
 
-- Entidades que trabajan con terminología técnica o especializada
+* Entidades que trabajan con terminología técnica o especializada
 (sector jurídico, sanitario, ingeniería, universidades, centros de investigación).
 
-- Proveedores y usuarios intensivos de comunicación digital
+* Proveedores y usuarios intensivos de comunicación digital
 (redes sociales, plataformas colaborativas, servicios de atención al cliente, desarrolladores de chatbots o asistentes).
 
-- Instituciones públicas y organismos reguladores
+* Instituciones públicas y organismos reguladores
 (para normalización lingüística, acceso multilingüe a servicios o transparencia documental).
 
-- Empresas tecnológicas y startups de IA y PLN
+* Empresas tecnológicas y startups de IA y PLN
 (desarrolladores de modelos lingüísticos, herramientas de traducción, análisis de contenido, motores de búsqueda).
 
-- Consultoras y proveedores de servicios especializados
+* Consultoras y proveedores de servicios especializados
 (localización, transcripción, subtitulado, diseño de experiencias multilingües)
 
 
