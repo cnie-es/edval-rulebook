@@ -23,7 +23,7 @@ Los Espacios de Datos impulsan la innovación y la competitividad al permitir un
 
 Para describir la propuesta de valor se ha utilizado el Modelo Canvas para analizar el **modelo de negocio** para lo cual, a modo de resumen, se adjunta la siguiente figura:
 
-![Modelo de negocio](./docs/images/analisis_modelo_negocio.png)
+![Modelo de negocio](./images/analisis_modelo_negocio.png)
 
 
 ## Ventaja Competitiva
