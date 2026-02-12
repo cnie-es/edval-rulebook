@@ -1,6 +1,6 @@
 {
   "name": "ednel-rulebook",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Marco de Gobernanza del Espacio de Datos NEL",
   "scripts": {
     "release": "standard-version",
