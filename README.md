@@ -9,11 +9,18 @@ Este repositorio contiene la fuente de la verdad para el **Marco de Gobernanza d
 ## 📂 Estructura del Repositorio
 
 * **[`/docs`](./docs/):** Documentación normativa legible por humanos (Markdown).
-    * [Capítulo 1: Disposiciones Generales](./docs/capitulo_1_general.md)
-    * [Capítulo 2: Marco Legal](./docs/capitulo_2_legal.md)
-    * [Capítulo 3: Marco Operativo](./docs/capitulo_3_operativo.md)
-    * [Capítulo 4: Marco Técnico](./docs/capitulo_4_tecnico.md)
-    * [Capítulo 5: Confianza y Anexos](./docs/capitulo_5_confianza_y_anexos.md)
+    * [Abstract y resumen](./docs/00_abstract_resumen.md)
+    * [Resumen ejecutivo](./docs/01_resumen_ejecutivo.md)
+    * [Capítulo 1: Disposiciones Generales](./docs/02_capitulo_1_general.md)
+    * [Capítulo 2: Marco Legal](./docs/03_capitulo_2_legal.md)
+    * [Capítulo 3: Marco Operativo](./docs/04_capitulo_3_operativo.md)
+    * [Capítulo 4: Marco Técnico](./docs/05_capitulo_4_tecnico.md)
+    * [Anexo 1: Casos de Uso](./docs/06_anexo1_casos_de_uso.md)
+    * [Anexo 2: Confianza](./docs/07_anexo2_confianza.md)
+    * [Anexo 3: Términos y Condiciones](./docs/08_anexo3_concidiones.md)
+    * [Anexo 4: Definición de políticas](./docs/09_anexo4_políticas.md)
+    * [Glosario](./docs/10_anexo5_glosario.md)
+    * [Referencias](./docs/11_referencias.md)
 * **[`/code`](./code/):** Definiciones legibles por máquina (Machine-readable policies).
     * Políticas de uso estándar en formato ODRL (JSON-LD).
 * **[`/releases`](./releases/):** Versiones congeladas y firmadas en PDF.
