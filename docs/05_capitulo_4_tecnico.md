@@ -1,14 +1,14 @@
-# CAPÍTULO 4: MARCO TÉCNICO Y ESTÁNDARES DE INTEROPERABILIDAD
+# 5. MARCO TÉCNICO Y ESTÁNDARES DE INTEROPERABILIDAD
 
 ---
 
-## Arquitectura de Referencia
+## 5.1. Arquitectura de Referencia
 El EDNEL implementa una arquitectura distribuida y federada, alineada con los principios del **GAIA-X**, las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre), y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS).
 
 El EDNEL adopta como infraestructura base de referencia el ecosistema Simpl-Open promovido a nivel europeo, garantizando la compatibilidad con los servicios comunes de espacios de datos, en particular en los ámbitos de identidad, confianza, federación y observabilidad. Mantendrá una monitorización continua con el roadmap técnico de Simpl-Open, garantizando la compatibilidad futura de sus componentes y evitando bloqueos tecnológicos.
 
 
-### Principios Arquitectónicos
+### 5.1.1. Principios Arquitectónicos
 1. **Soberanía del dato** Los datos permanecen bajo control del proveedor en todo momento. El acceso o uso solo se permite conforme a políticas explícitas y verificables.
 2.  **Descentralización:** No existe un almacenamiento central de datos. Los activos residen en los sistemas de origen (infraestructura del Proveedor) 
 3.  **Separación de Planos:** Se distingue estrictamente entre el **Plano de Control** (gestión de identidad, metadatos, contratos, trazabilidad y políticas) y el **Plano de Datos** (transferencia del contenido real).
@@ -16,11 +16,11 @@ El EDNEL adopta como infraestructura base de referencia el ecosistema Simpl-Open
 5.  **Seguridad y confianza verificable**: Todo intercambio debe realizarse sobre una base de identidad autenticada, políticas ejecutables y trazabilidad verificable.
 6.  **Interoperabilidad federada**: El espacio se basa en estándares abiertos y perfiles comunes que garantizan la interoperabilidad con otros espacios de datos europeos.
 
-## Componentes técnicos fundamentales
+## 5.2. Componentes técnicos fundamentales
 
 El ecosistema del EDNEL se compone, como mínimo, de los siguientes tipos de componentes:
 
-### Componentes de los Participantes:
+### 5.2.1. Componentes de los Participantes:
 Cada Participante (Proveedor o Consumidor) debe disponer de:
 
 * Un **Conector** certificado que actúe como puerta de enlace segura.
@@ -28,7 +28,7 @@ Cada Participante (Proveedor o Consumidor) debe disponer de:
 * Mecanismos de **integración** con sus sistemas internos de datos o servicios.
 * Capacidades de **control, monitoreo y registro** de sus operaciones.
 
-### Componentes Centrales de la Autoridad de Gobernanza:
+### 5.2.2. Componentes Centrales de la Autoridad de Gobernanza:
 La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios técnicos centrales:
 
 * **Portal** del Espacio de Datos.
@@ -36,8 +36,7 @@ La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios téc
 * **Catálogo Semántico** y Servicio de **Descubrimiento**.
 * Servicio registro de evidencias (**Clearing House**).
 
-
-## Conector
+## 5.3. Conector
 
 Los conectores son componentes técnicos fundamentales que actúan como puerta de enlace segura entre los participantes del EDNEL y el ecosistema. Cada participante debe desplegar un conector certificado, que garantiza la interoperabilidad técnica y la seguridad en las operaciones de intercambio de datos.
 
@@ -60,7 +59,7 @@ Queda expresamente **prohibido**:
 * El uso de credenciales, APIs o accesos no gobernados por el Conector.
   
 
-## Obligaciones Técnicas de los Participantes
+## 5.4. Obligaciones Técnicas de los Participantes
 
 Todo participante está obligado a:
 
@@ -72,7 +71,7 @@ Todo participante está obligado a:
 cooperar en la resolución de incidentes y procesos de supervisión
 
 
-## Servicios Técnicos Centrales
+## 5.5. Servicios Técnicos Centrales
 
 La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes servicios técnicos centrales:
 
@@ -83,7 +82,7 @@ La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes serv
 * Servicio de Observabilidad y Clearing House: registro de evidencias técnicas de las operaciones realizadas.Estos servicios constituyen la infraestructura mínima obligatoria para garantizar la coherencia, seguridad, supervisión y operabilidad del espacio de datos.
 
 
-## Marco de identidad, atributos y confianza (Trust Framework)
+## 5.6. Marco de identidad, atributos y confianza (Trust Framework)
 
 La seguridad del espacio se basa en una cadena de confianza criptográfica, alineada con los requisitos de Gaia-X y el futuro reglamento eIDAS 2.
 
@@ -95,7 +94,7 @@ Sobre esta base, el EDNEL establece un marco federado de identidad, atributos y 
 
 En el EDNEL, ningún intercambio de datos o servicio puede producirse sin una verificación previa de identidad y atributos de las partes implicadas.
 
-### Identidades organizativas vs. identidades técnicas
+### 5.6.1. Identidades organizativas vs. identidades técnicas
 
 En lo referente a las identidades, se distingue entre:
 
@@ -106,7 +105,7 @@ Cada operación deberá estar vinculada de forma inequívoca a:
 * Una organización responsable
 * Un componente técnico autenticado
 
-### Atributos y roles
+### 5.6.2. Atributos y roles
 
 Además de la identidad básica, el EDNEL utiliza atributos verificables para expresar:
 
@@ -126,7 +125,7 @@ La **identidad** y los **atributos** no son solo mecanismos de acceso, sino elem
 Las políticas de uso pueden exigir determinados atributos o cualificaciones. El incumplimiento de condiciones de identidad o elegibilidad debe impedir técnicamente el acceso.
 
 
-## Seguridad y control de uso de los datos
+## 5.7. Seguridad y control de uso de los datos
 
 La seguridad del EDNEL se basa en un modelo de control soberano del uso del dato, fundamentado en:
 
@@ -142,14 +141,14 @@ En el EDNEL, todo acceso o uso de un activo está sujeto a una decisión explíc
 * Las políticas del espacio, del proveedor y de la transacción
 * El contexto de uso (finalidad, entorno, periodo, límites, etc.)
 
-### Políticas de acceso
+### 5.7.1. Políticas de acceso
 Las políticas de acceso definen las condiciones bajo las cuales un activo puede ser descubierto o accedido. Estas políticas pueden incluir, entre otras:
 
 * **Políticas de identidad**: definen los requisitos de identidad que debe cumplir el solicitante para acceder al activo.
 * **Políticas de certificación**: definen las certificaciones que debe poseer el solicitante para acceder al activo.
 * **Políticas de rol**: definen los roles permitidos o prohibidos para acceder al activo.
 
-### Políticas de uso y niveles de control
+### 5.7.2. Políticas de uso y niveles de control
 Las políticas de uso definen las condiciones bajo las cuales un activo puede ser utilizado. Estas políticas pueden incluir, entre otras:
 
 * **Políticas temporales**: definen períodos específicos durante los cuales el activo puede ser accedido o utilizado.
@@ -166,7 +165,7 @@ El control de uso de los datos se organiza en cuatro niveles:
 * **Políticas contractuales de la transacción** acordadas entre proveedor y consumidor en cada transacción específica.
 
 
-## Gobierno técnico del Dato y de los derivados
+## 5.8. Gobierno técnico del Dato y de los derivados
 
 El EDNEL establece reglas técnicas para gobernar:
 
@@ -200,7 +199,7 @@ Para permitir la **trazabilidad** de todos los activos, se debe permitir:
 * Identificar las fuentes originales.
 
 
-## Interoperabilidad con Ecosistemas Externos e iniciativas Europeas
+## 5.9. Interoperabilidad con Ecosistemas Externos e iniciativas Europeas
 
 Para maximizar la integración del EDNEL en el panorama europeo de espacios de datos, se garantiza que esté alineado con:
 
@@ -229,7 +228,7 @@ EDNEL asegura la interoperabilidad técnica con el ecosistema europeo de espacio
 * Infraestructura interoperable (Interoperable Infrastructure)
 
 
-## Gobernanza Técnica y Evolución del Ecosistema
+## 5.10. Gobernanza Técnica y Evolución del Ecosistema
 
 Para asegurar la evolución sostenible del EDNEL, se establecerá un marco de gobernanza técnica que incluya:
 

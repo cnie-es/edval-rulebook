@@ -8,7 +8,7 @@ El Participante acepta íntegramente:
 
 * La estructura de gobernanza del espacio de datos, articulada en cinco capas: gobernanza de negocio, técnica, operativa, del dato y legal.
 * Las normas, políticas, procedimientos y estándares adoptados y aprobados por la Autoridad de Gobernanza.
-* Las decisiones, instrucciones y resoluciones que esta emita durante la vigencia del contrato.
+* Las decisiones, instrucciones y resoluciones que esta emita durante la vigencia de la adhesión.
 
 ***Derechos y responsabilidades del Participante***
 
@@ -74,14 +74,14 @@ El Participante declara:
 * Ser titular de los datos que aporta o contar con los derechos necesarios para ponerlos a disposición
 * Definir las licencias de uso aplicables
 * Respetar los derechos que asisten a proveedores y terceros
-* Los datos recibidos podrán emplearse únicamente en los términos establecidos en este contrato y en las reglas asociadas a cada conjunto de datos.
+* Los datos recibidos podrán emplearse únicamente en los términos establecidos en estos términos y condiciones, y en las reglas asociadas a cada conjunto de datos.
 
 ***Condiciones de adhesión, permanencia y baja***
 
-El Participante se adhiere al Espacio de Datos aceptando todas las cláusulas del presente contrato, las políticas de gobernanza vigentes, y declara haber leído y aceptar el Marco de Gobernanza (Rulebook) del EDNEL en su versión vigente [Rulebook v1.0.0](), el cual forma parte integrante de este contrato.
+El Participante se adhiere al Espacio de Datos aceptando todas los terminos y condiciones descritos, las políticas de gobernanza vigentes, y declara haber leído y aceptar el Marco de Gobernanza (Rulebook) del EDNEL en su versión vigente [Rulebook v1.0.0]().
 
 **Adhesión**
-La adhesión surtirá efecto una vez firmado el contrato y superados los requisitos de certificación técnica y organizativa.
+La adhesión surtirá efecto una vez aceptados estos términos y condiciones y superados los requisitos de certificación técnica y organizativa.
 
 **Permanencia**
 
