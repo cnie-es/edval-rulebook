@@ -123,4 +123,4 @@ El participante acuerda:
 * En última instancia, someterse a arbitraje o autoridad competente según la legislación aplicable.
 
 
-[Volver al Capítulo 2 Legal](capitulo_2_legal.md)
+[Volver al Capítulo 2 Legal](capitulo_2_legal.md#terminos-y-condiciones-de-adhesion-al-espacio-de-datos-de-la-nueva-economia-de-la-lengua)

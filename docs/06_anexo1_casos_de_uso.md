@@ -223,3 +223,5 @@ El repositorio se conecta con sistemas y recursos existentes:
 * Mejora de calidad en traducción y localización: permite producir contenido especializado de alta calidad en español.
 * Soberanía lingüística y científica: refuerza el papel del español como lengua de conocimiento avanzado.
 * Fomento de innovación y competitividad: habilita aplicaciones en educación, investigación, industria, IA y documentación técnica.
+* 
+[Volver a "DISPOSICIONES GENERALES"](./02_capitulo_1_general.md#2-9-casos-de-uso-principales)

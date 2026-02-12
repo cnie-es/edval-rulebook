@@ -136,5 +136,5 @@ En términos de negocio, esta interoperabilidad convierte al EDNEL en el nodo pr
 
 ## 2.9. Casos de Uso Principales
 
-Debido al estadio actual del proyecto, los casos de uso no están completamente identificados. Se irán incluyendo a medida que se avance en el desarrollo del espacio de datos. No obstante, y a modo de ejemplo, se incluyen algunos casos de uso potenciales, que se encuentran en el [anexo 1](capitulo_5_anexo1_casos_de_uso.md) del presente Rulebook.
+Debido al estadio actual del proyecto, los casos de uso no están completamente identificados. Se irán incluyendo a medida que se avance en el desarrollo del espacio de datos. No obstante, y a modo de ejemplo, se incluyen algunos casos de uso potenciales, que se encuentran en el [anexo 1](./06_anexo1_casos_de_uso.md) del presente Rulebook.
 

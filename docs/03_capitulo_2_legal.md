@@ -82,7 +82,7 @@ El acuerdo establece:
 * Los motivos de suspensión o expulsión
 * Las obligaciones tras la salida (eliminación de datos, no uso indebido, conservación de evidencias cuando proceda).
 
-[Términos y condiciones](capitulo_5_anexo3_concidiones.md)
+[Términos y condiciones](./08_anexo3_condiciones.md)
 
 ## 3.2. Soberanía del Dato y Propiedad Intelectual
 

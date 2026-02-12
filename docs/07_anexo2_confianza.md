@@ -20,3 +20,5 @@ Para mantener la integridad de la red, no se permite la conexión de software no
 
 * **Homologación del Conector:** Todo Conector que desee unirse a la red productiva debe superar el **Test de Interoperabilidad** automatizado en el entorno de Sandbox.
 * **Atestación Remota (Remote Attestation):** Los conectores deben implementar mecanismos técnicos que permitan verificar criptográficamente la integridad de su código en tiempo de ejecución, garantizando que no han sido manipulados por el participante para evadir las políticas de uso.
+  
+[Volver a MARCO TÉCNICO Y ESTÁNDARES DE INTEROPERABILIDAD](./05_capitulo_4_tecnico.md#56-marco-de-identidad-atributos-y-confianza-trust-framework)

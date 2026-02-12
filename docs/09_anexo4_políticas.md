@@ -236,3 +236,4 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 }
 ```
 
+[Volver a "MARCO TÉCNICO Y ESTÁNDARES DE INTEROPERABILIDAD](./05_capitulo_4_tecnico.md)

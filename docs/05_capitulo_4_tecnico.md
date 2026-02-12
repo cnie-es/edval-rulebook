@@ -94,6 +94,8 @@ Sobre esta base, el EDNEL establece un marco federado de identidad, atributos y 
 
 En el EDNEL, ningún intercambio de datos o servicio puede producirse sin una verificación previa de identidad y atributos de las partes implicadas.
 
+Para una información más detallada sobre el marco de confianza, se remite al [anexo 2](./07_anexo2_confianza.md) del presente Rulebook.
+
 ### 5.6.1. Identidades organizativas vs. identidades técnicas
 
 En lo referente a las identidades, se distingue entre:
@@ -164,6 +166,7 @@ El control de uso de los datos se organiza en cuatro niveles:
 * **Políticas del proveedor** asociadas a cada activo concreto (licencia, restricciones, finalidades, condiciones sectoriales, etc.)
 * **Políticas contractuales de la transacción** acordadas entre proveedor y consumidor en cada transacción específica.
 
+[Ejemplos de políticas de uso y acceso](./09_anexo4_políticas.md)
 
 ## 5.8. Gobierno técnico del Dato y de los derivados
 
