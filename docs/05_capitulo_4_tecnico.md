@@ -36,6 +36,8 @@ La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios téc
 * **Catálogo Semántico** y Servicio de **Descubrimiento**.
 * Servicio registro de evidencias (**Clearing House**).
 
+Para garantizar la plena interoperabilidad y federación con el Espacio de Datos de Lenguaje Europeo (LDS), todos los Participantes que publiquen ofertas de datos en el Catálogo del Valle de la Lengua deberán describir sus activos utilizando el perfil de metadatos Language Data Space DCAT-AP (LanguageDCAT-AP).
+
 ## 5.3. Conector
 
 Los conectores son componentes técnicos fundamentales que actúan como puerta de enlace segura entre los participantes del EDNEL y el ecosistema. Cada participante debe desplegar un conector certificado, que garantiza la interoperabilidad técnica y la seguridad en las operaciones de intercambio de datos.
