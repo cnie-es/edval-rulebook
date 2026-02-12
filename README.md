@@ -19,7 +19,7 @@ Este repositorio contiene la fuente de la verdad para el **Marco de Gobernanza d
     * [Anexo 2: Confianza](./docs/07_anexo2_confianza.md)
     * [Anexo 3: Términos y Condiciones](./docs/08_anexo3_concidiones.md)
     * [Anexo 4: Definición de políticas](./docs/09_anexo4_políticas.md)
-    * [Glosario](./docs/10_anexo5_glosario.md)
+    * [Glosario](./docs/10_glosario_de_terminos.md)
     * [Referencias](./docs/11_referencias.md)
 * **[`/code`](./code/):** Definiciones legibles por máquina (Machine-readable policies).
     * Políticas de uso estándar en formato ODRL (JSON-LD).

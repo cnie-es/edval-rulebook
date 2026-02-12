@@ -1,10 +1,10 @@
-# CAPÍTULO 3: MARCO OPERATIVO Y PROCESOS
+# 4. MARCO OPERATIVO Y PROCESOS
 
 ---
 
-## Roles y responsabilidades
+## 4.1. Roles y responsabilidades
 
-### Autoridad de Gobernanza (Data Space Authority)
+### 4.1.1. Autoridad de Gobernanza (Data Space Authority)
 La entidad responsable de la operación, mantenimiento y supervisión del cumplimiento de este Rulebook es el **Centro Nacional de Industrias del Español (CNIE)**.
 
 Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
@@ -32,7 +32,7 @@ La Autoridad de Gobernanza es responsable de la operación, supervisión y contr
 * Gestión del proceso de onboarding y offboarding de participantes
 * Facilitación y mediación en la resolución de disputas y reclamaciones entre participantes
 
-### Participante
+### 4.1.2. Participante
 
 Cada entidad participante es responsable de:
 
@@ -49,7 +49,7 @@ En general, los participantes pueden asumir uno o varios roles dentro del espaci
 * *Consumidor de Datos*: Busca, solicita y consume activos de datos publicados por otros participantes.
 * *Administrador*: Gestiona la configuración, seguridad y operación del conector local de su organización. Gestiona también la administración de usuarios internos.
 
-### Usuario Público
+### 4.1.3. Usuario Público
 
 El EDNEL ofrece acceso público al portal y al catálogo en modalidad de consulta, sin autenticación y sin acceso a datos protegidos. Esto permite a cualquier usuario:
 
@@ -70,7 +70,7 @@ No obstante, constituye la principal puerta de entrada al ecosistema EDNEL, y un
 <br>
 Los permisos concretos asociados a cada rol se definen en el diseño funcional (EDNEL B1.E02.VX.X - Análisis y diseño Funcional) y en la implementación técnica del sistema (EDNEL B1.E03.VX.X - Diseño Técnico).
 
-## Comite de dirección
+## 4.2. Comite de dirección
 
 Es el órgano responsable de supervisar y dirigir la ejecución estratégica del Espacio de Datos de la Nueva Economía de la Lengua (EDNEL). Está compuesto por representantes del Centro Nacional de Industrias del Español (CNIE) y otros actores clave del ecosistema lingüístico y tecnológico:
 
@@ -81,35 +81,35 @@ Es el órgano responsable de supervisar y dirigir la ejecución estratégica del
 * Miembros del equipo de supervisión legal y cumplimiento
 
 
-## Adhesión al Espacio de Datos: Derechos y Obligaciones
+## 4.3. Adhesión al Espacio de Datos: Derechos y Obligaciones
 Los términos de adhesión definen las reglas básicas que rigen la relación entre los Participantes y la Autoridad del Espacio, incluyendo derechos, obligaciones, limitaciones de responsabilidad, y consecuencias por incumplimiento.
 
-### Derechos del Participante
+### 4.3.1. Derechos del Participante
 1) Publicar y mantener metadatos en el Catálogo Central para hacer sus activos descubribles.
 2) Negociar contratos de uso de datos mediante los conectores.
 3) Acceder a los servicios centrales del Espacio (Catálogo, Clearing House, Portal).
 4) Recibir soporte técnico y operativo.
 5) Conservar la propiedad intelectual y derechos sobre sus datos y activos.
    
-### Obligaciones del Participante
+### 4.3.2. Obligaciones del Participante
 1) Cumplir en cada acción con el Acuerdo de Adhesión y las políticas del Espacio.
 2) Mantener la seguridad y confidencialidad de sus credenciales y datos. En particular, cumplir la normativa y mejores prácticas asociadas a la gestión de sus usuarios de Participante (doble factor de autenticación, etc.).
 3) Mantener su conector operativo y seguro. En el caso concreto de Conectores on premises, desplegar y operar su Conector.
 4) Publicar metadatos y políticas de uso conforme a los estándares del Espacio.
 5) Cumplir las políticas de uso y licencias acordadas en cada transacción.
 6) Aceptar auditorías y revisiones por parte de la Autoridad.
-7) 
-### Limitaciones, Exenciones y Responsabilidades
+   
+### 4.3.3. Limitaciones, Exenciones y Responsabilidades
 1)  **Limitación de Responsabilidad:** La Autoridad y los Operadores no asumen responsabilidad por el contenido de los activos publicados por terceros; cada Participante es responsable de su propio contenido y cumplimiento de licencias.
 2)  **Indemnización:** Los Participantes se comprometen a indemnizar a la Autoridad por reclamaciones derivadas de su incumplimiento legal o contractual.
 3)  **Limitación de servicios:** La Autoridad puede limitar servicios ante abuso o compromiso de la seguridad.
 
-### Suspensión y Rescisión
+### 4.3.4. Suspensión y Rescisión
 1)  **Suspensión Temporal:** La Autoridad puede suspender temporalmente el acceso de un Participante en caso de riesgo inminente (vulnerabilidades, fraude, compromisos de seguridad) hasta la resolución del incidente.
 2)  **Expulsión Definitiva:** Tras un proceso de investigación y notificación, la Autoridad podrá expulsar a un Participante por incumplimiento grave, con reserva de acciones legales y la revocación de credenciales (Offboarding). La expulsión no exime al Participante de obligaciones preexistentes.
 3)  **Consecuencias Operativas:** La suspensión o expulsión conlleva la revocación de credenciales, baja en el Catálogo y la obligación de ejecutar las acciones de eliminación/revocación requeridas por las políticas aplicables.
 
-## Proceso de Admisión y Salida (Onboarding / Offboarding)
+## 4.4. Proceso de Admisión y Salida (Onboarding / Offboarding)
 El EDNEL establece un proceso de incorporación de participantes basado en cuatro fases:
 
 1) Verificación legal y registro.
@@ -124,7 +124,7 @@ De la misma forma, se define un proceso de salida voluntaria o forzosa:
 * Aplicación de las obligaciones de salida y persistencia de responsabilidades.
 
 
-## Ciclo de Vida del Intercambio de Datos
+## 4.5. Ciclo de Vida del Intercambio de Datos
 Los participantes operan bajo el modelo "Publish-Find-Bind" (Publicar-Buscar-Vincular), ejecutado de forma descentralizada a través de sus conectores locales. El ciclo de vida de un intercambio de datos consta de las siguientes fases:
 
 1) Publicación de metadatos y condiciones de uso.
@@ -136,7 +136,7 @@ Los participantes operan bajo el modelo "Publish-Find-Bind" (Publicar-Buscar-Vin
 
 La evaluación de políticas y la autorización previa a cada uso del dato constituyen un principio esencial del EDNEL para garantizar la soberanía del dato durante todo su ciclo de vida, y no únicamente en el momento de la formalización del contrato.
 
-## Modelo económico
+## 4.6. Modelo económico
 
 El EDNEL promueve una economía federada basada en datos, servicios, calidad y confianza, donde la cadena de valor se articula en torno a:
 
@@ -154,7 +154,7 @@ El modelo económico se basa en la remuneración directa entre participantes, si
 * Suscripciones
 * Ingresos derivados de modelos entrenados o derivados conforme a contratos 
 
-### Modelos de licencia y propiedad intelectual
+### 4.6.1. Modelos de licencia y propiedad intelectual
 
 El espacio debe soportar licencias diferenciadas:
 
@@ -172,7 +172,7 @@ Datos abiertos, aplicables a corpus públicos o terminología básica.
 
 Servicios avanzados, corpus curados, anotación experta, etc.
 
-### Servicios gratuitos para participantes
+### 4.6.2. Servicios gratuitos para participantes
 
 * Adhesión al espacio (onboarding)
 * Acceso al catálogo y búsqueda de activos
@@ -180,7 +180,7 @@ Servicios avanzados, corpus curados, anotación experta, etc.
 * Acceso al clearing house y sus servicios de trazabilidad
 * Soporte técnico básico
 
-### Método de Pago
+### 4.6.3. Método de Pago
 
 El Espacio de Datos no actúa como intermediario financiero, plataforma de pago ni custodio de fondos.
 Todos los pagos derivados del acceso a datos, licencias, servicios o productos derivados se realizan fuera del perímetro del Espacio, mediante acuerdos bilaterales o multilaterales entre los participantes implicados.
@@ -192,7 +192,7 @@ Los participantes pueden utilizar, de forma externa al Espacio:
 * Facturación directa entre partes
 * Otros medios acordados contractualmente
 
-### Gestión de Transacciones
+### 4.6.4. Gestión de Transacciones
 
 El Espacio **no impone ni gestiona** un proveedor de pagos concreto. Aunque el pago se realiza externamente, el Espacio sí registra la existencia de la transacción, exclusivamente con fines de: trazabilidad, auditoría, control de cumplimiento, resolución de disputas.
 El registro no incluye información financiera sensible, sino metadatos de transacción.
@@ -216,7 +216,7 @@ El registro no incluye información financiera sensible, sino metadatos de trans
 * *Cancelada*: la transacción se cancela antes de su finalización, conforme a lo pactado.
 
 
-### Mecanismo de resolución de disputas
+### 4.6.5. Mecanismo de resolución de disputas
 
 **Fase 1 – Resolución bilateral**
 
