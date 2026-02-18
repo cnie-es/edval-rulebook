@@ -13,10 +13,10 @@ Como autoridad de gobernanza, **el CNIE tiene la facultad de**:
 * Supervisar el cumplimiento de las políticas de uso así como facilitar la resolución de conflictos y la mediación entre participantes en caso de disputas relacionadas con el uso de datos o el cumplimiento de políticas.
 * Revocar la participación de entidades que incumplan las normas establecidas.
 * Garantizar el cumplimiento de la normativa de privacidad aplicable en todas las operaciones del espacio.
-* Desarrollar y mantener una infraestructura tecnológica robusta, segura y escalable que soporte las operaciones del EDNEL, así como auditar dichas operaciones del espacio para asegurar la conformidad con los principios de soberanía y confianza.
+* Desarrollar y mantener una infraestructura tecnológica robusta, segura y escalable que soporte las operaciones del Espacio, así como auditar dichas operaciones del espacio para asegurar la conformidad con los principios de soberanía y confianza.
 * Facilitar la interoperabilidad con otros espacios de datos europeos y sectoriales.
 * Promover la adopción de estándares abiertos y mejores prácticas en la gestión de datos lingüísticos y de IA.
-* Fomentar la innovación y el desarrollo de nuevos servicios dentro del ecosistema del EDNEL.
+* Fomentar la innovación y el desarrollo de nuevos servicios dentro del ecosistema del Espacio.
 * Colaborar con organismos reguladores y autoridades nacionales e internacionales para asegurar el alineamiento normativo y establecer alianzas estratégicas con otras infraestructuras de datos y organizaciones relevantes en el ámbito lingüístico y tecnológico.
 * Publicar informes periódicos sobre el estado del espacio, incluyendo métricas de uso, casos de éxito y desafíos enfrentados. Organizar actividades de formación y divulgación para promover la adopción del espacio entre potenciales participantes.
 
@@ -36,7 +36,7 @@ La Autoridad de Gobernanza es responsable de la operación, supervisión y contr
 
 Cada entidad participante es responsable de:
 
-* Su representación ante el EDNEL
+* Su representación ante el Espacio de Datos Valle de la Lengua
 * La generación y gestión de sus usuarios internos
 * La operación de su conector
 * La publicación y/o consumo de activos
@@ -51,7 +51,7 @@ En general, los participantes pueden asumir uno o varios roles dentro del espaci
 
 ### 4.1.3. Usuario Público
 
-El EDNEL ofrece acceso público al portal y al catálogo en modalidad de consulta, sin autenticación y sin acceso a datos protegidos. Esto permite a cualquier usuario:
+El Espacio ofrece acceso público al portal y al catálogo en modalidad de consulta, sin autenticación y sin acceso a datos protegidos. Esto permite a cualquier usuario:
 
 * Descubrir el ecosistema del Espacio de Datos
 * Explorar el catálogo público de recursos, datasets y servicios disponibles
@@ -65,14 +65,14 @@ El acceso público no permite en ningún caso:
 * Descargar o utilizar activos sujetos a políticas de uso
 * Participar en negociaciones o contratos
 
-No obstante, constituye la principal puerta de entrada al ecosistema EDNEL, y un elemento fundamental de su estrategia de crecimiento, adopción y posicionamiento europeo.
+No obstante, constituye la principal puerta de entrada al ecosistema, y un elemento fundamental de su estrategia de crecimiento, adopción y posicionamiento europeo.
 
 <br>
 Los permisos concretos asociados a cada rol se definen en el diseño funcional (EDNEL B1.E02.VX.X - Análisis y diseño Funcional) y en la implementación técnica del sistema (EDNEL B1.E03.VX.X - Diseño Técnico).
 
 ## 4.2. Comite de dirección
 
-Es el órgano responsable de supervisar y dirigir la ejecución estratégica del Espacio de Datos de la Nueva Economía de la Lengua (EDNEL). Está compuesto por representantes del Centro Nacional de Industrias del Español (CNIE) y otros actores clave del ecosistema lingüístico y tecnológico:
+Es el órgano responsable de supervisar y dirigir la ejecución estratégica del Espacio de Datos Valle de la Lengua (EDVAL). Está compuesto por representantes del Centro Nacional de Industrias del Español (CNIE) y otros actores clave del ecosistema lingüístico y tecnológico:
 
 * La autoridad de gobernanza (CNIE)
 
@@ -110,7 +110,7 @@ Los términos de adhesión definen las reglas básicas que rigen la relación en
 3)  **Consecuencias Operativas:** La suspensión o expulsión conlleva la revocación de credenciales, baja en el Catálogo y la obligación de ejecutar las acciones de eliminación/revocación requeridas por las políticas aplicables.
 
 ## 4.4. Proceso de Admisión y Salida (Onboarding / Offboarding)
-El EDNEL establece un proceso de incorporación de participantes basado en cuatro fases:
+El Espacio establece un proceso de incorporación de participantes basado en cuatro fases:
 
 1) Verificación legal y registro.
 2) Despliegue del conector.
@@ -134,11 +134,11 @@ Los participantes operan bajo el modelo "Publish-Find-Bind" (Publicar-Buscar-Vin
 5) Ejecución del acceso o transferencia.
 6) Registro de evidencias y trazabilidad.
 
-La evaluación de políticas y la autorización previa a cada uso del dato constituyen un principio esencial del EDNEL para garantizar la soberanía del dato durante todo su ciclo de vida, y no únicamente en el momento de la formalización del contrato.
+La evaluación de políticas y la autorización previa a cada uso del dato constituyen un principio esencial del Espacio para garantizar la soberanía del dato durante todo su ciclo de vida, y no únicamente en el momento de la formalización del contrato.
 
 ## 4.6. Modelo económico
 
-El EDNEL promueve una economía federada basada en datos, servicios, calidad y confianza, donde la cadena de valor se articula en torno a:
+El Espacio promueve una economía federada basada en datos, servicios, calidad y confianza, donde la cadena de valor se articula en torno a:
 
 * Provisión de datos y recursos lingüísticos
 * Valor añadido mediante IA u otros servicios avanzados

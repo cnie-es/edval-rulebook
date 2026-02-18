@@ -1,6 +1,6 @@
-# EDNEL Rulebook (Marco de Gobernanza)
+# Espacio de Datos Valle de la Lengua Rulebook (Marco de Gobernanza)
 
-Este repositorio contiene la fuente de la verdad para el **Marco de Gobernanza del Espacio de Datos de la Nueva Economía de la Lengua (EDNEL)**.
+Este repositorio contiene la fuente de la verdad para el **Marco de Gobernanza del Espacio de Datos Valle de la Lengua (EDVAL)**.
 
 **Autoridad:** Centro Nacional de Industrias del Español (CNIE).  
 **Referencia del Proyecto:** Expediente 71-7-2.01-0004/2025.  
@@ -29,7 +29,7 @@ Este repositorio contiene la fuente de la verdad para el **Marco de Gobernanza d
 Las propuestas de modificación al Rulebook deben seguir el flujo de gobernanza establecido (ver [CONTRIBUTING.md](./CONTRIBUTING.md) para más detalles):
 1.  Abrir una **Issue** describiendo el cambio regulatorio propuesto.
 2.  Crear una **Pull Request** con la modificación sobre los archivos `.md`.
-3.  El Comité de Dirección del EDNEL revisará y aprobará (Merge) o rechazará la propuesta.
+3.  El Comité de Dirección del Espacio revisará y aprobará (Merge) o rechazará la propuesta.
 
 ## ⚖️ Licencia
-Este contenido es propiedad exclusiva de la **Fundación para la Transformación de La Rioja**. Uso restringido a los participantes del EDNEL.
+Este contenido es propiedad exclusiva de la **Fundación para la Transformación de La Rioja**. Uso restringido a los participantes del Espacio de Datos Valle de la Lengua.

@@ -2,7 +2,7 @@
 
 ---
 
-El **Espacio de Datos de la Nueva Economía de la Lengua** (EDNEL) es una infraestructura digital federada y soberana que facilita el intercambio seguro de datos y recursos lingüísticos en español. Se trata de un ecosistema descentralizado en el que los datos permanecen siempre bajo el control de sus propietarios y solo se comparten bajo condiciones explícitas, contractuales y verificables. Su misión principal es posicionar el español como activos estratégicos en la economía del dato y la IA en Europa y el mundo.
+El **Espacio de Datos Valle de la Lengua** es una infraestructura digital federada y soberana que facilita el intercambio seguro de datos y recursos lingüísticos en español. Se trata de un ecosistema descentralizado en el que los datos permanecen siempre bajo el control de sus propietarios y solo se comparten bajo condiciones explícitas, contractuales y verificables. Su misión principal es posicionar el español como activos estratégicos en la economía del dato y la IA en Europa y el mundo.
 
 Es **estratégico** porque:
 
@@ -17,6 +17,6 @@ El espacio de datos está diseñado para cumplir con los **marcos legales** euro
 
 La **Autoridad de Gobernanza** es una entidad independiente y sin ánimo de lucro que supervisa el correcto funcionamiento del espacio de datos, certifica los conectores y garantiza la confianza entre los participantes. Opera los servicios centrales (catálogo, identidad, clearing house) y vela por el cumplimiento normativo y ético.
 
-La **participación** en EDNEL está abierta a cualquier organización interesada en compartir o consumir datos lingüísticos en español, y se formaliza mediante un **Acuerdo de Adhesión** único. Se aplica un Trust Framework basado en identidad federada y certificación de conectores.
+La **participación** en el Espacio está abierta a cualquier organización interesada en compartir o consumir datos lingüísticos en español, y se formaliza mediante un **Acuerdo de Adhesión** único. Se aplica un Trust Framework basado en identidad federada y certificación de conectores.
 
-El EDNEL no controla ni intermedia en los pagos entre participantes. Las transacciones son bilaterales entre ellos, y externas al espacio de datos. El espacio solo registra metadatos de las transacciones para control, auditoría y resolución de disputas.
+El Espacio no controla ni intermedia en los pagos entre participantes. Las transacciones son bilaterales entre ellos, y externas al espacio de datos. El espacio solo registra metadatos de las transacciones para control, auditoría y resolución de disputas.

@@ -2,7 +2,7 @@
 
 ---
 
-En este anexo se presentan ejemplos de políticas de acceso y uso de datos que pueden ser aplicadas en el EDNEL, y que serán definidas con más detalle en el futuro por la Autoridad de Gobernanza en función de las necesidades del ecosistema.
+En este anexo se presentan ejemplos de políticas de acceso y uso de datos que pueden ser aplicadas en el Espacio, y que serán definidas con más detalle en el futuro por la Autoridad de Gobernanza en función de las necesidades del ecosistema.
 
 ## A4.1. Políticas de acceso
 
@@ -11,12 +11,12 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 {
   "@context": "http://www.w3.org/ns/odrl.jsonld",
   "@type": "Set",
-  "uid": "ednel:policy:access:requires-onboarded",
+  "uid": "edval:policy:access:requires-onboarded",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
-      "leftOperand": "ednel:participantStatus",
+      "leftOperand": "edval:participantStatus",
       "operator": "odrl:eq",
       "rightOperand": "active"
     }]
@@ -28,12 +28,12 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:access:requires-verified-identity",
+  "uid": "edval:policy:access:requires-verified-identity",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
-      "leftOperand": "ednel:identityAssuranceLevel",
+      "leftOperand": "edval:identityAssuranceLevel",
       "operator": "odrl:gteq",
       "rightOperand": "substantial"
     }]
@@ -46,9 +46,9 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:access:requires-gaiax-compliant",
+  "uid": "edval:policy:access:requires-gaiax-compliant",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
       "leftOperand": "gx:compliance",
@@ -64,12 +64,12 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:access:requires-accredited-university",
+  "uid": "edval:policy:access:requires-accredited-university",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
-      "leftOperand": "ednel:organizationType",
+      "leftOperand": "edval:organizationType",
       "operator": "odrl:eq",
       "rightOperand": "university"
     }]
@@ -82,12 +82,12 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:access:role-consumer-only",
+  "uid": "edval:policy:access:role-consumer-only",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
-      "leftOperand": "ednel:participantRole",
+      "leftOperand": "edval:participantRole",
       "operator": "odrl:eq",
       "rightOperand": "consumer"
     }]
@@ -102,9 +102,9 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:use:until-date",
+  "uid": "edval:policy:use:until-date",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
       "leftOperand": "odrl:dateTime",
@@ -120,12 +120,12 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:use:time-window",
+  "uid": "edval:policy:use:time-window",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
-      "leftOperand": "ednel:elapsedTime",
+      "leftOperand": "edval:elapsedTime",
       "operator": "odrl:lteq",
       "rightOperand": "P30D"
     }]
@@ -138,12 +138,12 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:use:research-only",
+  "uid": "edval:policy:use:research-only",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
-      "leftOperand": "ednel:purpose",
+      "leftOperand": "edval:purpose",
       "operator": "odrl:eq",
       "rightOperand": "research"
     }]
@@ -156,12 +156,12 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:use:non-commercial",
+  "uid": "edval:policy:use:non-commercial",
   "prohibition": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
-      "leftOperand": "ednel:purpose",
+      "leftOperand": "edval:purpose",
       "operator": "odrl:eq",
       "rightOperand": "commercial"
     }]
@@ -174,12 +174,12 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:use:only-eu",
+  "uid": "edval:policy:use:only-eu",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
-      "leftOperand": "ednel:processingLocation",
+      "leftOperand": "edval:processingLocation",
       "operator": "odrl:isAnyOf",
       "rightOperand": ["EU"]
     }]
@@ -192,9 +192,9 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:use:max-downloads",
+  "uid": "edval:policy:use:max-downloads",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
       "leftOperand": "odrl:count",
@@ -210,12 +210,12 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:use:max-volume",
+  "uid": "edval:policy:use:max-volume",
   "permission": [{
-    "target": "ednel:asset:any",
+    "target": "edval:asset:any",
     "action": "odrl:use",
     "constraint": [{
-      "leftOperand": "ednel:dataVolume",
+      "leftOperand": "edval:dataVolume",
       "operator": "odrl:lteq",
       "rightOperand": "100GB"
     }]
@@ -228,10 +228,10 @@ En este anexo se presentan ejemplos de políticas de acceso y uso de datos que p
 ```json
 {
   "@type": "Set",
-  "uid": "ednel:policy:use:no-derivatives",
+  "uid": "edval:policy:use:no-derivatives",
   "prohibition": [{
-    "target": "ednel:asset:any",
-    "action": "ednel:derive"
+    "target": "edval:asset:any",
+    "action": "edval:derive"
   }]
 }
 ```

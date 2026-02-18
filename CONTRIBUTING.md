@@ -1,6 +1,6 @@
 # Guía de Contribución
 
-¡Gracias por tu interés en contribuir al **EDNEL Rulebook**! Para mantener la calidad y la trazabilidad del proyecto, pedimos a todos los colaboradores que sigan las siguientes normas.
+¡Gracias por tu interés en contribuir al **Espacio de Datos Valle de la Lengua Rulebook**! Para mantener la calidad y la trazabilidad del proyecto, pedimos a todos los colaboradores que sigan las siguientes normas.
 
 ## 📝 Mensajes de Commit (Semantic Commits)
 

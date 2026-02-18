@@ -3,7 +3,7 @@
 ---
 
 ## A2.1. Lista de Anclas de Confianza (Trust Anchors)
-Para garantizar una identidad federada y segura, el EDNEL no actúa como único validador, sino que se apoya en una red de **Anclas de Confianza**. 
+Para garantizar una identidad federada y segura, el Espacio de Datos Valle de la Lengua no actúa como único validador, sino que se apoya en una red de **Anclas de Confianza**. 
 
 Se reconocen dos categorías de emisores:
 
@@ -11,7 +11,7 @@ Se reconocen dos categorías de emisores:
 2.  **Emisores de Atributos de Negocio:** Entidades delegadas por el CNIE para certificar atributos específicos del sector (ej. "Entidad Académica Acreditada", "Miembro del PERTE").
 
 ## A2.2. Gestión de Identidad Descentralizada (eIDAS 2)
-El EDNEL se alinea con la arquitectura de referencia de la Cartera de Identidad Digital de la UE (EUDI Wallet).
+El Espacio de Datos Valle de la Lengua se alinea con la arquitectura de referencia de la Cartera de Identidad Digital de la UE (EUDI Wallet).
 
 * **Identificadores:** Cada participante debe estar identificado mediante un **DID (Decentralized Identifier)** único, resoluble y persistente.
 

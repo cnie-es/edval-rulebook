@@ -78,7 +78,7 @@ El Participante declara:
 
 ***Condiciones de adhesión, permanencia y baja***
 
-El Participante se adhiere al Espacio de Datos aceptando todas los terminos y condiciones descritos, las políticas de gobernanza vigentes, y declara haber leído y aceptar el Marco de Gobernanza (Rulebook) del EDNEL en su versión vigente [Rulebook v1.0.0]().
+El Participante se adhiere al Espacio de Datos aceptando todas los terminos y condiciones descritos, las políticas de gobernanza vigentes, y declara haber leído y aceptar el Marco de Gobernanza (Rulebook) del Espacio de Datos Valle de la Lengua en su versión vigente [Rulebook v1.0.0]().
 
 **Adhesión**
 La adhesión surtirá efecto una vez aceptados estos términos y condiciones y superados los requisitos de certificación técnica y organizativa.
@@ -123,4 +123,4 @@ El participante acuerda:
 * En última instancia, someterse a arbitraje o autoridad competente según la legislación aplicable.
 
 
-[Volver al Capítulo 2 Legal](capitulo_2_legal.md#terminos-y-condiciones-de-adhesion-al-espacio-de-datos-de-la-nueva-economia-de-la-lengua)
+[Volver al Capítulo 2 Legal](03_capitulo_2_legal.md)

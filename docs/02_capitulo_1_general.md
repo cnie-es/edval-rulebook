@@ -3,9 +3,9 @@
 ---
 
 ## 2.1. Definición y Naturaleza del Espacio
-El **Espacio de Datos de la Nueva Economía de la Lengua (EDNEL)** se constituye como una infraestructura digital federada para la compartición voluntaria, soberana y segura de activos lingüísticos y recursos de Inteligencia Artificial.
+El **Espacio de Datos Valle de la Lengua (EDVAL)** se constituye como una infraestructura digital federada para la compartición voluntaria, soberana y segura de activos lingüísticos y recursos de Inteligencia Artificial.
 
-El EDNEL no opera como un repositorio centralizado de datos, sino como un ecosistema descentralizado construido en torno a componentes comunes ("building blocks") que permiten el intercambio eficaz y fiable entre participantes, garantizando que los datos permanecen bajo el control de sus proveedores.
+El Espacio no opera como un repositorio centralizado de datos, sino como un ecosistema descentralizado construido en torno a componentes comunes ("building blocks") que permiten el intercambio eficaz y fiable entre participantes, garantizando que los datos permanecen bajo el control de sus proveedores.
 
 Este marco de gobierno se rige por los principios de **Soberanía del Dato**, **Confianza** y **Generación de Valor**, alineándose con los principios de **GAIA-X,** el marco de convergencia técnica del Data Spaces Support Centre (**DSSC**) y la **estrategia europea de espacios de datos**.
 
@@ -24,7 +24,7 @@ Los Espacios de Datos impulsan la innovación y la competitividad al permitir un
 
 ## 2.4. Ventaja Competitiva
 
-El EDNEL se configura como una infraestructura clave y única en la lengua española para:
+El Espacio de datos Valle de la Lengua se configura como una infraestructura clave y única en la lengua española para:
 
 * Promover el **uso del español en entornos de inteligencia artificial**, reduciendo la dependencia tecnológica externa.
 
@@ -91,7 +91,7 @@ Estos segmentos permiten alinear datos y servicios con necesidades reales, impul
 
 ## 2.8. Interoperabilidad del espacio de datos
 
-La interoperabilidad es un elemento central del modelo de negocio del EDNEL: permite que los participantes interactúen sin problemas, que los datos y servicios se ofrezcan de forma homogénea y que el ecosistema pueda escalar más allá del ámbito nacional. Una interoperabilidad sólida maximiza el valor económico de los datos lingüísticos y facilita la creación de nuevos servicios basados en IA, localización, terminología especializada y análisis multilingüe.
+La interoperabilidad es un elemento central del modelo de negocio del EDVAL: permite que los participantes interactúen sin problemas, que los datos y servicios se ofrezcan de forma homogénea y que el ecosistema pueda escalar más allá del ámbito nacional. Una interoperabilidad sólida maximiza el valor económico de los datos lingüísticos y facilita la creación de nuevos servicios basados en IA, localización, terminología especializada y análisis multilingüe.
 
 ### 2.8.1. Interoperabilidad interna: creación de un mercado federado
 
@@ -115,13 +115,13 @@ Esto crea un mercado integrado, donde:
 
 * La Autoridad puede supervisar la actividad con eficiencia
 
-La interoperabilidad interna convierte al EDNEL en una plataforma abierta de negocio, no en un conjunto aislado de participantes.
+La interoperabilidad interna convierte al Espacio de Datos en una plataforma abierta de negocio, no en un conjunto aislado de participantes.
 
 ### 2.8.2. Interoperabilidad externa con LDS: acceso al mercado europeo
 
-La alineación del EDNEL con el Language Data Space (LDS) amplía su impacto económico:
+La alineación del Espacio de Datos Valle de la Lengua con el Language Data Space (LDS) amplía su impacto económico:
 
-* Los activos publicados en EDNEL pueden ser descubiertos y contratados por organizaciones europeas.
+* Los activos publicados en Espacio pueden ser descubiertos y contratados por organizaciones europeas.
 
 * Los proveedores españoles acceden a un mercado paneuropeo, multiplicando las oportunidades comerciales.
 
@@ -129,9 +129,9 @@ La alineación del EDNEL con el Language Data Space (LDS) amplía su impacto eco
 
 * Se facilita la exportación de servicios lingüísticos (traducción, IA, corpus, modelos).
 
-* EDNEL se integra en la cadena de valor europea de datos, aumentando su visibilidad y atractivo.
+* El Espacio se integra en la cadena de valor europea de datos, aumentando su visibilidad y atractivo.
 
-En términos de negocio, esta interoperabilidad convierte al EDNEL en el nodo principal del español en el mercado europeo de datos, posicionándolo estratégicamente dentro de la Nueva Economía de la Lengua.
+En términos de negocio, esta interoperabilidad convierte al Espacio de Datos Valle de la Lengua en el nodo principal del español en el mercado europeo de datos, posicionándolo estratégicamente dentro de la Nueva Economía de la Lengua.
 
 
 ## 2.9. Casos de Uso Principales
