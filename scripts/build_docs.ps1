@@ -10,7 +10,7 @@ Write-Host "Building documentation..."
 # 1. Create aggregated Markdown file
 Write-Host "Aggregating content..."
 #"---" | Out-File -FilePath $tempFile -Encoding utf8
-#"title: EDNEL Rulebook" | Out-File -FilePath $tempFile -Encoding utf8 -Append
+#"title: Espacio de Datos Valle de la lengua Rulebook" | Out-File -FilePath $tempFile -Encoding utf8 -Append
 #"date: $(Get-Date -Format 'yyyy-MM-dd')" | Out-File -FilePath $tempFile -Encoding utf8 -Append
 #"---" | Out-File -FilePath $tempFile -Encoding utf8 -Append
 #"" | Out-File -FilePath $tempFile -Encoding utf8 -Append

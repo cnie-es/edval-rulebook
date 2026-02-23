@@ -3,9 +3,9 @@
 ---
 
 ## 5.1. Arquitectura de Referencia
-El EDNEL implementa una arquitectura distribuida y federada, alineada con los principios del **GAIA-X**, las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre), y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS).
+El Espacio de Datos Valle de la Lengua implementa una arquitectura distribuida y federada, alineada con los principios del **GAIA-X**, las especificaciones de convergencia técnica del **DSSC** (Data Spaces Support Centre), y alineado con el ecosistema europeo de espacios de datos lingüísticos (LDS).
 
-El EDNEL adopta como infraestructura base de referencia el ecosistema Simpl-Open promovido a nivel europeo, garantizando la compatibilidad con los servicios comunes de espacios de datos, en particular en los ámbitos de identidad, confianza, federación y observabilidad. Mantendrá una monitorización continua con el roadmap técnico de Simpl-Open, garantizando la compatibilidad futura de sus componentes y evitando bloqueos tecnológicos.
+El Espacio adopta como infraestructura base de referencia el ecosistema Simpl-Open promovido a nivel europeo, garantizando la compatibilidad con los servicios comunes de espacios de datos, en particular en los ámbitos de identidad, confianza, federación y observabilidad. Mantendrá una monitorización continua con el roadmap técnico de Simpl-Open, garantizando la compatibilidad futura de sus componentes y evitando bloqueos tecnológicos.
 
 
 ### 5.1.1. Principios Arquitectónicos
@@ -18,7 +18,7 @@ El EDNEL adopta como infraestructura base de referencia el ecosistema Simpl-Open
 
 ## 5.2. Componentes técnicos fundamentales
 
-El ecosistema del EDNEL se compone, como mínimo, de los siguientes tipos de componentes:
+El ecosistema del Espacio de Datos Valle de la Lengua se compone, como mínimo, de los siguientes tipos de componentes:
 
 ### 5.2.1. Componentes de los Participantes:
 Cada Participante (Proveedor o Consumidor) debe disponer de:
@@ -36,11 +36,11 @@ La Autoridad de Gobernanza operará, como mínimo, los siguientes servicios téc
 * **Catálogo Semántico** y Servicio de **Descubrimiento**.
 * Servicio registro de evidencias (**Clearing House**).
 
-Para garantizar la plena interoperabilidad y federación con el Espacio de Datos de Lenguaje Europeo (LDS), todos los Participantes que publiquen ofertas de datos en el Catálogo del Valle de la Lengua deberán describir sus activos utilizando el perfil de metadatos Language Data Space DCAT-AP (LanguageDCAT-AP).
+Para garantizar la plena interoperabilidad y federación con el Espacio de Datos de Lenguaje Europeo (LDS), todos los Participantes que publiquen ofertas de datos en el Catálogo Valle de la Lengua deberán describir sus activos utilizando el perfil de metadatos Language Data Space DCAT-AP (LanguageDCAT-AP).
 
 ## 5.3. Conector
 
-Los conectores son componentes técnicos fundamentales que actúan como puerta de enlace segura entre los participantes del EDNEL y el ecosistema. Cada participante debe desplegar un conector certificado, que garantiza la interoperabilidad técnica y la seguridad en las operaciones de intercambio de datos.
+Los conectores son componentes técnicos fundamentales que actúan como puerta de enlace segura entre los participantes del Espacio y el ecosistema. Cada participante debe desplegar un conector certificado, que garantiza la interoperabilidad técnica y la seguridad en las operaciones de intercambio de datos.
 
 Todo conector deberá:
 
@@ -52,12 +52,12 @@ Todo conector deberá:
 * **Controlar la ejecución** del acceso y transferencia conforme a lo autorizado. 
 * Registrar **evidencias** de las operaciones realizadas para fines de trazabilidad, auditoría y no repudio.
 
-El conector garantiza técnicamente la soberanía del dato, asegurando que los datos solo se utilicen conforme a las políticas acordadas y registrando todas las operaciones para su posterior auditoría, siendo obligatorio su uso para cualquier intercambio dentro del ecosistema. Solo los conectores certificados por la Autoridad de Gobernanza podrán operar en el entorno productivo del EDNEL.
+El conector garantiza técnicamente la soberanía del dato, asegurando que los datos solo se utilicen conforme a las políticas acordadas y registrando todas las operaciones para su posterior auditoría, siendo obligatorio su uso para cualquier intercambio dentro del ecosistema. Solo los conectores certificados por la Autoridad de Gobernanza podrán operar en el entorno productivo del Espacio.
 
 Queda expresamente **prohibido**:
 
 * El acceso directo a los datos de un participante eludiendo el Conector.
-* El establecimiento de flujos paralelos fuera del marco del EDNEL.
+* El establecimiento de flujos paralelos fuera del marco del Espacio.
 * El uso de credenciales, APIs o accesos no gobernados por el Conector.
   
 
@@ -75,7 +75,7 @@ cooperar en la resolución de incidentes y procesos de supervisión
 
 ## 5.5. Servicios Técnicos Centrales
 
-La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes servicios técnicos centrales:
+La Autoridad de Gobernanza del Espacio de Datos Valle de la Lengua operará, como mínimo, los siguientes servicios técnicos centrales:
 
 * Portal del Espacio de Datos: punto de acceso web para la gestión administrativa, documentación y soporte a los participantes.
 * Servicios de Identidad y Confianza: gestión de identidades, credenciales y atributos de los participantes.
@@ -88,13 +88,13 @@ La Autoridad de Gobernanza del EDNEL operará, como mínimo, los siguientes serv
 
 La seguridad del espacio se basa en una cadena de confianza criptográfica, alineada con los requisitos de Gaia-X y el futuro reglamento eIDAS 2.
 
-Sobre esta base, el EDNEL establece un marco federado de identidad, atributos y confianza que constituye el fundamento para:
+Sobre esta base, el Espacio establece un marco federado de identidad, atributos y confianza que constituye el fundamento para:
 
 * Identificación verificable de organizaciones y componentes, para la admisión de participantes.
 * Acreditación de atributos relevantes (jurídicos, técnicos, sectoriales).
 * Autenticación mutua entre participantes.
 
-En el EDNEL, ningún intercambio de datos o servicio puede producirse sin una verificación previa de identidad y atributos de las partes implicadas.
+En el Espacio de Datos Valle de la Lengua, ningún intercambio de datos o servicio puede producirse sin una verificación previa de identidad y atributos de las partes implicadas.
 
 Para una información más detallada sobre el marco de confianza, se remite al [anexo 2](./07_anexo2_confianza.md) del presente Rulebook.
 
@@ -111,7 +111,7 @@ Cada operación deberá estar vinculada de forma inequívoca a:
 
 ### 5.6.2. Atributos y roles
 
-Además de la identidad básica, el EDNEL utiliza atributos verificables para expresar:
+Además de la identidad básica, el Espacio utiliza atributos verificables para expresar:
 
 * El rol o roles del participante (proveedor, consumidor, intermediario, etc.)
 * Su naturaleza (empresa, universidad, organismo público, etc.)
@@ -131,14 +131,14 @@ Las políticas de uso pueden exigir determinados atributos o cualificaciones. El
 
 ## 5.7. Seguridad y control de uso de los datos
 
-La seguridad del EDNEL se basa en un modelo de control soberano del uso del dato, fundamentado en:
+La seguridad del Espacio de Datos Valle de la Lengua se basa en un modelo de control soberano del uso del dato, fundamentado en:
 
 * Identidad verificable de los participantes y componentes
 * Políticas de uso formalizadas y ejecutables
 * Decisiones de autorización previas a cada acceso o uso
 * Registro obligatorio de evidencias y trazabilidad completa
 
-En el EDNEL, todo acceso o uso de un activo está sujeto a una decisión explícita de autorización, evaluada por el Conector del proveedor en función de:
+En el Espacio, todo acceso o uso de un activo está sujeto a una decisión explícita de autorización, evaluada por el Conector del proveedor en función de:
 
 * La identidad y atributos del solicitante.
 * El contrato vigente.
@@ -164,7 +164,7 @@ Las políticas de uso definen las condiciones bajo las cuales un activo puede se
 El control de uso de los datos se organiza en cuatro niveles:
 
 * **Políticas legales y regulatorias** derivadas de la normativa aplicable (protección de datos, gobernanza de datos, IA, etc.).
-* **Políticas del espacio de datos** definidas en este Rulebook y en las normas del EDNEL (tipos de activos permitidos, requisitos de certificación, condiciones de uso, etc.).
+* **Políticas del espacio de datos** definidas en este Rulebook y en las normas del Espacio (tipos de activos permitidos, requisitos de certificación, condiciones de uso, etc.).
 * **Políticas del proveedor** asociadas a cada activo concreto (licencia, restricciones, finalidades, condiciones sectoriales, etc.)
 * **Políticas contractuales de la transacción** acordadas entre proveedor y consumidor en cada transacción específica.
 
@@ -172,7 +172,7 @@ El control de uso de los datos se organiza en cuatro niveles:
 
 ## 5.8. Gobierno técnico del Dato y de los derivados
 
-El EDNEL establece reglas técnicas para gobernar:
+El Espacio de Datos Valle de la Lengua establece reglas técnicas para gobernar:
 
 * El linaje de los datos (origen, transformaciones, combinaciones)
 * La trazabilidad de los activos derivados (modelos entrenados, corpus procesados, datasets enriquecidos/complejos)
@@ -183,7 +183,7 @@ Se consideran **activos derivados** aquellos que resultan de la transformación,
 
 * Datasets limpiados, anotados, combinados o enriquecidos.
 * Corpus lingüísticos procesados o segmentados.
-* Modelos de IA entrenados o ajustados utilizando datos del EDNEL.
+* Modelos de IA entrenados o ajustados utilizando datos del Espacio.
 * Cualquier otro recurso generado a partir de los datos originales.
 
 Todo activo derivado:
@@ -192,7 +192,7 @@ Todo activo derivado:
 * No puede ser publicado, transferido o explotado en condiciones más permisivas que las de sus fuentes
 * Debe reflejar explícitamente: qué políticas aplican, que restricciones se heredan, y que usos están permitidos o prohibidos.
 
-En cuanto al **linaje**, el EDNEL exige a cada activo:
+En cuanto al **linaje**, el Espacio exige a cada activo:
 
 * Tener un origen claro y verificable.
 * Registrar todas las transformaciones aplicadas.
@@ -206,11 +206,11 @@ Para permitir la **trazabilidad** de todos los activos, se debe permitir:
 
 ## 5.9. Interoperabilidad con Ecosistemas Externos e iniciativas Europeas
 
-Para maximizar la integración del EDNEL en el panorama europeo de espacios de datos, se garantiza que esté alineado con:
+Para maximizar la integración del Espacio de Datos Valle de la Lengua en el panorama europeo de espacios de datos, se garantiza que esté alineado con:
 
 **LDS**
 
-EDNEL asegura la interoperabilidad técnica con el ecosistema europeo de espacios de datos lingüísticos (LDS) mediante:
+El Espacio asegura la interoperabilidad técnica con el ecosistema europeo de espacios de datos lingüísticos (LDS) mediante:
 
 * Misma arquitectura federada
 * Misma semántica para metadatos lingüísticos
@@ -235,7 +235,7 @@ EDNEL asegura la interoperabilidad técnica con el ecosistema europeo de espacio
 
 ## 5.10. Gobernanza Técnica y Evolución del Ecosistema
 
-Para asegurar la evolución sostenible del EDNEL, se establecerá un marco de gobernanza técnica que incluya:
+Para asegurar la evolución sostenible del Espacio de Datos Valle de la Lengua, se establecerá un marco de gobernanza técnica que incluya:
 
 * **Comité Técnico de Gobernanza:** Responsable de la definición y actualización de estándares, políticas y procedimientos técnicos.
 * **Proceso de Certificación de Conectores:** Mecanismo formal para certificar que los conectores cumplen con las especificaciones técnicas y de seguridad establecidas.
