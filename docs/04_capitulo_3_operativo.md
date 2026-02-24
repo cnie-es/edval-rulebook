@@ -311,7 +311,7 @@ El espacio define un modelo de responsabilidades RACI para determinar los roles 
 * C (Consulted): Quien debe ser consultado antes de tomar una decisión o ejecutar una actividad.
 * I (Informed): Quien debe ser informado después de que se tome una decisión o se ejecute una actividad.
 
-Este modelo se aplica a las siguientes actividades clave:
+Este modelo se aplica a los siguientes procesos:
 
 **Onboarding de Participantes**
 
