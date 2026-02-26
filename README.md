@@ -17,7 +17,7 @@ Este repositorio contiene la fuente de la verdad para el **Marco de Gobernanza d
     * [Capítulo 4: Marco Técnico](./docs/05_capitulo_4_tecnico.md)
     * [Anexo 1: Casos de Uso](./docs/06_anexo1_casos_de_uso.md)
     * [Anexo 2: Confianza](./docs/07_anexo2_confianza.md)
-    * [Anexo 3: Términos y Condiciones](./docs/08_anexo3_concidiones.md)
+    * [Anexo 3: Términos y Condiciones](./docs/08_anexo3_condiciones.md)
     * [Anexo 4: Definición de políticas](./docs/09_anexo4_políticas.md)
     * [Glosario](./docs/10_glosario_de_terminos.md)
     * [Referencias](./docs/11_referencias.md)

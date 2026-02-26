@@ -11,7 +11,7 @@ Es **estratégico** porque:
 * Habilita nuevos modelos de negocio basados en datos, IA y servicios lingüísticos.
 * Sitúa a España como nodo de referencia del español en el Language Data Space europeo (LDS)
 
-Funciona como un **modelo federado** en el que cada participante opera su propio conector certificado (punto de acceso al espacio de datos), manteniento un control total sobre sus datos en todo momento. Antes de cada acceso, el sistema evalua automáticamente las **políticas de acceso y de uso** definidas por el propietario de los datos. Todas las operaciones quedan registradas para **trazabilidad y auditoría** por parte de la Autoridad de Gobernanza, que supervisa el cumplimiento sin acceder nunca al contenido de los datos.
+Funciona como un **modelo federado** en el que cada participante opera su propio conector certificado (punto de acceso al espacio de datos), manteniendo un control total sobre sus datos en todo momento. Antes de cada acceso, el sistema evalúa automáticamente las **políticas de acceso y de uso** definidas por el propietario de los datos. Todas las operaciones quedan registradas para **trazabilidad y auditoría** por parte de la Autoridad de Gobernanza, que supervisa el cumplimiento sin acceder nunca al contenido de los datos.
 
 El espacio de datos está diseñado para cumplir con los **marcos legales** europeos (GDPR, Data Act, Data Governance Act, AI Act) y es **compatible** con los estándares y arquitecturas de GAIA-X, DSSC y LDS.
 

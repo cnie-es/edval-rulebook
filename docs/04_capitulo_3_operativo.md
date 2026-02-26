@@ -177,7 +177,7 @@ Servicios avanzados, corpus curados, anotación experta, etc.
 * Adhesión al espacio (onboarding)
 * Acceso al catálogo y búsqueda de activos
 * Emisión de credenciales verificables
-* Acceso al clearing house y sus servicios de trazabilidad
+* Acceso a la Clearing House y sus servicios de trazabilidad
 * Soporte técnico básico
 
 ### 4.6.3. Método de Pago
@@ -244,3 +244,126 @@ Si la mediación no resulta satisfactoria:
 * La disputa se resolverá conforme a lo previsto en el contrato bilateral
 * Mediante arbitraje, mediación formal o jurisdicción competente,
 * Sin perjuicio de las medidas internas de gobernanza del Espacio (suspensión o revocación)
+
+## 4.7. Mecanismos de Supervisión y Cumplimiento
+
+El Espacio de Datos Valle de la Lengua implementa un marco robusto de supervisión y cumplimiento para garantizar que todas las operaciones se realicen conforme a:
+
+* El presente Rulebook
+* La normativa aplicable (Europea y nacional)
+* Las políticas de acceso y uso de datos establecidas por los participantes.
+* Los principios de soberanía, confianza y transparencia que rigen el espacio.
+
+El modelo de cumplimiento se basa en los siguientes pilares:
+
+* Supervisión por parte de la **Autoridad de Gobernanza** del cumplimiento mediante metadatos, registros de transacciones y evidencias de uso, sin acceso al contenido de los datos.
+* Se implementa como un **mecanismo de supervisión automático** mediante controles técnicos en los servicios centrales (Catálogo, Clearing House) y en los conectores de los participantes.
+* Cada **participante es responsable** de garantizar el cumplimiento dentro de su organización y de sus usuarios, así como de colaborar con la Autoridad en caso de auditorías o investigaciones.
+* Toda operación tiene que generar **evidencias auditables** que permitan verificar el cumplimiento.
+* Las medidas de supervisión estarán **adaptadas al nivel de riesgo** asociado a cada tipo de dato, uso o transacción.
+
+El mecanismo de supervisión cubre:
+
+* Cumplimiento legal y regulatorio (GDPR, Data Act, IA Act, etc.)
+* Cumplimiento técnico (seguridad, integridad, disponibilidad)
+* Cumplimiento de políticas de acceso y uso
+* Cumplimiento de contratos y acuerdos bilaterales
+* Cumplimiento de las obligaciones de los participantes (onboarding, operación, offboarding)
+* Cumplimiento de interoperabilidad y estándares
+
+### 4.7.1. Roles y responsabilidades en la supervisión
+
+**Autoridad de Gobernanza**: define políticas, supervisa el cumplimiento general del espacio, realiza auditorías mediante el análisis de las evidencias y toma medidas en caso de incumplimiento.
+
+**Participantes**: son responsables de garantizar el cumplimiento dentro de su organización, de sus usuarios y de sus activos, operan sus conectores de acuerdo a las políticas, colaboran con la Autoridad en caso de auditorías o investigaciones, proporcionando acceso a evidencias y registros relevantes.
+
+### 4.7.2. Medidas de supervisión y control
+
+* **Controles automatizados** en los servicios centrales y en los conectores de los participantes para verificar el cumplimiento de políticas antes de su uso: validación de identidad, cumplimiento de las políticas ODRL, verificación de licencias, registro de evidencias
+* **Monitorización continua** de las operaciones del espacio mediante análisis de logs, registros de transacciones y evidencias de uso para detectar posibles incumplimientos, por parte de la Autoridad de Gobernanza.
+* **Auditorías periódicas**, tanto programadas como ad-hoc, para revisar el cumplimiento de los participantes, incluyendo revisiones técnicas, legales y regulatorias.
+
+### 4.7.3. Medidas en caso de incumplimiento
+
+Cuando se detecta un posible incumplimiento, la Autoridad de Gobernanza seguirá el siguiente proceso:
+
+* Detección: mediante controles automatizados, monitorización continua o notificación de un participante.
+* Investigación: análisis de las evidencias para determinar el origen y la gravedad.
+* Notificación: se notifica al participante implicado, proporcionando detalles del incumplimiento y solicitando su colaboración.
+* Medidas correctivas: dependiendo de la naturaleza del incumplimiento, se pueden aplicar medidas como advertencias y consejos de resolución, suspensión temporal o revocación de permisos.
+* Resolución: cierre del caso una vez se hayan aplicado las medidas correctivas, sanción o expulsión definitiva.
+
+### 4.7.4. Evolución del marco de supervisión
+
+El marco de supervisión y cumplimiento se revisará periódicamente para adaptarse a:
+
+* Cambios en la normativa aplicable
+* Cambios en el ecosistema del espacio (nuevos participantes, nuevos tipos de datos, nuevos casos de uso)
+* Lecciones aprendidas de incidentes o incumplimientos
+
+
+## 4.8. Modelo de responsabilidades (RACI)
+
+El espacio define un modelo de responsabilidades RACI para determinar los roles y responsabilidades en las diferentes actividades y procesos del espacio de datos. 
+
+* **R (Responsible)**: Quien ejecuta la actividad.
+* **A (Accountable)**: Quien tiene la responsabilidad última y autoridad de decisión.
+* **C (Consulted)**: Quien debe ser consultado antes de tomar una decisión o ejecutar una actividad.
+* **I (Informed)**: Quien debe ser informado después de que se tome una decisión o se ejecute una actividad.
+
+Este modelo se aplica a los siguientes procesos:
+
+**Alta de Participantes**
+
+| Actividad | Autoridad de Gobernanza (CNIE) | Participantes | Comité técnico |
+| --- | --- | --- | --- |
+| Verificación legal y registro | R/A | C | C |
+| Despliegue del conector | I | R/A | I |
+| Emisión de credenciales | R/A | I | I |
+| Homologación técnica | A | R | C |
+
+**Publicación de Activos**
+
+| Actividad | Autoridad de Gobernanza (CNIE) | Participantes | Comité técnico |
+| --- | --- | --- | --- |
+| Definición de metadatos | I | R/A | I |
+| Validación de metadatos | A | R | I |
+| Publicación en el catálogo | I | R/A | I |
+| Definición de políticas | I | R/A | I |
+| Validación de políticas | R/A | C | I |
+
+**Negociación e intercambio de activos**
+
+| Actividad | Autoridad de Gobernanza (CNIE) | Participantes | Comité técnico |
+| --- | --- | --- | --- |
+| Descubrimiento de activos | I | R/A | I |
+| Negociación de condiciones | I | R/A | I |
+| Evaluación de políticas | I | R/A | I |
+| Transferencia | I | R/A | I |
+| Registro de evidencias | I | R/A | I |
+
+**Baja de Participantes**
+
+| Actividad | Autoridad de Gobernanza (CNIE) | Participantes | Comité técnico |
+| --- | --- | --- | --- |
+| Notificación de offboarding | C | R/A | I |
+| Revocación de credenciales | R/A | I | I |
+| Baja en servicios | R/A | I | I |
+
+**Gestión de disputas**
+
+| Actividad | Autoridad de Gobernanza (CNIE) | Participantes | Comité técnico |
+| --- | --- | --- | --- |
+| Resolución bilateral | I | R/A | I |
+| Mediación de la Autoridad | R/A | C | I |
+| Resolución contractual externa | A | R | I |
+
+**Supervisión y cumplimiento**
+
+| Actividad | Autoridad de Gobernanza (CNIE) | Participantes | Comité técnico |
+| --- | --- | --- | --- |
+| Monitorización de operaciones | R/A | I | I |
+| Auditorías | R/A | C | I |
+| Investigación de incumplimientos | R/A | C | I |
+| Aplicación de medidas correctivas | R/A | I | C |
+| Revocación de permisos | R/A | I | C |

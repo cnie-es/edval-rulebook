@@ -103,9 +103,10 @@ Para una información más detallada sobre el marco de confianza, se remite al [
 En lo referente a las identidades, se distingue entre:
 
 * **Identidades organizativas:** representan a las entidades jurídicas participantes (proveedores, consumidores, autoridades). Gestionadas por la Autoridad de Gobernanza.
-* **Identidades técnicas:** representan a los componentes técnicos (conectores), y que actuan en nombre de las anteriores. Gestionadas por los propios participantes.
+* **Identidades técnicas:** representan a los componentes técnicos (conectores), y que actúan en nombre de las anteriores. Gestionadas por los propios participantes.
 
 Cada operación deberá estar vinculada de forma inequívoca a:
+
 * Una organización responsable
 * Un componente técnico autenticado
 
@@ -228,7 +229,7 @@ El Espacio asegura la interoperabilidad técnica con el ecosistema europeo de es
 **GAIA-X**
 
 * Identidad federada y de confianza (GAIA-X Trust Framework)
-* Soberenía del dato y control de uso (Data Sovereignty by Design)
+* Soberanía del dato y control de uso (Data Sovereignty by Design)
 * Transparencia y trazabilidad (Auditability and Transparency)
 * Infraestructura interoperable (Interoperable Infrastructure)
 

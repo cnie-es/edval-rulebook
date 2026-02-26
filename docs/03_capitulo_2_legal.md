@@ -105,14 +105,14 @@ La aportación de datos al Espacio no supone transferencia de los **derechos de 
 
 ## 3.3. Publicación de Activos
 
-Cada activo (corpus, vocabulario, modelo o herramienta/servicio) publicado en el catálogo debe incluir metadatos obligatorios que contengan: identificador, titular,la **política de uso** (*conditions-of-use*), la licencia aplicable, esquema semántico, y contrato o template asociado. La ausencia de metadatos impide la publicación.
+Cada activo (corpus, vocabulario, modelo o herramienta/servicio) publicado en el catálogo debe incluir metadatos obligatorios que contengan: identificador, titular, la **política de uso** (*conditions-of-use*), la licencia aplicable, esquema semántico, y contrato o plantilla asociada. La ausencia de metadatos impide la publicación.
 
 ## 3.4. Políticas de Uso y Licencias.
-Cada activo publicado en el catálogo debe incluir una **pólitica de uso** que defina los derechos y obligaciones del consumidor respecto al activo. Esta política se asocia al activo mediante metadatos y se aplica automáticamente durante el proceso de intercambio peer-to-peer, a través del conector del proveedor.
+Cada activo publicado en el catálogo debe incluir una **política de uso** que defina los derechos y obligaciones del consumidor respecto al activo. Esta política se asocia al activo mediante metadatos y se aplica automáticamente durante el proceso de intercambio peer-to-peer, a través del conector del proveedor.
 
 La política se interpreta y se aplica antes de permitir cualquier transferencia o acceso. El control se ejerce mediante el *Motor de Políticas del Conector*, que permite expresar y hacer cumplir las políticas del Data Owner sin necesidad de centralizar los datos.
 
-**Pólitica de uso** El Proveedor tiene el derecho inalienable de definir técnicamente:
+**Pólítica de uso** El Proveedor tiene el derecho inalienable de definir técnicamente:
 
 1. **Quién** puede acceder (ej. "Solo Universidades").
 2. **Para qué** (ej. "Solo investigación", "Entrenamiento de IA", "Atribución obligatoria", "Prohibido uso comercial").
@@ -140,7 +140,7 @@ Para activos que incluyan datos personales o sensibles, el proveedor y el consum
 
 * **De la Autoridad:** El CNIE, como operador de la plataforma, no inspecciona los datos y se exime de responsabilidad sobre el contenido intercambiado peer-to-peer, limitando su responsabilidad a la disponibilidad de los servicios centrales (Catálogo, Identidad).
 
-## 3.8. Legistación Aplicable al Espacio de Datos (Propuesta a espera de hablar con Legal)
+## 3.8. Legistación Aplicable al Espacio de Datos
 
 ### 3.8.1.Normativa europea de obligado cumplimiento
 
@@ -194,11 +194,11 @@ Incluye requisitos sobre:
 **3.8.1.7. Directiva 2002/58/CE del Parlamento Europeo y del Consejo, de 12 de julio de 2002, relativa al tratamiento de datos personales y a la protección de intimidad en el sector de las comunicaciones electrónicas (Directiva sobre la privacidad y las comunicaciones electrónicas)**
 
 Aplicación en comunicaciones electrónicas, metadatos de comunicaciones y herramientas de captura o transmisión de contenido lingüístico, de voz o vídeo.
-Armoniza las disposiciones de los Estados miembros necesarias para garantizar un nivel equvalente de protección de las libertades y de los derechos fundamentales y, en particular, del derecho a la intimidad, en lo querespecta al tratamiendo de los datos personales en el sector de las comunicaciones electrónicas, así como la libe circulacioó de dichos datos y de los equipos y servicios de comunicaciones electrónicas de la Unión.
+Armoniza las disposiciones de los Estados miembros necesarias para garantizar un nivel equvalente de protección de las libertades y de los derechos fundamentales y, en particular, del derecho a la intimidad, en lo que respecta al tratamiento de los datos personales en el sector de las comunicaciones electrónicas, así como la libre circulación de dichos datos y de los equipos y servicios de comunicaciones electrónicas de la Unión.
 
 **3.8.1.8. Reglamento de Ciberseguridad (Cybersecurity Act – Reglamento 2019/881)**
 
-Establece el marco europeo de ciberseguridad y certificación de productos y servicios TIC que soportan l infraestructura del espacio de datos, reforzanco la gestión de riesgos, la confianza entre los participantes, la interoperabilidad transfronteriza y la seguridad del intercambio de datos.
+Establece el marco europeo de ciberseguridad y certificación de productos y servicios TIC que soportan l infraestructura del espacio de datos, reforzando la gestión de riesgos, la confianza entre los participantes, la interoperabilidad transfronteriza y la seguridad del intercambio de datos.
 
 **3.8.1.9. Directiva NIS2 (Directiva (UE) 2022/2555)**
 
@@ -207,7 +207,7 @@ Norma aplicable a entidades esenciales o importantes, que trata de garantizar un
 **3.8.1.10. Directiva de Datos Abiertos (Directiva (UE) 2019/1024)**
 
 Obligatoria cuando participen administraciones públicas que aporten recursos lingüísticos, terminológicos o documentales.
-Establece las reglas básicas para la puesta a disposición, el acceso y la reutilización de la información del sector público, imponiendo principios de transpariencia, acceso no discriminatorio, uso de formatos abiertos e interoperables, asi como la disponibildad de determinados conjuntos de datos de alto valor.
+Establece las reglas básicas para la puesta a disposición, el acceso y la reutilización de la información del sector público, imponiendo principios de transparencia, acceso no discriminatorio, uso de formatos abiertos e interoperables, asi como la disponibilidad de determinados conjuntos de datos de alto valor.
 
 ### 3.8.2. Legislación española aplicable. Normativa española de servicios digitales y ciberseguridad
 
@@ -231,7 +231,7 @@ Esencial para regular la propiedad intelectual sobre:
 * Recursos terminológicos
 * Modelos derivados entrenados
 
-**3.8.2.3. Ley 37/2007, de 16 de noviembre sobre reutilización del la información del sector público (RISP)**
+**3.8.2.3. Ley 37/2007, de 16 de noviembre sobre reutilización de la información del sector público (RISP)**
 
 Aplica a datasets aportados por administraciones públicas o entidades del sector público.
 A través de esta ley, se regulan las condiciones en las que la información elaborada o custodiada por las administraciones públicas y entidades del sector público puede ser reutilizada, garantizando el acceso no discriminatorio, la transparencia y la interoperabilidad, y fomentando la innovación, el desarrollo económico y la creación de valor a partir de los datos públicos.
@@ -241,6 +241,7 @@ A través de esta ley, se regulan las condiciones en las que la información ela
 Establece los principios y directrices de interoperabilidad en el intercambio, reutilización y conservación de la información electrónica por parte de las Administraciones Públicas.
 
 **3.8.2.5. Real Decreto 311/2022, de 3 de mayo, por el que regula el Esquema Nacional de Seguridad (ENS)**
+
 Tiene como objetivo asegurar el acceso, la confidencialidad, la integridad, la trazabilidad, la autenticidad, la disponibilidad y la conservación de los datos, la información y los servicios utilizados por medios electrónicos en el ejercicio de las competencias de las entidades obligadas. El ENS resulta de aplicación cuando intervienen Administraciones Públicas o entidades del sector público, o cuando los sistemas que lo soportan tratan información o prestan servicios para dichas entidades, afectando directamente al diseño, la arquitectura, la operación y la gobernanza.
 
 **3.8.2.6. Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico**
