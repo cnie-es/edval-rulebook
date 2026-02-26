@@ -74,7 +74,7 @@ El Participante declara:
 * Ser titular de los datos que aporta o contar con los derechos necesarios para ponerlos a disposición
 * Definir las licencias de uso aplicables
 * Respetar los derechos que asisten a proveedores y terceros
-* Los datos recibidos podrán emplearse únicamente en los términos establecidos en estos términos y condiciones, y en las reglas asociadas a cada conjunto de datos.
+* Los datos recibidos podrán emplearse únicamente en los términos establecidos en estos términos y condiciones, y en las reglas asociadas a cada activo de datos.
 
 ***Condiciones de adhesión, permanencia y baja***
 

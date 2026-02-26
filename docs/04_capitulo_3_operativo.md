@@ -177,7 +177,7 @@ Servicios avanzados, corpus curados, anotación experta, etc.
 * Adhesión al espacio (onboarding)
 * Acceso al catálogo y búsqueda de activos
 * Emisión de credenciales verificables
-* Acceso al clearing house y sus servicios de trazabilidad
+* Acceso a la Clearing House y sus servicios de trazabilidad
 * Soporte técnico básico
 
 ### 4.6.3. Método de Pago
@@ -271,7 +271,11 @@ El mecanismo de supervisión cubre:
 * Cumplimiento de las obligaciones de los participantes (onboarding, operación, offboarding)
 * Cumplimiento de interoperabilidad y estándares
 
+<<<<<<< HEAD
+### 4.7.1. Roles y responsabilidades en la supervisión
+=======
 ### 4.7.1. Roles y responsabilidades en la supervisión
+>>>>>>> 25915676b5f495f15ed1f129db748e9e649152c1
 
 **Autoridad de Gobernanza**: define políticas, supervisa el cumplimiento general del espacio, realiza auditorías mediante el análisis de las evidencias y toma medidas en caso de incumplimiento.
 
@@ -283,7 +287,11 @@ El mecanismo de supervisión cubre:
 * **Monitorización continua** de las operaciones del espacio mediante análisis de logs, registros de transacciones y evidencias de uso para detectar posibles incumplimientos, por parte de la Autoridad de Gobernanza.
 * **Auditorías periódicas**, tanto programadas como ad-hoc, para revisar el cumplimiento de los participantes, incluyendo revisiones técnicas, legales y regulatorias.
 
+<<<<<<< HEAD
+### 4.7.3. Medidas en caso de incumplimiento
+=======
 ### 4.7.3. Medidas en caso de incumplimiento
+>>>>>>> 25915676b5f495f15ed1f129db748e9e649152c1
 
 Cuando se detecta un posible incumplimiento, la Autoridad de Gobernanza seguirá el siguiente proceso:
 
@@ -306,21 +314,21 @@ El marco de supervisión y cumplimiento se revisará periódicamente para adapta
 
 El espacio define un modelo de responsabilidades RACI para determinar los roles y responsabilidades en las diferentes actividades y procesos del espacio de datos. 
 
-* R (Responsible): Quien ejecuta la actividad.
-* A (Accountable): Quien tiene la responsabilidad última y autoridad de decisión.
-* C (Consulted): Quien debe ser consultado antes de tomar una decisión o ejecutar una actividad.
-* I (Informed): Quien debe ser informado después de que se tome una decisión o se ejecute una actividad.
+* **R (Responsible)**: Quien ejecuta la actividad.
+* **A (Accountable)**: Quien tiene la responsabilidad última y autoridad de decisión.
+* **C (Consulted)**: Quien debe ser consultado antes de tomar una decisión o ejecutar una actividad.
+* **I (Informed)**: Quien debe ser informado después de que se tome una decisión o se ejecute una actividad.
 
 Este modelo se aplica a los siguientes procesos:
 
-**Onboarding de Participantes**
+**Alta de Participantes**
 
 | Actividad | Autoridad de Gobernanza (CNIE) | Participantes | Comité técnico |
 | --- | --- | --- | --- |
 | Verificación legal y registro | R/A | C | C |
 | Despliegue del conector | I | R/A | I |
-| Homologación técnica | A | R | C |
 | Emisión de credenciales | R/A | I | I |
+| Homologación técnica | A | R | C |
 
 **Publicación de Activos**
 
@@ -342,7 +350,7 @@ Este modelo se aplica a los siguientes procesos:
 | Transferencia | I | R/A | I |
 | Registro de evidencias | I | R/A | I |
 
-**Offboarding de Participantes**
+**Baja de Participantes**
 
 | Actividad | Autoridad de Gobernanza (CNIE) | Participantes | Comité técnico |
 | --- | --- | --- | --- |
