@@ -271,11 +271,7 @@ El mecanismo de supervisión cubre:
 * Cumplimiento de las obligaciones de los participantes (onboarding, operación, offboarding)
 * Cumplimiento de interoperabilidad y estándares
 
-<<<<<<< HEAD
 ### 4.7.1. Roles y responsabilidades en la supervisión
-=======
-### 4.7.1. Roles y responsabilidades en la supervisión
->>>>>>> 25915676b5f495f15ed1f129db748e9e649152c1
 
 **Autoridad de Gobernanza**: define políticas, supervisa el cumplimiento general del espacio, realiza auditorías mediante el análisis de las evidencias y toma medidas en caso de incumplimiento.
 
@@ -287,11 +283,7 @@ El mecanismo de supervisión cubre:
 * **Monitorización continua** de las operaciones del espacio mediante análisis de logs, registros de transacciones y evidencias de uso para detectar posibles incumplimientos, por parte de la Autoridad de Gobernanza.
 * **Auditorías periódicas**, tanto programadas como ad-hoc, para revisar el cumplimiento de los participantes, incluyendo revisiones técnicas, legales y regulatorias.
 
-<<<<<<< HEAD
 ### 4.7.3. Medidas en caso de incumplimiento
-=======
-### 4.7.3. Medidas en caso de incumplimiento
->>>>>>> 25915676b5f495f15ed1f129db748e9e649152c1
 
 Cuando se detecta un posible incumplimiento, la Autoridad de Gobernanza seguirá el siguiente proceso:
 
