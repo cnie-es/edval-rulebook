@@ -109,45 +109,46 @@ Los términos de adhesión definen las reglas básicas que rigen la relación en
 2)  **Expulsión Definitiva:** Tras un proceso de investigación y notificación, la Autoridad podrá expulsar a un Participante por incumplimiento grave, con reserva de acciones legales y la revocación de credenciales (Offboarding). La expulsión no exime al Participante de obligaciones preexistentes.
 3)  **Consecuencias Operativas:** La suspensión o expulsión conlleva la revocación de credenciales, baja en el Catálogo y la obligación de ejecutar las acciones de eliminación/revocación requeridas por las políticas aplicables.
 
-## 4.4. Proceso de Admisión y Salida (Onboarding / Offboarding)
-El Espacio establece un proceso de incorporación de participantes basado en cuatro fases:
+## 4.4. Proceso de Alta (Onboarding)
+El Espacio establece un **proceso de incorporación de participantes** que engloba las actividades necesarias para que pueda operar de forma segura, interoperable, confiable y conforme al marco de gobernanza, garantizando que cumple los requisitos necesarios, antes de acceder al entorno. Se basa en cuatro fases:
 
 1) Verificación legal y registro.
 2) Despliegue del conector.
 3) Homologación técnica en entorno de pruebas.
 4) Emisión de credenciales y acceso a producción.
 
-De la misma forma, se define un **proceso de salida voluntaria o forzosa**, que implica
-la pérdida de los derechos del participante de forma inmediata, pero no de las obligaciones contractuales adquiridas con otros participantes y que sigan activas en el momento de la baja, estando obligado a mantener esas obligaciones hasta su completa finalización en tiempo y/o forma.
-La baja efectiva del participante, una vez finalizada toda obligación contractual, conlleva la suspensión de la capacidad operativa del participante en el espacio, mediante la ejecución de las siguientes acciones:
-* *Revocación de credenciales* del participante, imposibilitando la autenticación del conector en el espacio, de publicar activos, de iniciar nuevas negociaciones o de descubrir activos.
-* *Gestión del conector* 
-  * *On-Premise*: el conector puede permanecer instalado en la infraestructura del participante, pero como consecuencia de la revocación de credenciales no podrá autenticarse en el espacio y dejará por tanto de ser operativo.
-  * *Software as a service (SaaS)*: en este caso el operador del espacio desactivará el servicio, eliminará los recursos y las configuraciones asociados al conector, y se producirá la desinstalación completa del conector de la infraestructura común.
-* *Gestión de activos publicados y ofertas*: 
-  * Retirada de la visibilidad pública de los activos (si existiese).
-  * Eliminación de las ofertas publicadas en el catálogo.
-* *Gestión de contratos*: debido a que la baja no cancela las obligaciones contractuales, dependiendo de estas, se actuará:
-  * Finalización inmediata de todos sus contratos.
-  * Cancelación de nuevos consumos futuros.
-* Aplicación de las *obligaciones de salida* y persistencia de *responsabilidades*:
-  * Obligaciones de confidencialidad, protección de datos, derechos de autor o limitación de uso.
-  * Restricciones sobre activos derivados.
+## 4.5. Proceso de baja (Offboarding)
+De la misma forma, se define un proceso de baja de un participante del espacio de datos.
 
+### 4.5.1. Solicitud de baja por parte del participante
+La baja del participante puede ser solicitada por el usuario Representante Legal del participante, mediante solicitud formal autenticada a traves del portal, y con recepción directa a la Autoridad de Gobernanza que iniciará, tras ser validada, el proceso de baja.
 
-## 4.5. Ciclo de Vida del Intercambio de Datos
-Los participantes operan bajo el modelo "Publish-Find-Bind" (Publicar-Buscar-Vincular), ejecutado de forma descentralizada a través de sus conectores locales. El ciclo de vida de un intercambio de datos consta de las siguientes fases:
+La baja del participante tendrá como **precondición** que éste no tenga obligaciones contractuales en vigor, es decir, que el participante no tenga contratos en vigor que le obliguen a la provisión de activos de datos en el Espacio. El participante deberá esperar a que sus obligaciones contractuales se extingan para causar baja, bien porque dichas obligaciones lleguen a su fecha de extinción, bien porque el contrato asociado se rescinda de mutuo acuerdo entre los participantes involucrados. 
 
-1) Publicación de metadatos y condiciones de uso.
-2) Descubrimiento de activos mediante el Catálogo Central.
-3) Negociación de condiciones de uso y contrato.
-4) Evaluación de políticas y autorización previa al acceso.
-5) Ejecución del acceso o transferencia.
-6) Registro de evidencias y trazabilidad.
+Esta precondición será verificada por la autoridad de gobernanza antes de proceder a la baja del participante. 
 
-La evaluación de políticas y la autorización previa a cada uso del dato constituyen un principio esencial del Espacio para garantizar la soberanía del dato durante todo su ciclo de vida, y no únicamente en el momento de la formalización del contrato.
+## 4.5.2. Revocación de la membresía
 
-## 4.6. Modelo económico
+Asimismo, la baja del participante puede ser iniciada por la autoridad de gobierno del espacio de datos como consecuencia de un procedimiento disciplinario derivado de un incumplimiento grave por parte del participante de las condiciones de participación en el Espacio, como se detalla en [punto 4.4.3](#434-suspensión-y-rescisión) de este rulebook.
+
+## 4.5.3. Acciones a realizar
+La baja efectiva del participante conlleva la suspensión de la capacidad operativa del participante en el espacio, mediante la ejecución de las siguientes acciones: 
+* **Revocación de las credenciales** del participante en el Espacio. La revocación imposibilita la autenticación del conector en el espacio, y por lo tanto imposibilita la publicación de nuevos activos u ofertas de datos, el inicio o continuación de negociaciones, la contratación de ofertas y la ejecución de transferencias de datos. 
+* **Revocación de los usuarios del participante** del gestor de identidad centralizado. La autoridad de gobierno eliminará los usuarios del participante que estén dados de alta en el gestor de identidad centralizado. Como consecuencia, estos usuarios dejarán de tener acceso al portal privado y en general a los servicios autenticados centralizados del Espacio. 
+* **Respecto al Conector**: 
+  * Si el conector del participante es **on premises**, el participante se compromete a proceder a su desinstalación como parte del proceso de baja. En todo caso, como consecuencia de la revocación de credenciales, el Conector no podrá autenticarse en el espacio y dejará por tanto de ser operativo. 
+  * Si el conector del participante es **as a service**: la autoridad de gobernanza procederá a la desinstalación completa del agente conector y eliminará los recursos software y las configuraciones asociadas al conector. Como consecuencia, se eliminará el gestor de identidad del participante y todos los datos de los usuarios de participante en él contenidos. 
+* **Despublicación de activos y ofertas**: la baja del participante conllevará la eliminación de los activos de datos ofrecidos por el participante como proveedor, así como de las ofertas de datos asociadas a ellos. Estos activos y ofertas ya no estarán presentes en el catálogo del Espacio. 
+* **Atendiendo a los contratos**:  
+  * La baja del participante no extingue sus obligaciones contractuales de provisión (ver Solicitud de baja). 
+  * La baja del participante conllevará la extinción de todos sus contratos de consumo. En consecuencia, el participante perderá los derechos de consumo o transferencia de datos que tuviera en dichos contratos. 
+* **Respecto a los datos del participante en el Espacio**:  
+  * Se eliminarán los datos del participante en el Espacio, con excepción de aquellos necesarios para el registro de su actividad (ver a continuación). 
+  * Se mantendrán los registros de la actividad del participante (trazabilidad) en el espacio de datos en lo concerniente a contratos y transferencias de datos (Clearing House). 
+* **Aplicación de las obligaciones de salida y persistencia de responsabilidades**: 
+La baja del participante no le exime de sus obligaciones futuras de confidencialidad, protección de datos, derechos de autor, limitación de uso u obligaciones derivadas de las políticas de los activos de datos descargados. 
+
+## 4.7. Modelo económico
 
 El Espacio promueve una economía federada basada en datos, servicios, calidad y confianza, donde la cadena de valor se articula en torno a:
 
@@ -165,7 +166,7 @@ El modelo económico se basa en la remuneración directa entre participantes, si
 * Suscripciones
 * Ingresos derivados de modelos entrenados o derivados conforme a contratos 
 
-### 4.6.1. Modelos de licencia y propiedad intelectual
+### 4.7.1. Modelos de licencia y propiedad intelectual
 
 El espacio debe soportar licencias diferenciadas:
 
@@ -183,7 +184,7 @@ Datos abiertos, aplicables a corpus públicos o terminología básica.
 
 Servicios avanzados, corpus curados, anotación experta, etc.
 
-### 4.6.2. Servicios gratuitos para participantes
+### 4.7.2. Servicios gratuitos para participantes
 
 * Adhesión al espacio (onboarding)
 * Acceso al catálogo y búsqueda de activos
@@ -191,7 +192,7 @@ Servicios avanzados, corpus curados, anotación experta, etc.
 * Acceso a la Clearing House y sus servicios de trazabilidad
 * Soporte técnico básico
 
-### 4.6.3. Método de Pago
+### 4.7.3. Método de Pago
 
 El Espacio de Datos no actúa como intermediario financiero, plataforma de pago ni custodio de fondos.
 Todos los pagos derivados del acceso a datos, licencias, servicios o productos derivados se realizan fuera del perímetro del Espacio, mediante acuerdos bilaterales o multilaterales entre los participantes implicados.
@@ -203,7 +204,7 @@ Los participantes pueden utilizar, de forma externa al Espacio:
 * Facturación directa entre partes
 * Otros medios acordados contractualmente
 
-### 4.6.4. Gestión de Transacciones
+### 4.7.4. Gestión de Transacciones
 
 El Espacio **no impone ni gestiona** un proveedor de pagos concreto. Aunque el pago se realiza externamente, el Espacio sí registra la existencia de la transacción, exclusivamente con fines de: trazabilidad, auditoría, control de cumplimiento, resolución de disputas.
 El registro no incluye información financiera sensible, sino metadatos de transacción.
@@ -227,7 +228,7 @@ El registro no incluye información financiera sensible, sino metadatos de trans
 * *Cancelada*: la transacción se cancela antes de su finalización, conforme a lo pactado.
 
 
-### 4.6.5. Mecanismo de resolución de disputas
+### 4.7.5. Mecanismo de resolución de disputas
 
 **Fase 1 – Resolución bilateral**
 
@@ -256,7 +257,7 @@ Si la mediación no resulta satisfactoria:
 * Mediante arbitraje, mediación formal o jurisdicción competente,
 * Sin perjuicio de las medidas internas de gobernanza del Espacio (suspensión o revocación)
 
-## 4.7. Mecanismos de Supervisión y Cumplimiento
+## 4.8. Mecanismos de Supervisión y Cumplimiento
 
 El Espacio de Datos Valle de la Lengua implementa un marco robusto de supervisión y cumplimiento para garantizar que todas las operaciones se realicen conforme a:
 
@@ -282,19 +283,19 @@ El mecanismo de supervisión cubre:
 * Cumplimiento de las obligaciones de los participantes (onboarding, operación, offboarding)
 * Cumplimiento de interoperabilidad y estándares
 
-### 4.7.1. Roles y responsabilidades en la supervisión
+### 4.8.1. Roles y responsabilidades en la supervisión
 
 **Autoridad de Gobernanza**: define políticas, supervisa el cumplimiento general del espacio, realiza auditorías mediante el análisis de las evidencias y toma medidas en caso de incumplimiento.
 
 **Participantes**: son responsables de garantizar el cumplimiento dentro de su organización, de sus usuarios y de sus activos, operan sus conectores de acuerdo a las políticas, colaboran con la Autoridad en caso de auditorías o investigaciones, proporcionando acceso a evidencias y registros relevantes.
 
-### 4.7.2. Medidas de supervisión y control
+### 4.8.2. Medidas de supervisión y control
 
 * **Controles automatizados** en los servicios centrales y en los conectores de los participantes para verificar el cumplimiento de políticas antes de su uso: validación de identidad, cumplimiento de las políticas ODRL, verificación de licencias, registro de evidencias
 * **Monitorización continua** de las operaciones del espacio mediante análisis de logs, registros de transacciones y evidencias de uso para detectar posibles incumplimientos, por parte de la Autoridad de Gobernanza.
 * **Auditorías periódicas**, tanto programadas como ad-hoc, para revisar el cumplimiento de los participantes, incluyendo revisiones técnicas, legales y regulatorias.
 
-### 4.7.3. Medidas en caso de incumplimiento
+### 4.8.3. Medidas en caso de incumplimiento
 
 Cuando se detecta un posible incumplimiento, la Autoridad de Gobernanza seguirá el siguiente proceso:
 
@@ -304,7 +305,7 @@ Cuando se detecta un posible incumplimiento, la Autoridad de Gobernanza seguirá
 * Medidas correctivas: dependiendo de la naturaleza del incumplimiento, se pueden aplicar medidas como advertencias y consejos de resolución, suspensión temporal o revocación de permisos.
 * Resolución: cierre del caso una vez se hayan aplicado las medidas correctivas, sanción o expulsión definitiva.
 
-### 4.7.4. Evolución del marco de supervisión
+### 4.8.4. Evolución del marco de supervisión
 
 El marco de supervisión y cumplimiento se revisará periódicamente para adaptarse a:
 
@@ -313,7 +314,7 @@ El marco de supervisión y cumplimiento se revisará periódicamente para adapta
 * Lecciones aprendidas de incidentes o incumplimientos
 
 
-## 4.8. Modelo de responsabilidades (RACI)
+## 4.9. Modelo de responsabilidades (RACI)
 
 El espacio define un modelo de responsabilidades RACI para determinar los roles y responsabilidades en las diferentes actividades y procesos del espacio de datos. 
 
