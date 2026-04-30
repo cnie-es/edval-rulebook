@@ -117,11 +117,22 @@ El Espacio establece un proceso de incorporación de participantes basado en cua
 3) Homologación técnica en entorno de pruebas.
 4) Emisión de credenciales y acceso a producción.
 
-De la misma forma, se define un proceso de salida voluntaria o forzosa:
-
-* Revocación de credenciales.
-* Baja en los servicios del Espacio de Datos.
-* Aplicación de las obligaciones de salida y persistencia de responsabilidades.
+De la misma forma, se define un **proceso de salida voluntaria o forzosa**, que implica
+la pérdida de los derechos del participante de forma inmediata, pero no de las obligaciones contractuales adquiridas con otros participantes y que sigan activas en el momento de la baja, estando obligado a mantener esas obligaciones hasta su completa finalización en tiempo y/o forma.
+La baja efectiva del participante, una vez finalizada toda obligación contractual, conlleva la suspensión de la capacidad operativa del participante en el espacio, mediante la ejecución de las siguientes acciones:
+* *Revocación de credenciales* del participante, imposibilitando la autenticación del conector en el espacio, de publicar activos, de iniciar nuevas negociaciones o de descubrir activos.
+* *Gestión del conector* 
+  * *On-Premise*: el conector puede permanecer instalado en la infraestructura del participante, pero como consecuencia de la revocación de credenciales no podrá autenticarse en el espacio y dejará por tanto de ser operativo.
+  * *Software as a service (SaaS)*: en este caso el operador del espacio desactivará el servicio, eliminará los recursos y las configuraciones asociados al conector, y se producirá la desinstalación completa del conector de la infraestructura común.
+* *Gestión de activos publicados y ofertas*: 
+  * Retirada de la visibilidad pública de los activos (si existiese).
+  * Eliminación de las ofertas publicadas en el catálogo.
+* *Gestión de contratos*: debido a que la baja no cancela las obligaciones contractuales, dependiendo de estas, se actuará:
+  * Finalización inmediata de todos sus contratos.
+  * Cancelación de nuevos consumos futuros.
+* Aplicación de las *obligaciones de salida* y persistencia de *responsabilidades*:
+  * Obligaciones de confidencialidad, protección de datos, derechos de autor o limitación de uso.
+  * Restricciones sobre activos derivados.
 
 
 ## 4.5. Ciclo de Vida del Intercambio de Datos
