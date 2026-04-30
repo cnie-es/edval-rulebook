@@ -110,12 +110,39 @@ Los términos de adhesión definen las reglas básicas que rigen la relación en
 3)  **Consecuencias Operativas:** La suspensión o expulsión conlleva la revocación de credenciales, baja en el Catálogo y la obligación de ejecutar las acciones de eliminación/revocación requeridas por las políticas aplicables.
 
 ## 4.4. Proceso de Alta (Onboarding)
-El Espacio establece un **proceso de incorporación de participantes** que engloba las actividades necesarias para que pueda operar de forma segura, interoperable, confiable y conforme al marco de gobernanza, garantizando que cumple los requisitos necesarios, antes de acceder al entorno. Se basa en cuatro fases:
+El Espacio establece un **proceso de incorporación de participantes** que engloba las actividades necesarias para que pueda operar de forma segura, interoperable, confiable y conforme al marco de gobernanza, garantizando que cumple los requisitos legales, técnicos y de confianza, antes de acceder al entorno. Se basa en cuatro fases:
 
-1) Verificación legal y registro.
-2) Despliegue del conector.
-3) Homologación técnica en entorno de pruebas.
-4) Emisión de credenciales y acceso a producción.
+### 4.4.1. Verificación legal y registro
+El proceso comienza con la **solicitud de adhesión** por parte del potencial participante, a través del portal público del Espacio. Deberá aportara la documentación decesaria para acreditar su estatus legal, su naturaleza (empresa, universidad, organismo público...), sus certificaciones (si fuera necesario), así como designar a su perfiles de Representante Legal y Administrador del conector.
+
+Tras esto, la Autoridad de Gobernanza realiza las verificaciones necesarias basándose en la documentación aportada, para comprobar que la entidad cumple con los requisitos de adhesión.
+
+La aceptación del **Acuerdo de Adhesión** además formaliza el compromiso del participante con las normas del Espacio, así como la aceptación de sus futuros derechos y obligaciones.
+El participante queda registrado en el sistema, aunque aún no es operable.
+
+### 4.4.2. Despliegue del conector
+En este punto se habilita en el aspecto técnico al participante, mediante el despliegue del conector, que será el punto único de acceso al Espacio de datos, en sus dos modalidades que serán elegibles por el participante: 
+* **On premise**: en su propia insfraestructura
+* **As a service** (SaaS): como instancia gestionada en la infraestructura de la Autoridad de gobierno
+El participante, en concreto el Administrador del conector, será el encgargado de configurar el entorno, establecer los mecanismos de seguridad e identidad, e integrarlo con sus sistemas interno.
+
+Como resultado de esta fase se tiene un conector desplegado y operativo, listo para ser validado.
+
+### 4.4.3. Homologación técnica en entorno de pruebas
+Es importante asegurar la interoperabilidad y los requisitos de seguridad del conector del participante, de ahí que la siguiente fase sea la validación técnica y operativa completa del participante en un **entorno de pruebas**.
+
+El conector del participante debe conectarse a ese entorno, para someterse a un **conjunto de pruebas** que simulan el funcionamiento real del Espacio, tales como la autenticación, la negociación, la evaluación de políticas, las transferencias, o el registro de evidencias, entre otros. De manera que estas pruebas permiten verificar que el participante tiene implementados los mcanismos de control de acceso y uso necesarios, que el conector responde correctamente a los protocolos existentes y que se garantiza la trazabilidad operacional.
+
+Sólo aquellos participantes que superen satisfactoriamente la batería de pruebas, podrán avanzar a la siguiente fase.
+
+### 4.4.4. Emisión de credenciales y acceso
+
+Esta fase concluye en la incorporación formal al entorno del Espacio de Datos Valle de la Lengua.
+
+En esta última fase, se emiten las **credenciales verificables** del participante que le va a permitir interoperar en el espacio de datos de forma confiable, meciente atributos relevantes (roles, certificaciones, naturaleza jurídica...). Estas credenciales establecen una relación unívoca entre la organización participante y su conector.
+
+A partir de ese momento, el participante tiene plena capacidad operativa, pudiendo publicar activos en el catálogo federado, negociar contratos, consumir datos de otros participantes, y realizar intercambios bajo las políticas y reglas establecidas en el Espacio.
+
 
 ## 4.5. Proceso de baja (Offboarding)
 De la misma forma, se define un proceso de baja de un participante del espacio de datos.
@@ -129,14 +156,14 @@ Esta precondición será verificada por la autoridad de gobernanza antes de proc
 
 ## 4.5.2. Revocación de la membresía
 
-Asimismo, la baja del participante puede ser iniciada por la autoridad de gobierno del espacio de datos como consecuencia de un procedimiento disciplinario derivado de un incumplimiento grave por parte del participante de las condiciones de participación en el Espacio, como se detalla en [punto 4.4.3](#434-suspensión-y-rescisión) de este rulebook.
+Asimismo, la baja del participante puede ser iniciada por la Autoridad de gobierno del espacio de datos como consecuencia de un procedimiento disciplinario derivado de un incumplimiento grave por parte del participante de las condiciones de participación en el Espacio, como se detalla en [punto 4.4.3](#434-suspensión-y-rescisión) de este rulebook.
 
 ## 4.5.3. Acciones a realizar
 La baja efectiva del participante conlleva la suspensión de la capacidad operativa del participante en el espacio, mediante la ejecución de las siguientes acciones: 
 * **Revocación de las credenciales** del participante en el Espacio. La revocación imposibilita la autenticación del conector en el espacio, y por lo tanto imposibilita la publicación de nuevos activos u ofertas de datos, el inicio o continuación de negociaciones, la contratación de ofertas y la ejecución de transferencias de datos. 
 * **Revocación de los usuarios del participante** del gestor de identidad centralizado. La autoridad de gobierno eliminará los usuarios del participante que estén dados de alta en el gestor de identidad centralizado. Como consecuencia, estos usuarios dejarán de tener acceso al portal privado y en general a los servicios autenticados centralizados del Espacio. 
 * **Respecto al Conector**: 
-  * Si el conector del participante es **on premises**, el participante se compromete a proceder a su desinstalación como parte del proceso de baja. En todo caso, como consecuencia de la revocación de credenciales, el Conector no podrá autenticarse en el espacio y dejará por tanto de ser operativo. 
+  * Si el conector del participante es **on premise**, el participante se compromete a proceder a su desinstalación como parte del proceso de baja. En todo caso, como consecuencia de la revocación de credenciales, el Conector no podrá autenticarse en el espacio y dejará por tanto de ser operativo. 
   * Si el conector del participante es **as a service**: la autoridad de gobernanza procederá a la desinstalación completa del agente conector y eliminará los recursos software y las configuraciones asociadas al conector. Como consecuencia, se eliminará el gestor de identidad del participante y todos los datos de los usuarios de participante en él contenidos. 
 * **Despublicación de activos y ofertas**: la baja del participante conllevará la eliminación de los activos de datos ofrecidos por el participante como proveedor, así como de las ofertas de datos asociadas a ellos. Estos activos y ofertas ya no estarán presentes en el catálogo del Espacio. 
 * **Atendiendo a los contratos**:  
