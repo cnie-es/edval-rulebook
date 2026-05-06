@@ -110,38 +110,35 @@ Los términos de adhesión definen las reglas básicas que rigen la relación en
 3)  **Consecuencias Operativas:** La suspensión o expulsión conlleva la revocación de credenciales, baja en el Catálogo y la obligación de ejecutar las acciones de eliminación/revocación requeridas por las políticas aplicables.
 
 ## 4.4. Proceso de Alta (Onboarding)
-El Espacio establece un **proceso de incorporación de participantes** que engloba las actividades necesarias para que pueda operar de forma segura, interoperable, confiable y conforme al marco de gobernanza, garantizando que cumple los requisitos legales, técnicos y de confianza, antes de acceder al entorno. Se basa en cuatro fases:
+El Espacio establece un **proceso de incorporación de participantes** que engloba las actividades necesarias para que una organización pueda operar de forma segura, interoperable, confiable y conforme al marco de gobernanza, garantizando que cumple los requisitos legales, técnicos y de confianza antes de acceder al espacio. Se basa en cuatro fases:
 
 ### 4.4.1. Verificación legal y registro
-El proceso comienza con la **solicitud de adhesión** por parte del potencial participante, a través del portal público del Espacio. Deberá aportara la documentación decesaria para acreditar su estatus legal, su naturaleza (empresa, universidad, organismo público...), sus certificaciones (si fuera necesario), así como designar a su perfiles de Representante Legal y Administrador del conector.
+El proceso comienza con la **solicitud de adhesión** por parte del potencial participante, a través del portal público del Espacio. El usuario que solicita el alta del nuevo participante deberá rellenar los datos identificativos de su organización y aportar la documentación necesaria para acreditar su estatus legal, su naturaleza (empresa, universidad, organismo público...) y sus certificaciones (si fuera necesario). Deberá asimismo designar a los usuarios que desempeñarán los roles de Representante Legal y Administrador del Conector del participante.
 
-Tras esto, la Autoridad de Gobernanza realiza las verificaciones necesarias basándose en la documentación aportada, para comprobar que la entidad cumple con los requisitos de adhesión.
+Una vez recibida la solicitud de alta del nuevo participante, la Autoridad de Gobernanza realizará las verificaciones necesarias basándose en la documentación aportada, para comprobar que la entidad cumple con los requisitos de adhesión.
 
 La aceptación del **Acuerdo de Adhesión** además formaliza el compromiso del participante con las normas del Espacio, así como la aceptación de sus futuros derechos y obligaciones.
-El participante queda registrado en el sistema, aunque aún no es operable.
+El participante queda registrado en el sistema con estado "solicitante", paso previo a obtener el estado de participante de pleno derecho. El Representante Legal y el Administrador del Conector del participante recibirán las credenciales que les permitirán acceder al portal del Espacio para completar el proceso de alta.
 
 ### 4.4.2. Despliegue del conector
-En este punto se habilita en el aspecto técnico al participante, mediante el despliegue del conector, que será el punto único de acceso al Espacio de datos, en sus dos modalidades que serán elegibles por el participante: 
-* **On premise**: en su propia insfraestructura
-* **As a service** (SaaS): como instancia gestionada en la infraestructura de la Autoridad de gobierno
-El participante, en concreto el Administrador del conector, será el encgargado de configurar el entorno, establecer los mecanismos de seguridad e identidad, e integrarlo con sus sistemas interno.
+El paso necesario para la habilitación de la organización solicitante como participante de pleno derecho es el despliegue de su agente conector. El Espacio de Datos Valle de la Lengua ofrece a los participantes dos modalidades de despliegue del agente conector a elegir: 
+* **Conector on premise**: el participante despliega el software del agente conector en su propia insfraestructura.
+* **Conector gestionado** por EDVAL (SaaS): el participante usa una instancia de agente conector desplegada en la infraestructura de la Autoridad de Gobernanza.
+En todo caso, la organización participante (a través de su usuario Administrador de Conector) será responsable de establecer los mecanismos de seguridad e identidad e integrar el agente conector con sus sistemas internos.
 
-Como resultado de esta fase se tiene un conector desplegado y operativo, listo para ser validado.
+Una vez desplegado el agente conector del participante, en cualquiera de las dos modalidades, el Administrador de Conector accederá al agente conector y continuará con los siguientes pasos del proceso de alta.
 
 ### 4.4.3. Homologación técnica en entorno de pruebas
 Es importante asegurar la interoperabilidad y los requisitos de seguridad del conector del participante, de ahí que la siguiente fase sea la validación técnica y operativa completa del participante en un **entorno de pruebas**.
 
 El conector del participante debe conectarse a ese entorno, para someterse a un **conjunto de pruebas** que simulan el funcionamiento real del Espacio, tales como la autenticación, la negociación, la evaluación de políticas, las transferencias, o el registro de evidencias, entre otros. De manera que estas pruebas permiten verificar que el participante tiene implementados los mcanismos de control de acceso y uso necesarios, que el conector responde correctamente a los protocolos existentes y que se garantiza la trazabilidad operacional.
 
-Sólo aquellos participantes que superen satisfactoriamente la batería de pruebas, podrán avanzar a la siguiente fase.
+Sólo aquellos participantes que superen satisfactoriamente la batería de pruebas podrán avanzar a la siguiente fase.
 
-### 4.4.4. Emisión de credenciales y acceso
+### 4.4.4. Emisión de credenciales y acceso
 
-Esta fase concluye en la incorporación formal al entorno del Espacio de Datos Valle de la Lengua.
-
-En esta última fase, se emiten las **credenciales verificables** del participante que le va a permitir interoperar en el espacio de datos de forma confiable, meciente atributos relevantes (roles, certificaciones, naturaleza jurídica...). Estas credenciales establecen una relación unívoca entre la organización participante y su conector.
-
-A partir de ese momento, el participante tiene plena capacidad operativa, pudiendo publicar activos en el catálogo federado, negociar contratos, consumir datos de otros participantes, y realizar intercambios bajo las políticas y reglas establecidas en el Espacio.
+Esta fase concluye en la incorporación formal al entorno del Espacio de Datos Valle de la Lengua. El Administrador de Conector del participante deberá realizar el registro del conector en el espacio de datos. El proceso de registro vincula de manera segura la identidad del participante con el dominio del conector instalado, y la plasma en **credencial verificable** del participante en EDVAL.
+El Administrador de Conector del participante instala la **credencial verificable** en el agente conector, lo que le permite interoperar en el espacio de datos de forma confiable, mediante atributos relevantes (roles, certificaciones, naturaleza jurídica...). A partir de ese momento, el participante tiene plena capacidad operativa, pudiendo publicar activos en el catálogo federado, negociar contratos, consumir datos de otros participantes, y realizar intercambios bajo las políticas y reglas establecidas en el Espacio.
 
 
 ## 4.5. Proceso de baja (Offboarding)
@@ -156,12 +153,12 @@ Esta precondición será verificada por la autoridad de gobernanza antes de proc
 
 ## 4.5.2. Revocación de la membresía
 
-Asimismo, la baja del participante puede ser iniciada por la Autoridad de gobierno del espacio de datos como consecuencia de un procedimiento disciplinario derivado de un incumplimiento grave por parte del participante de las condiciones de participación en el Espacio, como se detalla en [punto 4.4.3](#434-suspensión-y-rescisión) de este rulebook.
+Asimismo, la baja del participante puede ser iniciada por la Autoridad de Gobernanza del espacio de datos como consecuencia de un procedimiento disciplinario derivado de un incumplimiento grave por parte del participante de las condiciones de participación en el Espacio, como se detalla en [punto 4.4.3](#434-suspensión-y-rescisión) de este rulebook.
 
 ## 4.5.3. Acciones a realizar
 La baja efectiva del participante conlleva la suspensión de la capacidad operativa del participante en el espacio, mediante la ejecución de las siguientes acciones: 
 * **Revocación de las credenciales** del participante en el Espacio. La revocación imposibilita la autenticación del conector en el espacio, y por lo tanto imposibilita la publicación de nuevos activos u ofertas de datos, el inicio o continuación de negociaciones, la contratación de ofertas y la ejecución de transferencias de datos. 
-* **Revocación de los usuarios del participante** del gestor de identidad centralizado. La autoridad de gobierno eliminará los usuarios del participante que estén dados de alta en el gestor de identidad centralizado. Como consecuencia, estos usuarios dejarán de tener acceso al portal privado y en general a los servicios autenticados centralizados del Espacio. 
+* **Revocación de los usuarios del participante** del gestor de identidad centralizado. La Autoridad de Gobernanza eliminará los usuarios del participante que estén dados de alta en el gestor de identidad centralizado. Como consecuencia, estos usuarios dejarán de tener acceso al portal privado y en general a los servicios autenticados centralizados del Espacio. 
 * **Respecto al Conector**: 
   * Si el conector del participante es **on premise**, el participante se compromete a proceder a su desinstalación como parte del proceso de baja. En todo caso, como consecuencia de la revocación de credenciales, el Conector no podrá autenticarse en el espacio y dejará por tanto de ser operativo. 
   * Si el conector del participante es **as a service**: la autoridad de gobernanza procederá a la desinstalación completa del agente conector y eliminará los recursos software y las configuraciones asociadas al conector. Como consecuencia, se eliminará el gestor de identidad del participante y todos los datos de los usuarios de participante en él contenidos. 
