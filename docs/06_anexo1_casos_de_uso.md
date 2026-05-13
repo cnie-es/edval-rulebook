@@ -6,15 +6,15 @@
 
 Consiste en la creación de un entorno colaborativo y gobernado que permite convertir grandes volúmenes de información educativa en activos de conocimiento estructurado, mediante el uso de modelos de Inteligencia Artificial basados en la recuperación semántica y generación aumentada (RAG), dentro del Espacio de Datos Valle de la Lengua.
 
-El objetivo es habilitar un modelo en el que la UNIR pueda compartir y enriquecer recursos educativos abiertos (REA), evolucionando desde modelos tradicionales de repositorio de provisión pasiva, a ecosistemas actovos de generación de conocimiento.
+El objetivo es habilitar un modelo en el que se pueda compartir y enriquecer recursos educativos abiertos (REA), evolucionando desde modelos tradicionales de repositorio de provisión pasiva, a ecosistemas activos de generación de conocimiento.
 
 Con este caso de uso demuestra como el Espacio no sólo facilita el intercambio de información (REA), sino que también habilita la co-creación de conocimiento (RAG) como activo.
 
 **Objetivos principales**
 
 1) Generar activos de conocimiento estructurado a partir de las fuentes distribuidas mediante su procesamiento semántico.
-2) Reducir el tiempo de desarrollo de contenidos educativos, reduciendo la dependencia de procesos manuales, e iterando contenids de forma ágil.
-3) Evolucionar los repositorios educativos desd modelos pasivos a sistemas activos de conocimiento.
+2) Reducir el tiempo de desarrollo de contenidos educativos, reduciendo la dependencia de procesos manuales, e iterando contenidos de forma ágil.
+3) Evolucionar los repositorios educativos desde modelos pasivos a sistemas activos de conocimiento.
 4) Garantizar un uso gobernado y trazable de datos educativos, mediante el uso de los mecanismos que proporciona el Espacio (políticas, contratos, consumo...)
 
 **Componentes clave del caso de uso**
@@ -36,7 +36,7 @@ Con este caso de uso demuestra como el Espacio no sólo facilita el intercambio 
    
    * Segmentación semántica del contenido.
    * Recuperación semántica de información relevante.
-   * Generación de contenido meiante RAG.
+   * Generación de contenido mediante RAG.
 
 4) Servicios de generación de conocimiento:
 
@@ -62,7 +62,7 @@ Con este caso de uso demuestra como el Espacio no sólo facilita el intercambio 
 
 Creación de un repositorio abierto, colaborativo y estandarizado de terminología especializada en español, integrado dentro del Espacio de Datos de la Nueva Economía de la Lengua, con el objetivo de facilitar la comunicación técnica, científica y profesional entre los más de 500 millones de hispanohablantes.
 
-Actualmente, la terminología especializada en español se encuentra fragmentada, dispersa y con importantes variaciones dialectales que hacen dificil su uso en entornos profesionales, académicos, científicos y tecnológicos.  repositorio estructurado que recopila, normaliza y documenta términos especializados en diferentes dominios.
+Actualmente, la terminología especializada en español se encuentra fragmentada, dispersa y con importantes variaciones dialectales que hacen difícil su uso en entornos profesionales, académicos, científicos y tecnológicos. Repositorio estructurado que recopila, normaliza y documenta términos especializados en diferentes dominios.
 
 Con este caso de uso propone una solución a este problema con la creación de un repositorio permite recopilar, validar, organizar y difundir términos especializados de múltiples disciplinas (medicina, ingeniería, derecho, ciencias naturales, tecnología, etc.) con el objetivo de:
 
