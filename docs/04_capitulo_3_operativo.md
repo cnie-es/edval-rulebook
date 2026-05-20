@@ -112,6 +112,11 @@ Los términos de adhesión definen las reglas básicas que rigen la relación en
 ## 4.4. Proceso de Alta (Onboarding)
 El Espacio establece un **proceso de incorporación de participantes** que engloba las actividades necesarias para que una organización pueda operar de forma segura, interoperable, confiable y conforme al marco de gobernanza, garantizando que cumple los requisitos legales, técnicos y de confianza antes de acceder al espacio. Se basa en cuatro fases:
 
+* Verificación legal y registro.
+* Despliegue del conector.
+* Homologación técnica e entorno de pruebas.
+* Emisión de credenciales y acceso.
+
 ### 4.4.1. Verificación legal y registro
 El proceso comienza con la **solicitud de adhesión** por parte del potencial participante, a través del portal público del Espacio. El usuario que solicita el alta del nuevo participante deberá rellenar los datos identificativos de su organización y aportar la documentación necesaria para acreditar su estatus legal, su naturaleza (empresa, universidad, organismo público...) y sus certificaciones (si fuera necesario). Deberá asimismo designar a los usuarios que desempeñarán los roles de Representante Legal y Administrador del Conector del participante.
 
@@ -124,6 +129,7 @@ El participante queda registrado en el sistema con estado "solicitante", paso pr
 El paso necesario para la habilitación de la organización solicitante como participante de pleno derecho es el despliegue de su agente conector. El Espacio de Datos Valle de la Lengua ofrece a los participantes dos modalidades de despliegue del agente conector a elegir: 
 * **Conector on premise**: el participante despliega el software del agente conector en su propia insfraestructura.
 * **Conector gestionado** por EDVAL (SaaS): el participante usa una instancia de agente conector desplegada en la infraestructura de la Autoridad de Gobernanza.
+
 En todo caso, la organización participante (a través de su usuario Administrador de Conector) será responsable de establecer los mecanismos de seguridad e identidad e integrar el agente conector con sus sistemas internos.
 
 Una vez desplegado el agente conector del participante, en cualquiera de las dos modalidades, el Administrador de Conector accederá al agente conector y continuará con los siguientes pasos del proceso de alta.
@@ -138,8 +144,10 @@ Sólo aquellos participantes que superen satisfactoriamente la batería de prueb
 ### 4.4.4. Emisión de credenciales y acceso
 
 Esta fase concluye en la incorporación formal al entorno del Espacio de Datos Valle de la Lengua. El Administrador de Conector del participante deberá realizar el registro del conector en el espacio de datos. El proceso de registro vincula de manera segura la identidad del participante con el dominio del conector instalado, y la plasma en **credencial verificable** del participante en EDVAL.
-El Administrador de Conector del participante instala la **credencial verificable** en el agente conector, lo que le permite interoperar en el espacio de datos de forma confiable, mediante atributos relevantes (roles, certificaciones, naturaleza jurídica...). A partir de ese momento, el participante tiene plena capacidad operativa, pudiendo publicar activos en el catálogo federado, negociar contratos, consumir datos de otros participantes, y realizar intercambios bajo las políticas y reglas establecidas en el Espacio.
 
+El Administrador de Conector del participante instala la **credencial verificable** en el agente conector, lo que le permite interoperar en el espacio de datos de forma confiable, mediante atributos relevantes (roles, certificaciones, naturaleza jurídica...). 
+
+A partir de ese momento, el participante tiene plena capacidad operativa, pudiendo publicar activos en el catálogo federado, negociar contratos, consumir datos de otros participantes, y realizar intercambios bajo las políticas y reglas establecidas en el Espacio.
 
 ## 4.5. Proceso de baja (Offboarding)
 De la misma forma, se define un proceso de baja de un participante del espacio de datos.
@@ -151,12 +159,19 @@ La baja del participante tendrá como **precondición** que éste no tenga oblig
 
 Esta precondición será verificada por la autoridad de gobernanza antes de proceder a la baja del participante. 
 
-## 4.5.2. Revocación de la membresía
+En caso de baja, la Autoridad de Gobernanza podrá coordinar las actuaciones necesarias para garantizar una salida ordenada del participante, incluyendo, cuando proceda, la retirada o despublicación de activos del catálogo, el cierre de accesos o intercambios en curso, la revocación de credenciales, la desactivación del conector o de su vinculación con EDVAL, la actualización del registro de participantes y la comunicación a los actores afectados cuando resulte necesario.
 
-Asimismo, la baja del participante puede ser iniciada por la Autoridad de Gobernanza del espacio de datos como consecuencia de un procedimiento disciplinario derivado de un incumplimiento grave por parte del participante de las condiciones de participación en el Espacio, como se detalla en [punto 4.4.3](#434-suspensión-y-rescisión) de este rulebook.
+## 4.5.2. Suspesión o revocación de la participación
+
+Sin perjuicio de la baja voluntaria, la Autoridad de Gobernanza podrá acordar la suspensión temporal, baja forzosa o revocación de la participación cuando concurra una causa prevista en el Acuerdo de Adhesión, el Rulebook, las políticas y procedimientos del Espacio o la normativa aplicable.
+
+Estas medidas podrán adoptarse, entre otros supuestos, cuando exista incumplimiento grave o reiterado del Marco de Gobernanza, pérdida sobrevenida de los requisitos de adhesión o permanencia, uso indebido de datos, servicios, credenciales o conectores, negativa injustificada a subsanar deficiencias relevantes o generación de riesgos para la seguridad, interoperabilidad, confianza o correcto funcionamiento del Espacio.
+
+La medida adoptada deberá ser proporcionada, motivada y trazable, sin perjuicio de la adopción de medidas cautelares cuando resulte necesario para proteger el Espacio, a otros participantes, a los titulares de datos o a terceros afectados.
 
 ## 4.5.3. Acciones a realizar
-La baja efectiva del participante conlleva la suspensión de la capacidad operativa del participante en el espacio, mediante la ejecución de las siguientes acciones: 
+La baja efectiva del participante conlleva la suspensión de la capacidad operativa del participante en el espacio, mediante la ejecución de las siguientes acciones:
+
 * **Revocación de las credenciales** del participante en el Espacio. La revocación imposibilita la autenticación del conector en el espacio, y por lo tanto imposibilita la publicación de nuevos activos u ofertas de datos, el inicio o continuación de negociaciones, la contratación de ofertas y la ejecución de transferencias de datos. 
 * **Revocación de los usuarios del participante** del gestor de identidad centralizado. La Autoridad de Gobernanza eliminará los usuarios del participante que estén dados de alta en el gestor de identidad centralizado. Como consecuencia, estos usuarios dejarán de tener acceso al portal privado y en general a los servicios autenticados centralizados del Espacio. 
 * **Respecto al Conector**: 
@@ -170,7 +185,15 @@ La baja efectiva del participante conlleva la suspensión de la capacidad operat
   * Se eliminarán los datos del participante en el Espacio, con excepción de aquellos necesarios para el registro de su actividad (ver a continuación). 
   * Se mantendrán los registros de la actividad del participante (trazabilidad) en el espacio de datos en lo concerniente a contratos y transferencias de datos (Clearing House). 
 * **Aplicación de las obligaciones de salida y persistencia de responsabilidades**: 
-La baja del participante no le exime de sus obligaciones futuras de confidencialidad, protección de datos, derechos de autor, limitación de uso u obligaciones derivadas de las políticas de los activos de datos descargados. 
+La baja del participante no le exime de sus obligaciones futuras de confidencialidad, protección de datos, derechos de autor, limitación de uso u obligaciones derivadas de las políticas de los activos de datos descargados.
+
+## 4.6. Permanencia del partipante
+
+La condición de participante en EDVAL estará condicionada al mantenimiento de los requisitos que justificaron su adhesión y activación operativa.
+
+El participante deberá mantener actualizada la información aportada durante el proceso de alta y comunicar cualquier cambio relevante que afecte a su representación, roles, credenciales, conector, capacidades técnicas, certificaciones o condiciones de participación.
+
+La Autoridad de Gobernanza podrá requerir la actualización de información, revisión de credenciales o repetición de pruebas de homologación cuando existan cambios relevantes, incidencias, riesgos detectados o revisiones periódicas del Marco de Gobernanza.
 
 ## 4.7. Modelo económico
 
